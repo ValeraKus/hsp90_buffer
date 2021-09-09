@@ -1,0 +1,5 @@
+
+ /home/anastasia/Desktop/Hsp90/Body/1_Raw/OrthoDB.Mammals.EOG090A0320.csv
+     => /home/anastasia/Desktop/Hsp90/Head/DeriveKaesmann.R => 
+ /home/anastasia/Desktop/Hsp90/Body/2_Derived/OrthoDB.Mammals.EOG090A0320.Kaesmann.txt
+

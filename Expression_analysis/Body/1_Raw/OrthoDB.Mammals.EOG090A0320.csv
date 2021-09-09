@@ -1,0 +1,188 @@
+pub_og_id	og_name	level_taxid	organism_taxid	organism_name	int_prot_id	pub_gene_id	description
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9258	Ornithorhynchus anatinus	9258:0014fc	ENSOANG00000005734	heat shock protein 90kDa alpha (cytosolic), class A member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9305	Sarcophilus harrisii	9305:001eee	ENSSHAG00000007999	heat shock protein 90kDa alpha (cytosolic), class A member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9305	Sarcophilus harrisii	9305:00436f	ENSSHAG00000017428	heat shock protein 90kDa alpha (cytosolic), class B member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9315	Macropus eugenii	9315:002d27	ENSMEUG00000012718	
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9315	Macropus eugenii	9315:0030cd	ENSMEUG00000013735	
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9358	Choloepus hoffmanni	9358:0009e3	ENSCHOG00000002871	heat shock protein 90kDa alpha (cytosolic), class B member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9358	Choloepus hoffmanni	9358:002487	ENSCHOG00000010601	
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9371	Echinops telfairi	9371:0018bf	ENSETEG00000007813	heat shock protein 90kDa alpha (cytosolic), class A member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9371	Echinops telfairi	9371:00195b	ENSETEG00000008004	
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9371	Echinops telfairi	9371:002f10	ENSETEG00000014886	
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9402	Pteropus alecto	9402:0000d0	ELK00257.1	heat shock protein 90kDa alpha (cytosolic), class B member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9402	Pteropus alecto	9402:000494	ELK01221.1	heat shock protein 90kDa alpha (cytosolic), class A member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9478	Tarsius syrichta	9478:001d95	ENSTSYG00000008319	heat shock protein 90kDa alpha (cytosolic), class B member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9478	Tarsius syrichta	9478:002a57	ENSTSYG00000011916	heat shock protein 90kDa alpha (cytosolic), class A member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9483	Callithrix jacchus	9483:004230	ENSCJAG00000020437	heat shock protein 90kDa alpha (cytosolic), class B member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9483	Callithrix jacchus	9483:004e7a	ENSCJAG00000033945	heat shock protein 90kDa alpha (cytosolic), class A member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9531	Cercocebus atys	9531:0033e6	105591024	heat shock protein 90kDa alpha (cytosolic), class B member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9531	Cercocebus atys	9531:004346	105596717	heat shock protein 90kDa alpha (cytosolic), class A member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9544	Macaca mulatta	9544:004623	ENSMMUG00000022686	heat shock protein 90kDa alpha (cytosolic), class B member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9545	Macaca nemestrina	9545:00078c	105466741	heat shock protein HSP 90-alpha-like
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9545	Macaca nemestrina	9545:000913	105467389	heat shock protein HSP 90-alpha
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9545	Macaca nemestrina	9545:003993	105489542	heat shock protein 90kDa alpha (cytosolic), class B member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9555	Papio anubis	9555:0000c1	ENSPANG00000000442	heat shock protein 90kDa alpha (cytosolic), class B member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9555	Papio anubis	9555:003b11	ENSPANG00000021967	heat shock protein 90kDa alpha (cytosolic), class A member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9568	Mandrillus leucophaeus	9568:002ef8	105544357	heat shock protein 90kDa alpha (cytosolic), class B member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9568	Mandrillus leucophaeus	9568:0038de	105547864	heat shock protein 90kDa alpha (cytosolic), class A member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9595	Gorilla gorilla gorilla	9595:00150b	ENSGGOG00000006038	heat shock protein 90kDa alpha (cytosolic), class A member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9595	Gorilla gorilla gorilla	9595:001587	ENSGGOG00000006185	Uncharacterized protein  
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9595	Gorilla gorilla gorilla	9595:001ee6	ENSGGOG00000008889	heat shock protein 90kDa alpha (cytosolic), class B member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9597	Pan paniscus	9597:000fbc	100973292	heat shock protein 90kDa alpha (cytosolic), class B member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9597	Pan paniscus	9597:002aca	100983575	heat shock protein 90kDa alpha (cytosolic), class A member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9598	Pan troglodytes	9598:001265	ENSPTRG00000006736	heat shock protein 90kDa alpha (cytosolic), class A member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9598	Pan troglodytes	9598:00317c	ENSPTRG00000018217	heat shock protein 90kDa alpha (cytosolic), class B member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9601	Pongo abelii	9601:003d64	ENSPPYG00000016655	Pongo abelii heat shock protein 90kDa alpha (cytosolic), class B member 1 (HSP90AB1), mRNA. 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9601	Pongo abelii	9601:0036ea	ENSPPYG00000014920	Uncharacterized protein 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9601	Pongo abelii	9601:0016ad	ENSPPYG00000006153	heat shock protein 90kDa alpha (cytosolic), class A member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9606	Homo sapiens	9606:0005df	HSP90AA1	Heat shock 86 kDa
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9606	Homo sapiens	9606:000803	ENSG00000096384;HSP90AB1	heat shock protein 90kDa alpha (cytosolic), class B member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9615	Canis lupus familiaris	9615:0005cf	ENSCAFG00000001981	heat shock protein 90kDa alpha (cytosolic), class B member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9615	Canis lupus familiaris	9615:003486	ENSCAFG00000018036	heat shock protein 90kDa alpha (cytosolic), class A member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9646	Ailuropoda melanoleuca	9646:002b66	ENSAMEG00000011809	heat shock protein 90kDa alpha (cytosolic), class B member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9646	Ailuropoda melanoleuca	9646:00022f	ENSAMEG00000000583	Uncharacterized protein 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9646	Ailuropoda melanoleuca	9646:001698	ENSAMEG00000006078	heat shock protein 90kDa alpha (cytosolic), class A member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9646	Ailuropoda melanoleuca	9646:001ca5	ENSAMEG00000007775	Uncharacterized protein 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9669	Mustela putorius furo	9669:000800	ENSMPUG00000002093	Uncharacterized protein 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9669	Mustela putorius furo	9669:000a98	ENSMPUG00000002772	heat shock protein 90kDa alpha (cytosolic), class A member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9669	Mustela putorius furo	9669:003064	ENSMPUG00000012592	heat shock protein 90kDa alpha (cytosolic), class B member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9685	Felis catus	9685:000228	ENSFCAG00000000814	heat shock protein 90kDa alpha (cytosolic), class A member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9685	Felis catus	9685:001981	ENSFCAG00000009764	heat shock protein 90kDa alpha (cytosolic), class B member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9694	Panthera tigris	9694:00072f	102950898	
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9694	Panthera tigris	9694:0011ee	102954497	
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9707	Odobenus rosmarus	9707:003852	101381301	
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9707	Odobenus rosmarus	9707:000478	101363592	
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9707	Odobenus rosmarus	9707:000a23	101365532	
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9713	Leptonychotes weddellii	9713:00251f	102737467	heat shock protein HSP 90-alpha-like
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9713	Leptonychotes weddellii	9713:0028fe	102738688	heat shock protein HSP 90-beta-like
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9713	Leptonychotes weddellii	9713:003145	102741337	heat shock protein 90kDa alpha (cytosolic), class B member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9739	Tursiops truncatus	9739:001985	ENSTTRG00000006924	heat shock protein 90kDa alpha (cytosolic), class B member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9755	Physeter catodon	9755:002459	102985047	heat shock protein 90kDa alpha (cytosolic), class B member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9755	Physeter catodon	9755:002edd	102988570	heat shock protein 90kDa alpha (cytosolic), class A member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9767	Balaenoptera acutorostrata	9767:00171f	103004882	
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9767	Balaenoptera acutorostrata	9767:002a20	103011214	
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9778	Trichechus manatus	9778:00047e	101341605	
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9778	Trichechus manatus	9778:000bb9	101343785	
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9778	Trichechus manatus	9778:0019d5	101348117	
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9778	Trichechus manatus	9778:001fe2	101349955	
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9785	Loxodonta africana	9785:004101	ENSLAFG00000028485	heat shock protein 90kDa alpha (cytosolic), class B member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9785	Loxodonta africana	9785:004866	ENSLAFG00000030882	heat shock protein 90kDa alpha (cytosolic), class A member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9796	Equus caballus	9796:00182d	HSP90AB1	Heat shock protein HSP 90-beta
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9796	Equus caballus	9796:003a76	HSP90AA1	Heat shock protein HSP 90-alpha
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9798	Equus przewalskii	9798:00305b	103556444	heat shock protein 90kDa alpha (cytosolic), class A member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9798	Equus przewalskii	9798:0049ea	103564893	heat shock protein 90kDa alpha (cytosolic), class B member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9813	Procavia capensis	9813:000af7	ENSPCAG00000002997	heat shock protein 90kDa alpha (cytosolic), class A member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9823	Sus scrofa	9823:000429	ENSSSCG00000001701	Sus scrofa heat shock protein 90kDa alpha (cytosolic), class B member 1 (HSPCB), mRNA. 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9837	Camelus bactrianus	9837:004993	105083823	heat shock protein 90kDa alpha (cytosolic), class B member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9837	Camelus bactrianus	9837:003cac	105079942	heat shock protein 90kDa alpha (cytosolic), class A member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9838	Camelus dromedarius	9838:000e4e	105088639	heat shock protein 90kDa alpha (cytosolic), class B member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9838	Camelus dromedarius	9838:003f39	105103462	heat shock protein 90kDa alpha (cytosolic), class A member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9901	Bison bison	9901:003611	104996944	
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9901	Bison bison	9901:004f71	105005197	
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9901	Bison bison	9901:0037da	104997502	
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9913	Bos taurus	9913:000fe4	HSP90AA1	Heat shock protein HSP 90-alpha
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9913	Bos taurus	9913:004c65	ENSBTAG00000047699	heat shock protein 90kDa alpha (cytosolic), class B member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9913	Bos taurus	9913:000203	ENSBTAG00000000778	heat shock protein HSP 90-beta  
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9925	Capra hircus	9925:0000e4	100861006	heat shock protein 90kDa alpha (cytosolic), class B member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9925	Capra hircus	9925:000063	100860851	heat shock protein 90kDa alpha (cytosolic), class A member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9940	Ovis aries	9940:000ef5	ENSOARG00000003903	heat shock protein 90kDa alpha (cytosolic), class A member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9940	Ovis aries	9940:0023ee	ENSOARG00000009343	heat shock protein 90kDa alpha (cytosolic), class B member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9978	Ochotona princeps	9978:003454	ENSOPRG00000015013	heat shock protein 90kDa alpha (cytosolic), class B member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9978	Ochotona princeps	9978:00276c	ENSOPRG00000011312	
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9986	Oryctolagus cuniculus	9986:00253d	ENSOCUG00000012842	heat shock protein 90kDa alpha (cytosolic), class B member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9986	Oryctolagus cuniculus	9986:001aa8	ENSOCUG00000009115	Uncharacterized protein  
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9986	Oryctolagus cuniculus	9986:001849	ENSOCUG00000008290	Uncharacterized protein  
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	9986	Oryctolagus cuniculus	9986:0003c8	ENSOCUG00000001280	
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	10020	Dipodomys ordii	10020:00281f	ENSDORG00000010981	heat shock protein 90 alpha (cytosolic), class B member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	10020	Dipodomys ordii	10020:001438	ENSDORG00000005569	heat shock protein 90, alpha (cytosolic), class A member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	10036	Mesocricetus auratus	10036:00340a	101837956	heat shock protein 90kDa alpha (cytosolic), class B member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	10042	Peromyscus maniculatus	10042:0037a0	102920366	
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	10090	Mus musculus	10090:00104f	ENSMUSG00000023944;Hsp90ab1	Heat shock 84 kDa
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	10090	Mus musculus	10090:000bb6	ENSMUSG00000021270;Hsp90aa1	Heat shock 86 kDa
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	10116	Rattus norvegicus	10116:0054ae	ENSRNOG00000059714	heat shock protein HSP 90-alpha 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	10116	Rattus norvegicus	10116:000e35	Hsp90aa1	Heat shock 86 kDa
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	10116	Rattus norvegicus	10116:002933	Hsp90ab1	Heat shock 84 kDa
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	10141	Cavia porcellus	10141:000688	ENSCPOG00000002015	heat shock protein 90kDa alpha (cytosolic), class A member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	10141	Cavia porcellus	10141:000cb9	ENSCPOG00000003887	heat shock protein 90kDa alpha (cytosolic), class B member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	10160	Octodon degus	10160:003891	101584273	heat shock protein HSP 90-beta
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	10160	Octodon degus	10160:00444d	101589379	heat shock protein HSP 90-alpha
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	10160	Octodon degus	10160:000534	101561846	heat shock protein 90kDa alpha (cytosolic), class B member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	10160	Octodon degus	10160:00025f	101560580	heat shock protein HSP 90-alpha-like
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	13616	Monodelphis domestica	13616:00004e	ENSMODG00000000123	Uncharacterized protein  
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	13616	Monodelphis domestica	13616:0026bd	ENSMODG00000013302	Uncharacterized protein  
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	28737	Elephantulus edwardii	28737:003893	102867630	heat shock protein 90kDa alpha (cytosolic), class B member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	28737	Elephantulus edwardii	28737:001da2	102855978	heat shock protein HSP 90-alpha-like
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	28737	Elephantulus edwardii	28737:001c43	102855385	heat shock protein HSP 90-alpha-like
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	29073	Ursus maritimus	29073:0001e5	103656761	heat shock protein 90kDa alpha (cytosolic), class A member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	29073	Ursus maritimus	29073:0031b0	103673740	heat shock protein HSP 90-alpha-like
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	29073	Ursus maritimus	29073:0015b7	103664050	heat shock protein 90kDa alpha (cytosolic), class B member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	29078	Eptesicus fuscus	29078:002faa	103298031	heat shock protein 90kDa alpha (cytosolic), class A member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	29078	Eptesicus fuscus	29078:002b37	103296621	heat shock protein 90kDa alpha (cytosolic), class B member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	30538	Vicugna pacos	30538:000a92	ENSVPAG00000002953	heat shock protein 90kDa alpha (cytosolic), class B member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	30608	Microcebus murinus	30608:002fb5	ENSMICG00000013394	
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	30608	Microcebus murinus	30608:00101a	ENSMICG00000004521	heat shock protein 90kDa alpha (cytosolic), class A member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	30611	Otolemur garnettii	30611:0023ce	ENSOGAG00000011961	Uncharacterized protein  
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	34839	Chinchilla lanigera	34839:0041b3	102026352	heat shock protein 90kDa alpha (cytosolic), class A member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	34839	Chinchilla lanigera	34839:0030f5	102020377	heat shock protein 90kDa alpha (cytosolic), class B member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	37293	Aotus nancymaae	37293:0043fe	105730178	heat shock protein 90kDa alpha (cytosolic), class A member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	37293	Aotus nancymaae	37293:0019ab	105714240	heat shock protein HSP 90-beta-like
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	37293	Aotus nancymaae	37293:000900	105707837	heat shock protein HSP 90-alpha-like
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	37293	Aotus nancymaae	37293:0044c4	105730459	heat shock protein HSP 90-alpha-like
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	37293	Aotus nancymaae	37293:001ad9	105714715	heat shock protein 90kDa alpha (cytosolic), class B member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	37347	Tupaia belangeri	37347:003269	ENSTBEG00000014873	
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	37347	Tupaia belangeri	37347:000b19	ENSTBEG00000003286	heat shock protein 90kDa alpha (cytosolic), class A member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	42254	Sorex araneus	42254:002aaf	ENSSARG00000012104	heat shock protein 90kDa alpha (cytosolic), class A member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	42254	Sorex araneus	42254:000dd0	ENSSARG00000003905	heat shock protein 90kDa alpha (cytosolic), class B member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	42254	Sorex araneus	42254:00010a	ENSSARG00000000297	
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	43179	Ictidomys tridecemlineatus	43179:003b5a	ENSSTOG00000024614	heat shock protein 90kDa alpha (cytosolic), class B member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	43179	Ictidomys tridecemlineatus	43179:00194c	ENSSTOG00000009643	heat shock protein 90kDa alpha (cytosolic), class A member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	43179	Ictidomys tridecemlineatus	43179:0008e1	ENSSTOG00000003354	Heat shock protein Hsp90 family
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	43179	Ictidomys tridecemlineatus	43179:0039cb	ENSSTOG00000024101	Heat shock protein Hsp90, conserved site
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	51337	Jaculus jaculus	51337:000ece	101598516	heat shock protein 90kDa alpha (cytosolic), class B member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	51337	Jaculus jaculus	51337:00179d	101601570	heat shock protein 90kDa alpha (cytosolic), class A member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	54131	Colobus angolensis	54131:002b15	105515285	
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	54131	Colobus angolensis	54131:004625	105524884	
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	54131	Colobus angolensis	54131:0033d8	105518443	
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	59463	Myotis lucifugus	59463:002a4a	ENSMLUG00000013341	heat shock protein 90kDa alpha (cytosolic), class A member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	59463	Myotis lucifugus	59463:0010d1	ENSMLUG00000005239	Uncharacterized protein  
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	59538	Pantholops hodgsonii	59538:005e42	102343462	heat shock protein 90kDa alpha (cytosolic), class B member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	59538	Pantholops hodgsonii	59538:001662	102321675	heat shock protein 90kDa alpha (cytosolic), class A member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	60711	Chlorocebus sabaeus	60711:002f1f	ENSCSAG00000012423	heat shock protein 90kDa alpha (cytosolic), class B member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	61622	Rhinopithecus roxellana	61622:00027a	104654438	heat shock protein 90kDa alpha (cytosolic), class A member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	61622	Rhinopithecus roxellana	61622:0033eb	104672183	heat shock protein HSP 90-beta-like
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	61622	Rhinopithecus roxellana	61622:00267c	104667373	heat shock protein 90kDa alpha (cytosolic), class B member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	61622	Rhinopithecus roxellana	61622:000f10	104659090	putative heat shock protein HSP 90-beta-3
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	61853	Nomascus leucogenys	61853:0039f2	ENSNLEG00000015925	heat shock protein 90kDa alpha (cytosolic), class A member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	72004	Bos mutus	72004:002274	ELR53228.1	heat shock protein 90kDa alpha (cytosolic), class B member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	89462	Bubalus bubalis	89462:0002c4	102389823	heat shock protein 90kDa alpha (cytosolic), class B member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	89462	Bubalus bubalis	89462:003f88	102409833	heat shock protein 90kDa alpha (cytosolic), class A member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	89462	Bubalus bubalis	89462:000b35	102392637	heat shock protein HSP 90-beta-like
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	109478	Myotis brandtii	109478:000bfa	EPQ04441.1	heat shock protein 90kDa alpha (cytosolic), class B member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	109478	Myotis brandtii	109478:0034f4	EPQ14931.1	heat shock protein 90kDa alpha (cytosolic), class A member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	109478	Myotis brandtii	109478:003e37	EPQ17302.1	
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	118797	Lipotes vexillifer	118797:003cdc	103087641	heat shock protein 90kDa alpha (cytosolic), class A member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	118797	Lipotes vexillifer	118797:00008a	103068450	heat shock protein 90kDa alpha (cytosolic), class B member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	132908	Pteropus vampyrus	132908:004114	ENSPVAG00000017784	heat shock protein 90kDa alpha (cytosolic), class A member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	132908	Pteropus vampyrus	132908:003d97	ENSPVAG00000016831	heat shock protein 90kDa alpha (cytosolic), class B member 1 
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	143302	Condylura cristata	143302:00184f	101625399	heat shock protein 90kDa alpha (cytosolic), class A member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	143302	Condylura cristata	143302:003e60	101636481	heat shock protein 90kDa alpha (cytosolic), class B member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	185453	Chrysochloris asiatica	185453:0033c9	102832472	heat shock protein 90kDa alpha (cytosolic), class B member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	185453	Chrysochloris asiatica	185453:003b52	102835663	putative heat shock protein HSP 90-beta-3-like
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	185453	Chrysochloris asiatica	185453:001ddd	102823039	heat shock protein 90kDa alpha (cytosolic), class A member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	225400	Myotis davidii	225400:00135d	ELK28095.1	heat shock protein 90kDa alpha (cytosolic), class A member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	246437	Tupaia chinensis	246437:0015e8	ELW47232.1	heat shock protein 90kDa alpha (cytosolic), class A member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	246437	Tupaia chinensis	246437:004c3a	ELW71510.1	
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	246437	Tupaia chinensis	246437:003536	ELW65618.1	heat shock protein 90kDa alpha (cytosolic), class B member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	379532	Propithecus coquereli	379532:000d15	105808869	heat shock protein HSP 90-beta-like
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	379532	Propithecus coquereli	379532:00086e	105807468	heat shock protein 90kDa alpha (cytosolic), class B member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	379532	Propithecus coquereli	379532:001966	105812585	heat shock protein 90kDa alpha (cytosolic), class A member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	419612	Camelus ferus	419612:003c6a	EPY87751.1	heat shock protein 90kDa alpha (cytosolic), class A member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	419612	Camelus ferus	419612:001149	EPY76710.1	heat shock protein 90kDa alpha (cytosolic), class B member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	482537	Galeopterus variegatus	482537:002ae6	103595468	heat shock protein 90kDa alpha (cytosolic), class A member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	482537	Galeopterus variegatus	482537:00146b	103588342	heat shock protein HSP 90-beta-like
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	482537	Galeopterus variegatus	482537:001af8	103590414	heat shock protein 90kDa alpha (cytosolic), class B member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	885580	Fukomys damarensis	885580:0046e9	KFO36200.1	heat shock protein 90kDa alpha (cytosolic), class B member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	885580	Fukomys damarensis	885580:001083	KFO22274.1	heat shock protein 90kDa alpha (cytosolic), class A member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	1026970	Nannospalax galili	1026970:000948	103727631	heat shock protein 90kDa alpha (cytosolic), class A member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	1026970	Nannospalax galili	1026970:001233	103730766	heat shock protein 90kDa alpha (cytosolic), class B member 1
+EOG090A0320	heat shock protein 90kDa alpha (cytosolic), class B member 1 	40674	1026970	Nannospalax galili	1026970:002f40	103740779	heat shock protein HSP 90-beta-like

@@ -1,0 +1,32 @@
+Tissue,Turnover (days),"Expression level ofHSP90AB1 in human, TPM (median)",Expression_in_males,Expression_in_females
+Adipose Tissue,2448,748.25,697.6,691.2
+Adrenal Gland,455,829,805,863
+Bladder,49,889.6,860.6,918.1
+Blood,30,135.8,138.5,130.4
+Blood Vessel,67.5,935.7,936.5,931.5
+Bone Marrow,3.2,NA,NA,NA
+Brain,24637.5,582.7,591.4,553.6
+Breast,65.75,777.3,747.7,800.5
+Cervix Uteri,5.7,1096,NA,1096
+Colon,4.25,577.45,585.7,563.3
+Esophagus,10.5,516.4,615.6,607.3
+Fallopian Tube,NA,903.2,NA,903.2
+Heart,25300,527.5,518.2,523.7
+Kidney,270,469.65,362.1,411.5
+Liver,363.5,216.4,203,262.4
+Lung,126,857.3,841.3,880.8
+Muscle,5510,929.3,897.1,970.7
+Nerve,24637.5,816.4,816.7,814.8
+Ovary,30000,1823,NA,1823
+Pancreas,315,420.1,419.3,420.9
+Pituitary,NA,975.7,971.5,1000
+Prostate,120,702.2,702.2,NA
+Salivary Gland,60,572.8,550.9,613.8
+Skin,64,702.55,696.4,708.5
+Small Intestine,7.05,487.5,507.1,464.2
+Spleen,7.8,507,506.7,514.1
+Stomach,1.4,598.4,600.2,590
+Testis,63.5,541.8,541.8,NA
+Thyroid,3679.5,804.3,836.8,751.1
+Uterus,13,1062.3,NA,1063
+Vagina,3.9,893.3,NA,893.4

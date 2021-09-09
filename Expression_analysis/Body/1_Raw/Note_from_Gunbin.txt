@@ -1,0 +1,8 @@
+password for sudo: 1234567
+login: nastya
+all windows directories are in: /mnt
+linux directores hidden for windows in any program
+
+
+so, it was done!
+using this subsystem you can do any linux-based works

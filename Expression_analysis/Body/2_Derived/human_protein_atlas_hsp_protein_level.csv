@@ -1,0 +1,78 @@
+,Gene,Gene.name,Tissue,Cell.type,Level,Reliability,Turnover_days
+135619,ENSG00000096384,HSP90AB1,adipose tissue,adipocytes,Low,Enhanced,2448
+135620,ENSG00000096384,HSP90AB1,adrenal gland,glandular cells,High,Enhanced,455
+135621,ENSG00000096384,HSP90AB1,appendix,glandular cells,Medium,Enhanced,NA
+135622,ENSG00000096384,HSP90AB1,bone marrow,hematopoietic cells,High,Enhanced,3.2
+135623,ENSG00000096384,HSP90AB1,breast,adipocytes,Medium,Enhanced,65.75
+135624,ENSG00000096384,HSP90AB1,breast,glandular cells,Medium,Enhanced,65.75
+135625,ENSG00000096384,HSP90AB1,breast,myoepithelial cells,Medium,Enhanced,65.75
+135626,ENSG00000096384,HSP90AB1,bronchus,respiratory epithelial cells,High,Enhanced,126
+135627,ENSG00000096384,HSP90AB1,caudate,glial cells,Medium,Enhanced,NA
+135628,ENSG00000096384,HSP90AB1,caudate,neuronal cells,Medium,Enhanced,24637.5
+135629,ENSG00000096384,HSP90AB1,cerebellum,cells in granular layer,Low,Enhanced,24637.5
+135630,ENSG00000096384,HSP90AB1,cerebellum,cells in molecular layer,High,Enhanced,24637.5
+135631,ENSG00000096384,HSP90AB1,cerebellum,Purkinje cells,Medium,Enhanced,24637.5
+135632,ENSG00000096384,HSP90AB1,cerebral cortex,endothelial cells,Low,Enhanced,24637.5
+135633,ENSG00000096384,HSP90AB1,cerebral cortex,glial cells,Medium,Enhanced,NA
+135634,ENSG00000096384,HSP90AB1,cerebral cortex,neuronal cells,Medium,Enhanced,24637.5
+135635,ENSG00000096384,HSP90AB1,cerebral cortex,neuropil,Low,Enhanced,24637.5
+135636,ENSG00000096384,HSP90AB1,"cervix, uterine",glandular cells,Medium,Enhanced,5.7
+135637,ENSG00000096384,HSP90AB1,"cervix, uterine",squamous epithelial cells,Medium,Enhanced,5.7
+135638,ENSG00000096384,HSP90AB1,colon,endothelial cells,Low,Enhanced,4.25
+135639,ENSG00000096384,HSP90AB1,colon,glandular cells,Medium,Enhanced,4.25
+135640,ENSG00000096384,HSP90AB1,colon,peripheral nerve/ganglion,High,Enhanced,4.25
+135641,ENSG00000096384,HSP90AB1,duodenum,glandular cells,Medium,Enhanced,7.05
+135642,ENSG00000096384,HSP90AB1,endometrium 1,cells in endometrial stroma,Low,Enhanced,13
+135643,ENSG00000096384,HSP90AB1,endometrium 1,glandular cells,High,Enhanced,13
+135644,ENSG00000096384,HSP90AB1,endometrium 2,cells in endometrial stroma,Low,Enhanced,13
+135645,ENSG00000096384,HSP90AB1,endometrium 2,glandular cells,Medium,Enhanced,13
+135646,ENSG00000096384,HSP90AB1,epididymis,glandular cells,High,Enhanced,NA
+135647,ENSG00000096384,HSP90AB1,esophagus,squamous epithelial cells,Medium,Enhanced,10.5
+135648,ENSG00000096384,HSP90AB1,fallopian tube,glandular cells,High,Enhanced,NA
+135649,ENSG00000096384,HSP90AB1,gallbladder,glandular cells,Medium,Enhanced,49
+135650,ENSG00000096384,HSP90AB1,heart muscle,myocytes,Medium,Enhanced,25300
+135651,ENSG00000096384,HSP90AB1,hippocampus,glial cells,Medium,Enhanced,NA
+135652,ENSG00000096384,HSP90AB1,hippocampus,neuronal cells,Medium,Enhanced,24637.5
+135653,ENSG00000096384,HSP90AB1,kidney,cells in glomeruli,Low,Enhanced,270
+135654,ENSG00000096384,HSP90AB1,kidney,cells in tubules,Medium,Enhanced,270
+135655,ENSG00000096384,HSP90AB1,liver,bile duct cells,Medium,Enhanced,363.5
+135656,ENSG00000096384,HSP90AB1,liver,hepatocytes,Medium,Enhanced,363.5
+135657,ENSG00000096384,HSP90AB1,lung,macrophages,Medium,Enhanced,126
+135658,ENSG00000096384,HSP90AB1,lung,pneumocytes,Medium,Enhanced,126
+135659,ENSG00000096384,HSP90AB1,lymph node,germinal center cells,High,Enhanced,NA
+135660,ENSG00000096384,HSP90AB1,lymph node,non-germinal center cells,High,Enhanced,NA
+135661,ENSG00000096384,HSP90AB1,nasopharynx,respiratory epithelial cells,Medium,Enhanced,NA
+135662,ENSG00000096384,HSP90AB1,oral mucosa,squamous epithelial cells,Medium,Enhanced,NA
+135663,ENSG00000096384,HSP90AB1,ovary,ovarian stroma cells,Medium,Enhanced,30000
+135664,ENSG00000096384,HSP90AB1,pancreas,exocrine glandular cells,Medium,Enhanced,315
+135665,ENSG00000096384,HSP90AB1,pancreas,islets of Langerhans,Medium,Enhanced,315
+135666,ENSG00000096384,HSP90AB1,parathyroid gland,glandular cells,Medium,Enhanced,NA
+135667,ENSG00000096384,HSP90AB1,placenta,decidual cells,High,Enhanced,NA
+135668,ENSG00000096384,HSP90AB1,placenta,trophoblastic cells,High,Enhanced,NA
+135669,ENSG00000096384,HSP90AB1,prostate,glandular cells,High,Enhanced,120
+135670,ENSG00000096384,HSP90AB1,rectum,glandular cells,Medium,Enhanced,NA
+135671,ENSG00000096384,HSP90AB1,salivary gland,glandular cells,Low,Enhanced,60
+135672,ENSG00000096384,HSP90AB1,skeletal muscle,myocytes,Medium,Enhanced,5510
+135673,ENSG00000096384,HSP90AB1,skin 1,fibroblasts,Medium,Enhanced,64
+135674,ENSG00000096384,HSP90AB1,skin 1,keratinocytes,Medium,Enhanced,64
+135675,ENSG00000096384,HSP90AB1,skin 1,Langerhans,Medium,Enhanced,64
+135676,ENSG00000096384,HSP90AB1,skin 1,melanocytes,Medium,Enhanced,64
+135677,ENSG00000096384,HSP90AB1,skin 2,epidermal cells,Medium,Enhanced,64
+135678,ENSG00000096384,HSP90AB1,small intestine,glandular cells,Medium,Enhanced,7.05
+135679,ENSG00000096384,HSP90AB1,smooth muscle,smooth muscle cells,Medium,Enhanced,NA
+135680,ENSG00000096384,HSP90AB1,soft tissue 1,chondrocytes,High,Enhanced,NA
+135681,ENSG00000096384,HSP90AB1,soft tissue 1,fibroblasts,Medium,Enhanced,NA
+135682,ENSG00000096384,HSP90AB1,soft tissue 1,peripheral nerve,Medium,Enhanced,24637.5
+135683,ENSG00000096384,HSP90AB1,soft tissue 2,fibroblasts,Medium,Enhanced,NA
+135684,ENSG00000096384,HSP90AB1,spleen,cells in red pulp,Low,Enhanced,7.8
+135685,ENSG00000096384,HSP90AB1,spleen,cells in white pulp,Medium,Enhanced,7.8
+135686,ENSG00000096384,HSP90AB1,stomach 1,glandular cells,Medium,Enhanced,1.4
+135687,ENSG00000096384,HSP90AB1,stomach 2,glandular cells,Medium,Enhanced,1.4
+135688,ENSG00000096384,HSP90AB1,testis,cells in seminiferous ducts,High,Enhanced,63.5
+135689,ENSG00000096384,HSP90AB1,testis,Leydig cells,Medium,Enhanced,63.5
+135690,ENSG00000096384,HSP90AB1,thyroid gland,glandular cells,Medium,Enhanced,3679.5
+135691,ENSG00000096384,HSP90AB1,tonsil,germinal center cells,High,Enhanced,NA
+135692,ENSG00000096384,HSP90AB1,tonsil,non-germinal center cells,High,Enhanced,NA
+135693,ENSG00000096384,HSP90AB1,tonsil,squamous epithelial cells,Medium,Enhanced,NA
+135694,ENSG00000096384,HSP90AB1,urinary bladder,urothelial cells,High,Enhanced,NA
+135695,ENSG00000096384,HSP90AB1,vagina,squamous epithelial cells,Low,Enhanced,3.9

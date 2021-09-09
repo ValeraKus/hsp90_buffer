@@ -1,0 +1,50 @@
+"Species" "Names" "dN.dS"
+"1" "Ma's night monkey" "Aotus nancymaae" 0.06471
+"2" "Marmoset" "Callithrix jacchus" 0.00494
+"3" "Dog" "Canis lupus familiaris" 0.00396
+"4" "Goat" "Capra hircus" 0.00518
+"5" "Tarsier" "Carlito syrichta" 0.00437
+"6" "Guinea Pig" "Cavia porcellus" 0.00491
+"7" "Sooty mangabey" "Cercocebus atys" 0.01004
+"8" "Long-tailed chinchilla" "Chinchilla lanigera" 0.00396
+"9" "Vervet-AGM" "Chlorocebus sabaeus" 0.00759
+"10" "Angola colobus" "Colobus angolensis palliatus" 0.01031
+"11" "Chinese hamster CHOK1GS" "Cricetulus griseus" 0.00169
+"12" "Chinese hamster CriGri" "Cricetulus griseus" 0.00434
+"13" "Kangaroo rat" "Dipodomys ordii" 0.00438
+"14" "Horse" "Equus caballus" 0.00523
+"15" "Damara mole rat" "Fukomys damarensis" 0.00553
+"16" "Gorilla" "Gorilla gorilla gorilla" 0.07229
+"17" "Naked mole-rat female" "Heterocephalus glaber" 0.00557
+"18" "Naked mole-rat male" "Heterocephalus glaber" 0.0055
+"19" "Squirrel" "Ictidomys tridecemlineatus" 0.00992
+"20" "Lesser Egyptian jerboa" "Jaculus jaculus" 0.00575
+"21" "Elephant" "Loxodonta africana" 0.00671
+"22" "Crab-eating macaque" "Macaca fascicularis" 0.00882
+"23" "Macaque" "Macaca mulatta" 0.00901
+"24" "Pig-tailed macaque" "Macaca nemestrina" 0.01715
+"25" "Drill" "Mandrillus leucophaeus" 0.00901
+"26" "Golden Hamster" "Mesocricetus auratus" 0.00324
+"27" "Mouse Lemur" "Microcebus murinus" 0.10572
+"28" "Prairie vole" "Microtus ochrogaster" 0.00268
+"29" "Ryukyu mouse" "Mus caroli" 0.0024
+"30" "Mouse" "Mus musculus" 0.0024
+"31" "Algerian mouse" "Mus spretus" 0.00241
+"32" "Ferret" "Mustela putorius furo" 0.00512
+"33" "Microbat" "Myotis lucifugus" 0.00859
+"34" "Upper Galilee mountains blind mole rat" "Nannospalax galili" 0.00116
+"35" "Gibbon" "Nomascus leucogenys" 0.27079
+"36" "Degu" "Octodon degus" 0.00783
+"37" "Bushbaby" "Otolemur garnettii" 0.43531
+"38" "Sheep" "Ovis aries" 0.00517
+"39" "Bonobo" "Pan paniscus" 0.56712
+"40" "Chimpanzee" "Pan troglodytes" 0.65481
+"41" "Leopard" "Panthera pardus" 0.00458
+"42" "Amur tiger" "Panthera tigris altaica" 0.00468
+"43" "Olive baboon" "Papio anubis" 0.0088
+"44" "Northern American deer mouse" "Peromyscus maniculatus bairdii" 0.01288
+"45" "Orangutan" "Pongo abelii" 0.02035
+"46" "Coquerel's sifaka" "Propithecus coquereli" 0.00629
+"47" "Rat" "Rattus norvegicus" 0.00258
+"48" "Black snub-nosed monkey" "Rhinopithecus bieti" 0.0102
+"49" "Pig" "Sus scrofa" 0.02307

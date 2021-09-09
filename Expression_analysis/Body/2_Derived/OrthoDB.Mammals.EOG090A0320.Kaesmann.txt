@@ -1,0 +1,1 @@
+"pub_og_id" "og_name" "level_taxid" "organism_taxid" "organism_name" "int_prot_id" "pub_gene_id" "description" "X" "X.1" "X.2"

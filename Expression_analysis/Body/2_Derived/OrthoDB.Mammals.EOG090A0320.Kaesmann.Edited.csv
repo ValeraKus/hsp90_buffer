@@ -1,0 +1,18 @@
+pub_og_id	og_name	level_taxid	organism_taxid	organism_name	int_prot_id	pub_gene_id	description			
+1	EOG090A0320	heat shock protein 90kDa alpha (cytosolic)	 class B member 1 	40674	9258	Ornithorhynchus anatinus	9258:0014fc	ENSOANG00000005734	heat shock protein 90kDa alpha (cytosolic)	 class A member 1 
+19	EOG090A0320	heat shock protein 90kDa alpha (cytosolic)	 class B member 1 	40674	9544	Macaca mulatta	9544:004623	ENSMMUG00000022686	heat shock protein 90kDa alpha (cytosolic)	 class B member 1 
+23	EOG090A0320	heat shock protein 90kDa alpha (cytosolic)	 class B member 1 	40674	9555	Papio anubis	9555:0000c1	ENSPANG00000000442	heat shock protein 90kDa alpha (cytosolic)	 class B member 1 
+24	EOG090A0320	heat shock protein 90kDa alpha (cytosolic)	 class B member 1 	40674	9555	Papio anubis	9555:003b11	ENSPANG00000021967	heat shock protein 90kDa alpha (cytosolic)	 class A member 1 
+30	EOG090A0320	heat shock protein 90kDa alpha (cytosolic)	 class B member 1 	40674	9597	Pan paniscus	9597:000fbc	100973292	heat shock protein 90kDa alpha (cytosolic)	 class B member 1
+31	EOG090A0320	heat shock protein 90kDa alpha (cytosolic)	 class B member 1 	40674	9597	Pan paniscus	9597:002aca	100983575	heat shock protein 90kDa alpha (cytosolic)	 class A member 1
+32	EOG090A0320	heat shock protein 90kDa alpha (cytosolic)	 class B member 1 	40674	9598	Pan troglodytes	9598:001265	ENSPTRG00000006736	heat shock protein 90kDa alpha (cytosolic)	 class A member 1 
+33	EOG090A0320	heat shock protein 90kDa alpha (cytosolic)	 class B member 1 	40674	9598	Pan troglodytes	9598:00317c	ENSPTRG00000018217	heat shock protein 90kDa alpha (cytosolic)	 class B member 1 
+34	EOG090A0320	heat shock protein 90kDa alpha (cytosolic)	 class B member 1 	40674	9601	Pongo abelii	9601:003d64	ENSPPYG00000016655	Pongo abelii heat shock protein 90kDa alpha (cytosolic)	 class B member 1 (HSP90AB1)
+35	EOG090A0320	heat shock protein 90kDa alpha (cytosolic)	 class B member 1 	40674	9601	Pongo abelii	9601:0036ea	ENSPPYG00000014920	Uncharacterized protein 	
+36	EOG090A0320	heat shock protein 90kDa alpha (cytosolic)	 class B member 1 	40674	9601	Pongo abelii	9601:0016ad	ENSPPYG00000006153	heat shock protein 90kDa alpha (cytosolic)	 class A member 1 
+37	EOG090A0320	heat shock protein 90kDa alpha (cytosolic)	 class B member 1 	40674	9606	Homo sapiens	9606:0005df	ENSG00000080824	Heat shock 86 kDa	
+38	EOG090A0320	heat shock protein 90kDa alpha (cytosolic)	 class B member 1 	40674	9606	Homo sapiens	9606:000803	ENSG00000096384	heat shock protein 90kDa alpha (cytosolic)	 class B member 1 
+99	EOG090A0320	heat shock protein 90kDa alpha (cytosolic)	 class B member 1 	40674	10090	Mus musculus	10090:00104f	ENSMUSG00000023944	Heat shock 84 kDa	
+100	EOG090A0320	heat shock protein 90kDa alpha (cytosolic)	 class B member 1 	40674	10090	Mus musculus	10090:000bb6	ENSMUSG00000021270	Heat shock 86 kDa	
+110	EOG090A0320	heat shock protein 90kDa alpha (cytosolic)	 class B member 1 	40674	13616	Monodelphis domestica	13616:00004e	ENSMODG00000000123	Uncharacterized protein  	
+111	EOG090A0320	heat shock protein 90kDa alpha (cytosolic)	 class B member 1 	40674	13616	Monodelphis domestica	13616:0026bd	ENSMODG00000013302	Uncharacterized protein  	

@@ -1,0 +1,5 @@
+"pub_og_id"	"og_name"	"level_taxid"	"organism_taxid"	"organism_name"	"int_prot_id"	"pub_gene_id"	"description"
+"99"	"EOG090A0320"	"heat shock protein 90kDa alpha (cytosolic), class B member 1 "	40674	10090	"Mus musculus"	"10090:00104f"	"ENSMUSG00000023944;Hsp90ab1"	"Heat shock 84 kDa"
+"100"	"EOG090A0320"	"heat shock protein 90kDa alpha (cytosolic), class B member 1 "	40674	10090	"Mus musculus"	"10090:000bb6"	"ENSMUSG00000021270;Hsp90aa1"	"Heat shock 86 kDa"
+"110"	"EOG090A0320"	"heat shock protein 90kDa alpha (cytosolic), class B member 1 "	40674	13616	"Monodelphis domestica"	"13616:00004e"	"ENSMODG00000000123"	"Uncharacterized protein  "
+"111"	"EOG090A0320"	"heat shock protein 90kDa alpha (cytosolic), class B member 1 "	40674	13616	"Monodelphis domestica"	"13616:0026bd"	"ENSMODG00000013302"	"Uncharacterized protein  "

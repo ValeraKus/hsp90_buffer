@@ -1,0 +1,10 @@
+Adipose_Subcutaneous
+Artery_Aorta
+Artery_Tibial
+Brain_Cortex
+Brain_Nucleus_accumbens_basal_ganglia
+Esophagus_Gastroesophageal_Junction
+Heart_Atrial_Appendage
+Skin_Not_Sun_Exposed_Suprapubic
+Skin_Sun_Exposed_Lower_leg
+Testis
