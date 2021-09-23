@@ -1,0 +1,2743 @@
+Tree is rooted. Will unroot.
+No class=1 nodes (#1)
+Optimizing branch lengths using M0
+Starting lnL=-13607.316
+Maximum likelihood: -11546.723003687523
+Testing multiple branches
+Testing branch 1/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota)#1,(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11496.497
+Maximum likelihood: -11292.438414242106
+Running H1
+Starting lnL=-11696.330
+Maximum likelihood: -11292.438414101727
+Starting with D=2.8075737645849586e-07
+Final D=2.8075737645849586e-07
+lnL0=-11292.438414, lnL1=-11292.438414
+Testing branch 2/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis)#1,Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11637.105
+Maximum likelihood: -11292.438427186262
+Running H1
+Starting lnL=-11541.268
+Maximum likelihood: -11292.438414511395
+Starting with D=2.5349734642077237e-05
+Rerunning H0, trying to reduce LR (D=2.5349734642077237e-05)
+Starting lnL=-11292.438
+Maximum likelihood: -11292.438414452921
+Rerunning H1 because of negative LR (D=-1.169464667327702e-07)
+Starting lnL=-11292.438
+Maximum likelihood: -11292.438414424225
+Final D=5.7392753660678864e-08
+lnL0=-11292.438414, lnL1=-11292.438414
+Testing branch 3/77
+Foreground branch: (((Condylura_cristata#1,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11626.410
+Maximum likelihood: -11292.430077114423
+Running H1
+Starting lnL=-11429.533
+Maximum likelihood: -11292.001810036669
+Starting with D=0.8565341555076884
+Rerunning H0, trying to reduce LR (D=0.8565341555076884)
+Starting lnL=-11292.446
+Maximum likelihood: -11292.446447000983
+Rerunning H0, trying to reduce LR (D=0.8565341555076884)
+Starting lnL=-11292.446
+Maximum likelihood: -11292.446447000983
+Final D=0.8565341555076884
+lnL0=-11292.430077, lnL1=-11292.001810
+Testing branch 4/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis#1),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11467.832
+Maximum likelihood: -11292.43841425523
+Running H1
+Starting lnL=-11450.856
+Maximum likelihood: -11292.438414112545
+Starting with D=2.8537033358588815e-07
+Final D=2.8537033358588815e-07
+lnL0=-11292.438414, lnL1=-11292.438414
+Testing branch 5/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota#1),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11510.040
+Maximum likelihood: -11290.756047240333
+Running H1
+Starting lnL=-11474.368
+Maximum likelihood: -11288.46274925118
+Starting with D=4.5865959783041035
+Rerunning H0, trying to reduce LR (D=4.5865959783041035)
+Starting lnL=-11291.876
+Maximum likelihood: -11291.876044614028
+Rerunning H0, trying to reduce LR (D=4.5865959783041035)
+Starting lnL=-11291.876
+Maximum likelihood: -11291.876044614028
+Final D=4.5865959783041035
+NEB analysis
+Reference sequence: Condylura_cristata
+pos	codon	aa	p
+131	CAC	H	0.995
+BEB analysis
+Reference sequence: Condylura_cristata
+pos	codon	aa	p
+131	CAC	H	0.985
+lnL0=-11290.756047, lnL1=-11288.462749
+Testing branch 6/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus)))))))))))#1,Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11548.459
+Maximum likelihood: -11292.438414237968
+Running H1
+Starting lnL=-11515.916
+Maximum likelihood: -11292.438414171687
+Starting with D=1.3256067177280784e-07
+Final D=1.3256067177280784e-07
+lnL0=-11292.438414, lnL1=-11292.438414
+Testing branch 7/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica#1,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11584.016
+Maximum likelihood: -11292.438414140775
+Running H1
+Starting lnL=-11489.456
+Maximum likelihood: -11292.235526993663
+Starting with D=0.40577429422410205
+Rerunning H0, trying to reduce LR (D=0.40577429422410205)
+Starting lnL=-11292.476
+Maximum likelihood: -11292.475827154867
+Rerunning H0, trying to reduce LR (D=0.40577429422410205)
+Starting lnL=-11292.476
+Maximum likelihood: -11292.475827154867
+Final D=0.40577429422410205
+lnL0=-11292.438414, lnL1=-11292.235527
+Testing branch 8/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))#1),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11612.945
+Maximum likelihood: -11292.438414084678
+Running H1
+Starting lnL=-11495.984
+Maximum likelihood: -11292.438414105369
+Starting with D=-4.1382008930668235e-08
+Rerunning H1 because of negative LR (D=-4.1382008930668235e-08)
+Starting lnL=-11292.438
+Maximum likelihood: -11292.438414083883
+Final D=1.5897967386990786e-09
+lnL0=-11292.438414, lnL1=-11292.438414
+Testing branch 9/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris#1,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11750.003
+Maximum likelihood: -11292.438414090097
+Running H1
+Starting lnL=-11462.848
+Maximum likelihood: -11292.438414098016
+Starting with D=-1.5839759726077318e-08
+Rerunning H1 because of negative LR (D=-1.5839759726077318e-08)
+Starting lnL=-11292.438
+Maximum likelihood: -11292.438414087774
+Final D=4.6456989366561174e-09
+lnL0=-11292.438414, lnL1=-11292.438414
+Testing branch 10/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus)))))))))#1)),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11637.852
+Maximum likelihood: -11291.848291414442
+Running H1
+Starting lnL=-11446.216
+Maximum likelihood: -11292.064036066906
+Starting with D=-0.4314893049267994
+Rerunning H1 because of negative LR (D=-0.4314893049267994)
+Starting lnL=-11291.848
+Maximum likelihood: -11291.84829127741
+Final D=2.740634954534471e-07
+lnL0=-11291.848291, lnL1=-11291.848291
+Testing branch 11/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles#1,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11552.337
+Maximum likelihood: -11290.917765749447
+Running H1
+Starting lnL=-11558.085
+Maximum likelihood: -11290.917765655113
+Starting with D=1.8866921891458333e-07
+Final D=1.8866921891458333e-07
+lnL0=-11290.917766, lnL1=-11290.917766
+Testing branch 12/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))#1))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11634.936
+Maximum likelihood: -11289.211312032416
+Running H1
+Starting lnL=-11638.035
+Maximum likelihood: -11289.211312136757
+Starting with D=-2.0868174033239484e-07
+Rerunning H1 because of negative LR (D=-2.0868174033239484e-07)
+Starting lnL=-11289.211
+Maximum likelihood: -11289.211311930818
+Final D=2.0319566829130054e-07
+lnL0=-11289.211312, lnL1=-11289.211312
+Testing branch 13/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana)#1,((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11542.548
+Maximum likelihood: -11292.438414101725
+Running H1
+Starting lnL=-11511.621
+Maximum likelihood: -11292.438416069232
+Starting with D=-3.935012500733137e-06
+Rerunning H1 because of negative LR (D=-3.935012500733137e-06)
+Starting lnL=-11292.438
+Maximum likelihood: -11292.438414101725
+Final D=0
+lnL0=-11292.438414, lnL1=-11292.438414
+Testing branch 14/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus)#1,Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11508.224
+Maximum likelihood: -11292.438414103715
+Running H1
+Starting lnL=-11495.947
+Maximum likelihood: -11292.43841545979
+Starting with D=-2.712149580474943e-06
+Rerunning H1 because of negative LR (D=-2.712149580474943e-06)
+Starting lnL=-11292.438
+Maximum likelihood: -11292.438414102584
+Final D=2.2628228180110455e-09
+lnL0=-11292.438414, lnL1=-11292.438414
+Testing branch 15/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni#1,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11711.178
+Maximum likelihood: -11292.33284336363
+Running H1
+Starting lnL=-11597.988
+Maximum likelihood: -11292.438414114635
+Starting with D=-0.211141502008104
+Rerunning H1 because of negative LR (D=-0.211141502008104)
+Starting lnL=-11292.333
+Maximum likelihood: -11292.332843363181
+Final D=8.985807653516531e-10
+lnL0=-11292.332843, lnL1=-11292.332843
+Testing branch 16/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus#1),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11660.919
+Maximum likelihood: -11292.438414225533
+Running H1
+Starting lnL=-11513.894
+Maximum likelihood: -11292.43841422074
+Starting with D=9.586074156686664e-09
+Final D=9.586074156686664e-09
+lnL0=-11292.438414, lnL1=-11292.438414
+Testing branch 17/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana#1),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11608.058
+Maximum likelihood: -11292.15484787929
+Running H1
+Starting lnL=-11458.149
+Maximum likelihood: -11292.424087811272
+Starting with D=-0.5384798639643122
+Rerunning H1 because of negative LR (D=-0.5384798639643122)
+Starting lnL=-11292.155
+Maximum likelihood: -11292.154846781457
+Rerunning H0, trying to reduce LR (D=2.1956657292321324e-06)
+Starting lnL=-11292.155
+Maximum likelihood: -11292.154845969639
+Rerunning H1 because of negative LR (D=-1.6236372175626457e-06)
+Starting lnL=-11292.155
+Maximum likelihood: -11292.154845944298
+Final D=5.068068276159465e-08
+lnL0=-11292.154846, lnL1=-11292.154846
+Testing branch 18/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus)))))))#1)))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11471.641
+Maximum likelihood: -11292.438414156642
+Running H1
+Starting lnL=-11401.154
+Maximum likelihood: -11292.43841414208
+Starting with D=2.9125658329576254e-08
+Final D=2.9125658329576254e-08
+lnL0=-11292.438414, lnL1=-11292.438414
+Testing branch 19/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii))#1,(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11426.557
+Maximum likelihood: -11292.438414267146
+Running H1
+Starting lnL=-12050.705
+Maximum likelihood: -11292.438414084354
+Starting with D=3.655841283034533e-07
+Final D=3.655841283034533e-07
+lnL0=-11292.438414, lnL1=-11292.438414
+Testing branch 20/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii)#1,(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11465.222
+Maximum likelihood: -11292.438414145268
+Running H1
+Starting lnL=-11613.238
+Maximum likelihood: -11292.43841452842
+Starting with D=-7.663038559257984e-07
+Rerunning H1 because of negative LR (D=-7.663038559257984e-07)
+Starting lnL=-11292.438
+Maximum likelihood: -11292.438414144945
+Final D=6.475602276623249e-10
+lnL0=-11292.438414, lnL1=-11292.438414
+Testing branch 21/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta)))#1,Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-14640.944
+Maximum likelihood: -11292.369876613595
+Running H1
+Starting lnL=-11500.677
+Maximum likelihood: -11292.398050417964
+Starting with D=-0.056347608737269184
+Rerunning H1 because of negative LR (D=-0.056347608737269184)
+Starting lnL=-11292.370
+Maximum likelihood: -11292.369876532757
+Final D=1.6167541616596282e-07
+lnL0=-11292.369877, lnL1=-11292.369877
+Testing branch 22/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus#1,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11461.386
+Maximum likelihood: -11290.925680045431
+Running H1
+Starting lnL=-11614.715
+Maximum likelihood: -11290.974538903887
+Starting with D=-0.09771771691157483
+Rerunning H1 because of negative LR (D=-0.09771771691157483)
+Starting lnL=-11290.926
+Maximum likelihood: -11290.909503698613
+Rerunning H0, trying to reduce LR (D=0.03235269363722182)
+Starting lnL=-11290.975
+Maximum likelihood: -11290.975283766678
+Rerunning H0, trying to reduce LR (D=0.03235269363722182)
+Starting lnL=-11290.975
+Maximum likelihood: -11290.975283766678
+Final D=0.03235269363722182
+lnL0=-11290.925680, lnL1=-11290.909504
+Testing branch 23/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))#1),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11660.030
+Maximum likelihood: -11292.284220596848
+Running H1
+Starting lnL=-11586.275
+Maximum likelihood: -11292.384351894616
+Starting with D=-0.20026259553560521
+Rerunning H1 because of negative LR (D=-0.20026259553560521)
+Starting lnL=-11292.284
+Maximum likelihood: -11292.284220596848
+Final D=0
+lnL0=-11292.284221, lnL1=-11292.284221
+Testing branch 24/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii)#1,((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11619.289
+Maximum likelihood: -11292.438414086057
+Running H1
+Starting lnL=-11598.251
+Maximum likelihood: -11292.438417008114
+Starting with D=-5.844114639330655e-06
+Rerunning H1 because of negative LR (D=-5.844114639330655e-06)
+Starting lnL=-11292.438
+Maximum likelihood: -11292.43841408126
+Final D=9.593350114300847e-09
+lnL0=-11292.438414, lnL1=-11292.438414
+Testing branch 25/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes))#1,Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11501.761
+Maximum likelihood: -11292.253150835897
+Running H1
+Starting lnL=-11504.281
+Maximum likelihood: -11292.23436487412
+Starting with D=0.03757192355260486
+Rerunning H0, trying to reduce LR (D=0.03757192355260486)
+Starting lnL=-11292.326
+Maximum likelihood: -11292.32571797888
+Rerunning H0, trying to reduce LR (D=0.03757192355260486)
+Starting lnL=-11292.326
+Maximum likelihood: -11292.32571797888
+Final D=0.03757192355260486
+lnL0=-11292.253151, lnL1=-11292.234365
+Testing branch 26/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens#1,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11558.410
+Maximum likelihood: -11287.596097059162
+Running H1
+Starting lnL=-11486.726
+Maximum likelihood: -11285.39575912784
+Starting with D=4.400675862645585
+Rerunning H0, trying to reduce LR (D=4.400675862645585)
+Starting lnL=-11287.596
+Maximum likelihood: -11287.596135716441
+Rerunning H0, trying to reduce LR (D=4.400675862645585)
+Starting lnL=-11287.596
+Maximum likelihood: -11287.596135716441
+Final D=4.400675862645585
+NEB analysis
+Reference sequence: Condylura_cristata
+pos	codon	aa	p
+1	ATG	M	1.000
+2	CGC	R	1.000
+3	TGG	W	1.000
+4	GCA	A	1.000
+5	AAT	N	1.000
+6	GAG	E	1.000
+7	AGC	S	1.000
+8	GCC	A	1.000
+9	CCG	P	1.000
+10	CGG	R	1.000
+11	GAG	E	1.000
+12	TTC	F	1.000
+13	ATC	I	1.000
+14	CTC	L	1.000
+15	TTG	L	1.000
+16	GGG	G	1.000
+17	TTC	F	1.000
+18	TCA	S	1.000
+19	GAT	D	1.000
+20	CGG	R	1.000
+21	CCC	P	1.000
+22	TGG	W	1.000
+23	CTG	L	1.000
+24	GAG	E	1.000
+25	CTC	L	1.000
+26	CCC	P	1.000
+27	CTC	L	1.000
+28	TTC	F	1.000
+29	GTG	V	1.000
+30	GTG	V	1.000
+31	TTC	F	1.000
+32	CTG	L	1.000
+33	GTC	V	1.000
+34	TCC	S	1.000
+35	TAC	Y	1.000
+36	GTC	V	1.000
+37	TTG	L	1.000
+38	ACC	T	1.000
+39	ATC	I	1.000
+40	GTG	V	1.000
+41	GGC	G	1.000
+42	AAC	N	1.000
+43	CTG	L	1.000
+44	GCG	A	1.000
+45	ATC	I	1.000
+46	ATT	I	1.000
+47	GTT	V	1.000
+48	GTG	V	1.000
+49	TCC	S	1.000
+50	CGC	R	1.000
+51	CTG	L	1.000
+52	GAC	D	1.000
+53	GCC	A	1.000
+54	AAA	K	1.000
+55	CTC	L	1.000
+56	CAC	H	1.000
+57	ACC	T	1.000
+58	CCC	P	1.000
+59	ATG	M	1.000
+60	TAC	Y	1.000
+61	TTC	F	1.000
+62	TTC	F	1.000
+63	CTC	L	1.000
+64	ACC	T	1.000
+65	AAC	N	1.000
+66	CTC	L	1.000
+67	TCG	S	1.000
+68	GTG	V	1.000
+69	CTG	L	1.000
+70	GAC	D	1.000
+71	CTG	L	1.000
+72	TGC	C	1.000
+73	TAC	Y	1.000
+74	ACC	T	1.000
+75	ACC	T	1.000
+76	AGC	S	1.000
+77	ACC	T	1.000
+78	GTC	V	1.000
+79	CCT	P	1.000
+80	CAG	Q	1.000
+81	ATG	M	1.000
+82	CTG	L	1.000
+83	GTG	V	1.000
+84	AAC	N	1.000
+85	ATC	I	1.000
+86	CGC	R	1.000
+87	AGC	S	1.000
+88	AGG	R	1.000
+89	AGG	R	1.000
+90	AAG	K	1.000
+91	GTC	V	1.000
+92	ATC	I	1.000
+93	AGC	S	1.000
+94	TAC	Y	1.000
+95	GGC	G	1.000
+96	GGC	G	1.000
+97	TGC	C	1.000
+98	GTG	V	1.000
+99	GCC	A	1.000
+100	CAG	Q	1.000
+101	CTT	L	1.000
+102	TTC	F	1.000
+103	ATT	I	1.000
+104	TTC	F	1.000
+105	CTG	L	1.000
+106	GCC	A	1.000
+107	TTG	L	1.000
+108	GGC	G	1.000
+109	TCC	S	1.000
+110	ACC	T	1.000
+111	GAG	E	1.000
+112	TGC	C	1.000
+113	CTG	L	1.000
+114	CTC	L	1.000
+115	TTG	L	1.000
+116	GCC	A	1.000
+117	GTC	V	1.000
+118	ATG	M	1.000
+119	TCC	S	1.000
+120	TGG	W	1.000
+121	GAC	D	1.000
+122	AGG	R	1.000
+123	TTC	F	1.000
+124	GTG	V	1.000
+125	GCC	A	1.000
+126	ATC	I	1.000
+127	TGC	C	1.000
+128	CGG	R	1.000
+129	CCT	P	1.000
+130	CTC	L	1.000
+131	CAC	H	1.000
+132	TAC	Y	1.000
+133	TCG	S	1.000
+134	GTC	V	1.000
+135	ATC	I	1.000
+136	ATG	M	1.000
+137	CAC	H	1.000
+138	CAG	Q	1.000
+139	CGC	R	1.000
+140	CGC	R	1.000
+141	TGC	C	1.000
+142	CTC	L	1.000
+143	CAG	Q	1.000
+144	CTT	L	1.000
+145	TCG	S	1.000
+146	GCC	A	1.000
+147	GCC	A	1.000
+148	TCC	S	1.000
+149	TGG	W	1.000
+150	ACG	T	1.000
+151	AGC	S	1.000
+152	GGC	G	1.000
+153	TTC	F	1.000
+154	AGC	S	1.000
+155	AAC	N	1.000
+156	TCG	S	1.000
+157	GTC	V	1.000
+158	CTG	L	1.000
+159	CAG	Q	1.000
+160	TCG	S	1.000
+161	TCG	S	1.000
+162	CTG	L	1.000
+163	ACC	T	1.000
+164	CTC	L	1.000
+165	CGG	R	1.000
+166	ATG	M	1.000
+167	CCC	P	1.000
+168	CTG	L	1.000
+169	TGC	C	1.000
+170	GGC	G	1.000
+171	CAC	H	1.000
+172	CAC	H	1.000
+173	GCG	A	1.000
+174	GTG	V	1.000
+175	GAC	D	1.000
+176	CAC	H	1.000
+177	TTC	F	1.000
+178	TTC	F	1.000
+179	TGC	C	1.000
+180	GAA	E	1.000
+181	GTG	V	1.000
+182	CCC	P	1.000
+183	GCG	A	1.000
+184	CTG	L	1.000
+185	CTC	L	1.000
+186	AAG	K	1.000
+187	CTG	L	1.000
+188	TCC	S	1.000
+189	TGC	C	1.000
+190	GCG	A	1.000
+191	GAC	D	1.000
+192	ACG	T	1.000
+193	ACG	T	1.000
+194	GCC	A	1.000
+195	AAC	N	1.000
+196	GAG	E	1.000
+197	GCC	A	1.000
+198	GAG	E	1.000
+199	CTC	L	1.000
+200	TTC	F	1.000
+201	TTC	F	1.000
+202	ATC	I	1.000
+203	AGC	S	1.000
+204	GTG	V	1.000
+205	CTG	L	1.000
+206	TTC	F	1.000
+207	CTG	L	1.000
+208	CTC	L	1.000
+209	ATC	I	1.000
+210	CCG	P	1.000
+211	CTC	L	1.000
+212	ACG	T	1.000
+213	CTC	L	1.000
+214	ATT	I	1.000
+215	CTC	L	1.000
+216	ATC	I	1.000
+217	TCC	S	1.000
+218	TAC	Y	1.000
+219	GCG	A	1.000
+220	TTC	F	1.000
+221	ATC	I	1.000
+222	GCC	A	1.000
+223	CGC	R	1.000
+224	GCC	A	1.000
+225	GTG	V	1.000
+226	CTG	L	1.000
+227	AGG	R	1.000
+228	ATC	I	1.000
+229	AAG	K	1.000
+230	TCG	S	1.000
+231	GCG	A	1.000
+232	GAA	E	1.000
+233	GGT	G	1.000
+234	CGC	R	1.000
+235	CGG	R	1.000
+236	AAG	K	1.000
+237	GCC	A	1.000
+238	TTG	L	1.000
+239	GGC	G	1.000
+240	ACC	T	1.000
+241	TGC	C	1.000
+242	GGC	G	1.000
+243	TCG	S	1.000
+244	CAC	H	1.000
+245	CTG	L	1.000
+246	GTG	V	1.000
+247	GTG	V	1.000
+248	GTG	V	1.000
+249	TCC	S	1.000
+250	CTG	L	1.000
+251	TTC	F	1.000
+252	TAT	Y	1.000
+253	GGC	G	1.000
+254	ACC	T	1.000
+255	GCC	A	1.000
+256	ATC	I	1.000
+257	TAC	Y	1.000
+258	ATG	M	1.000
+259	TAC	Y	1.000
+260	CTG	L	1.000
+261	CAG	Q	1.000
+262	CCC	P	1.000
+263	CCC	P	1.000
+264	TCC	S	1.000
+265	CCG	P	1.000
+266	GCC	A	1.000
+267	TCC	S	1.000
+268	AAA	K	1.000
+269	GAC	D	1.000
+270	CGG	R	1.000
+271	GGC	G	1.000
+272	AAG	K	1.000
+273	ATG	M	1.000
+274	GTG	V	1.000
+275	TCG	S	1.000
+276	CTC	L	1.000
+277	TTC	F	1.000
+278	TAC	Y	1.000
+279	GGC	G	1.000
+280	ATC	I	1.000
+281	ATC	I	1.000
+282	ACA	T	1.000
+283	CCC	P	1.000
+284	ATG	M	1.000
+285	CTG	L	1.000
+286	AAC	N	1.000
+287	CCG	P	1.000
+288	CTG	L	1.000
+289	ATC	I	1.000
+290	TAC	Y	1.000
+291	ACG	T	1.000
+292	CTG	L	1.000
+293	AGG	R	1.000
+294	AAC	N	1.000
+295	AAG	K	1.000
+296	GAC	D	1.000
+297	GTG	V	1.000
+298	AAG	K	1.000
+299	GCG	A	1.000
+300	GCC	A	1.000
+301	TTC	F	1.000
+302	AAG	K	1.000
+303	AGG	R	1.000
+304	CTG	L	1.000
+305	GTC	V	1.000
+306	ACG	T	1.000
+307	AGG	R	1.000
+308	GTC	V	1.000
+309	TTC	F	1.000
+310	TTG	L	1.000
+311	ATC	I	1.000
+312	AAG	K	1.000
+313	AAA	K	1.000
+BEB analysis
+Reference sequence: Condylura_cristata
+pos	codon	aa	p
+1	ATG	M	0.671
+2	CGC	R	0.671
+3	TGG	W	0.671
+4	GCA	A	0.671
+5	AAT	N	0.671
+6	GAG	E	0.671
+7	AGC	S	0.671
+8	GCC	A	0.671
+9	CCG	P	0.671
+10	CGG	R	0.671
+11	GAG	E	0.671
+12	TTC	F	0.671
+13	ATC	I	0.671
+14	CTC	L	0.671
+15	TTG	L	0.671
+16	GGG	G	0.671
+17	TTC	F	0.671
+18	TCA	S	0.671
+19	GAT	D	0.671
+20	CGG	R	0.671
+21	CCC	P	0.671
+22	TGG	W	0.671
+23	CTG	L	0.671
+24	GAG	E	0.671
+25	CTC	L	0.671
+26	CCC	P	0.671
+27	CTC	L	0.671
+28	TTC	F	0.971
+29	GTG	V	0.671
+30	GTG	V	0.671
+31	TTC	F	0.671
+32	CTG	L	0.671
+33	GTC	V	0.671
+34	TCC	S	0.671
+35	TAC	Y	0.671
+36	GTC	V	0.672
+37	TTG	L	0.671
+38	ACC	T	0.671
+39	ATC	I	0.671
+40	GTG	V	0.671
+41	GGC	G	0.671
+42	AAC	N	0.671
+43	CTG	L	0.671
+44	GCG	A	0.671
+45	ATC	I	0.671
+46	ATT	I	0.671
+47	GTT	V	0.671
+48	GTG	V	0.671
+49	TCC	S	0.671
+50	CGC	R	0.671
+51	CTG	L	0.671
+52	GAC	D	0.671
+53	GCC	A	0.910
+54	AAA	K	0.671
+55	CTC	L	0.671
+56	CAC	H	0.671
+57	ACC	T	0.671
+58	CCC	P	0.671
+59	ATG	M	0.671
+60	TAC	Y	0.671
+61	TTC	F	0.671
+62	TTC	F	0.671
+63	CTC	L	0.671
+64	ACC	T	0.671
+65	AAC	N	0.671
+66	CTC	L	0.671
+67	TCG	S	0.671
+68	GTG	V	0.671
+69	CTG	L	0.671
+70	GAC	D	0.671
+71	CTG	L	0.671
+72	TGC	C	0.671
+73	TAC	Y	0.671
+74	ACC	T	0.671
+75	ACC	T	0.671
+76	AGC	S	0.671
+77	ACC	T	0.671
+78	GTC	V	0.671
+79	CCT	P	0.671
+80	CAG	Q	0.671
+81	ATG	M	0.671
+82	CTG	L	0.671
+83	GTG	V	0.671
+84	AAC	N	0.671
+85	ATC	I	0.671
+86	CGC	R	0.671
+87	AGC	S	0.671
+88	AGG	R	0.671
+89	AGG	R	0.671
+90	AAG	K	0.671
+91	GTC	V	0.671
+92	ATC	I	0.671
+93	AGC	S	0.671
+94	TAC	Y	0.671
+95	GGC	G	0.671
+96	GGC	G	0.671
+97	TGC	C	0.671
+98	GTG	V	0.671
+99	GCC	A	0.671
+100	CAG	Q	0.671
+101	CTT	L	0.671
+102	TTC	F	0.671
+103	ATT	I	0.671
+104	TTC	F	0.671
+105	CTG	L	0.671
+106	GCC	A	0.671
+107	TTG	L	0.671
+108	GGC	G	0.671
+109	TCC	S	0.671
+110	ACC	T	0.671
+111	GAG	E	0.671
+112	TGC	C	0.671
+113	CTG	L	0.671
+114	CTC	L	0.671
+115	TTG	L	0.671
+116	GCC	A	0.671
+117	GTC	V	0.671
+118	ATG	M	0.671
+119	TCC	S	0.671
+120	TGG	W	0.671
+121	GAC	D	0.671
+122	AGG	R	0.671
+123	TTC	F	0.671
+124	GTG	V	0.671
+125	GCC	A	0.671
+126	ATC	I	0.671
+127	TGC	C	0.671
+128	CGG	R	0.671
+129	CCT	P	0.671
+130	CTC	L	0.671
+131	CAC	H	0.671
+132	TAC	Y	0.671
+133	TCG	S	0.671
+134	GTC	V	0.671
+135	ATC	I	0.671
+136	ATG	M	0.671
+137	CAC	H	0.671
+138	CAG	Q	0.671
+139	CGC	R	0.671
+140	CGC	R	0.671
+141	TGC	C	0.671
+142	CTC	L	0.671
+143	CAG	Q	0.671
+144	CTT	L	0.671
+145	TCG	S	0.671
+146	GCC	A	0.671
+147	GCC	A	0.671
+148	TCC	S	0.671
+149	TGG	W	0.671
+150	ACG	T	0.671
+151	AGC	S	0.671
+152	GGC	G	0.671
+153	TTC	F	0.671
+154	AGC	S	0.671
+155	AAC	N	0.671
+156	TCG	S	0.671
+157	GTC	V	0.671
+158	CTG	L	0.671
+159	CAG	Q	0.671
+160	TCG	S	0.671
+161	TCG	S	0.671
+162	CTG	L	0.671
+163	ACC	T	0.671
+164	CTC	L	0.671
+165	CGG	R	0.671
+166	ATG	M	0.671
+167	CCC	P	0.671
+168	CTG	L	0.671
+169	TGC	C	0.671
+170	GGC	G	0.671
+171	CAC	H	0.671
+172	CAC	H	0.671
+173	GCG	A	0.671
+174	GTG	V	0.671
+175	GAC	D	0.671
+176	CAC	H	0.671
+177	TTC	F	0.671
+178	TTC	F	0.671
+179	TGC	C	0.671
+180	GAA	E	0.671
+181	GTG	V	0.671
+182	CCC	P	0.671
+183	GCG	A	0.671
+184	CTG	L	0.671
+185	CTC	L	0.671
+186	AAG	K	0.671
+187	CTG	L	0.671
+188	TCC	S	0.671
+189	TGC	C	0.671
+190	GCG	A	0.671
+191	GAC	D	0.671
+192	ACG	T	0.671
+193	ACG	T	0.671
+194	GCC	A	0.671
+195	AAC	N	0.671
+196	GAG	E	0.671
+197	GCC	A	0.671
+198	GAG	E	0.671
+199	CTC	L	0.671
+200	TTC	F	0.671
+201	TTC	F	0.671
+202	ATC	I	0.671
+203	AGC	S	0.671
+204	GTG	V	0.986
+205	CTG	L	0.671
+206	TTC	F	0.671
+207	CTG	L	0.671
+208	CTC	L	0.671
+209	ATC	I	0.671
+210	CCG	P	0.671
+211	CTC	L	0.671
+212	ACG	T	0.671
+213	CTC	L	0.671
+214	ATT	I	0.671
+215	CTC	L	0.671
+216	ATC	I	0.671
+217	TCC	S	0.671
+218	TAC	Y	0.671
+219	GCG	A	0.671
+220	TTC	F	0.671
+221	ATC	I	0.671
+222	GCC	A	0.671
+223	CGC	R	0.671
+224	GCC	A	0.671
+225	GTG	V	0.671
+226	CTG	L	0.671
+227	AGG	R	0.671
+228	ATC	I	0.671
+229	AAG	K	0.671
+230	TCG	S	0.671
+231	GCG	A	0.671
+232	GAA	E	0.671
+233	GGT	G	0.671
+234	CGC	R	0.671
+235	CGG	R	0.671
+236	AAG	K	0.671
+237	GCC	A	0.671
+238	TTG	L	0.671
+239	GGC	G	0.671
+240	ACC	T	0.671
+241	TGC	C	0.671
+242	GGC	G	0.671
+243	TCG	S	0.671
+244	CAC	H	0.671
+245	CTG	L	0.671
+246	GTG	V	0.671
+247	GTG	V	0.671
+248	GTG	V	0.671
+249	TCC	S	0.671
+250	CTG	L	0.671
+251	TTC	F	0.671
+252	TAT	Y	0.671
+253	GGC	G	0.975
+254	ACC	T	0.671
+255	GCC	A	0.671
+256	ATC	I	0.671
+257	TAC	Y	0.671
+258	ATG	M	0.671
+259	TAC	Y	0.671
+260	CTG	L	0.671
+261	CAG	Q	0.671
+262	CCC	P	0.671
+263	CCC	P	0.671
+264	TCC	S	0.671
+265	CCG	P	0.671
+266	GCC	A	0.671
+267	TCC	S	0.671
+268	AAA	K	0.671
+269	GAC	D	0.671
+270	CGG	R	0.705
+271	GGC	G	0.671
+272	AAG	K	0.671
+273	ATG	M	0.671
+274	GTG	V	0.671
+275	TCG	S	0.671
+276	CTC	L	0.671
+277	TTC	F	0.671
+278	TAC	Y	0.671
+279	GGC	G	0.671
+280	ATC	I	0.671
+281	ATC	I	0.671
+282	ACA	T	0.671
+283	CCC	P	0.671
+284	ATG	M	0.671
+285	CTG	L	0.671
+286	AAC	N	0.671
+287	CCG	P	0.671
+288	CTG	L	0.671
+289	ATC	I	0.671
+290	TAC	Y	0.671
+291	ACG	T	0.671
+292	CTG	L	0.671
+293	AGG	R	0.671
+294	AAC	N	0.671
+295	AAG	K	0.671
+296	GAC	D	0.671
+297	GTG	V	0.671
+298	AAG	K	0.671
+299	GCG	A	0.671
+300	GCC	A	0.986
+301	TTC	F	0.671
+302	AAG	K	0.671
+303	AGG	R	0.671
+304	CTG	L	0.671
+305	GTC	V	0.671
+306	ACG	T	0.671
+307	AGG	R	0.671
+308	GTC	V	0.671
+309	TTC	F	0.671
+310	TTG	L	0.671
+311	ATC	I	0.671
+312	AAG	K	0.671
+313	AAA	K	0.671
+lnL0=-11287.596097, lnL1=-11285.395759
+Testing branch 27/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)#1),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11422.455
+Maximum likelihood: -11290.378720103912
+Running H1
+Starting lnL=-11571.110
+Maximum likelihood: -11290.448660793678
+Starting with D=-0.13988137953128899
+Rerunning H1 because of negative LR (D=-0.13988137953128899)
+Starting lnL=-11290.379
+Maximum likelihood: -11290.365840595698
+Rerunning H0, trying to reduce LR (D=0.025759016429219628)
+Starting lnL=-11290.379
+Maximum likelihood: -11290.378736659337
+Rerunning H0, trying to reduce LR (D=0.025759016429219628)
+Starting lnL=-11290.379
+Maximum likelihood: -11290.378736659337
+Final D=0.025759016429219628
+lnL0=-11290.378720, lnL1=-11290.365841
+Testing branch 28/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus#1,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11512.323
+Maximum likelihood: -11292.438415006243
+Running H1
+Starting lnL=-11490.359
+Maximum likelihood: -11292.438414147638
+Starting with D=1.7172096704598516e-06
+Rerunning H0, trying to reduce LR (D=1.7172096704598516e-06)
+Starting lnL=-11292.438
+Maximum likelihood: -11292.43841414616
+Rerunning H1 because of negative LR (D=-2.9576767701655626e-09)
+Starting lnL=-11292.438
+Maximum likelihood: -11292.438414144615
+Final D=3.0886440072208643e-09
+lnL0=-11292.438414, lnL1=-11292.438414
+Testing branch 29/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes#1)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-13686.398
+Maximum likelihood: -11292.438414684455
+Running H1
+Starting lnL=-11465.337
+Maximum likelihood: -11292.4384168836
+Starting with D=-4.398290911922231e-06
+Rerunning H1 because of negative LR (D=-4.398290911922231e-06)
+Starting lnL=-11292.438
+Maximum likelihood: -11292.438414583889
+Final D=2.0113293430767953e-07
+lnL0=-11292.438415, lnL1=-11292.438415
+Testing branch 30/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii#1),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11561.349
+Maximum likelihood: -11290.526947188822
+Running H1
+Starting lnL=-11544.638
+Maximum likelihood: -11290.52460164595
+Starting with D=0.004691085745434975
+Rerunning H0, trying to reduce LR (D=0.004691085745434975)
+Starting lnL=-11291.110
+Maximum likelihood: -11291.109851726895
+Rerunning H0, trying to reduce LR (D=0.004691085745434975)
+Starting lnL=-11291.110
+Maximum likelihood: -11291.109851726895
+Final D=0.004691085745434975
+lnL0=-11290.526947, lnL1=-11290.524602
+Testing branch 31/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta)#1)),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11457.683
+Maximum likelihood: -11288.62529526082
+Running H1
+Starting lnL=-11606.310
+Maximum likelihood: -11288.618645038187
+Starting with D=0.013300445265485905
+Rerunning H0, trying to reduce LR (D=0.013300445265485905)
+Starting lnL=-11288.640
+Maximum likelihood: -11288.640348314597
+Rerunning H0, trying to reduce LR (D=0.013300445265485905)
+Starting lnL=-11288.640
+Maximum likelihood: -11288.640348314597
+Final D=0.013300445265485905
+lnL0=-11288.625295, lnL1=-11288.618645
+Testing branch 32/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina)#1,Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11557.243
+Maximum likelihood: -11292.43841405304
+Running H1
+Starting lnL=-11677.397
+Maximum likelihood: -11292.438414014336
+Starting with D=7.740891305729747e-08
+Final D=7.740891305729747e-08
+lnL0=-11292.438414, lnL1=-11292.438414
+Testing branch 33/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis#1,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11621.946
+Maximum likelihood: -11292.43841421588
+Running H1
+Starting lnL=-11513.852
+Maximum likelihood: -11292.438414119097
+Starting with D=1.9356593838892877e-07
+Final D=1.9356593838892877e-07
+lnL0=-11292.438414, lnL1=-11292.438414
+Testing branch 34/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina#1),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11622.472
+Maximum likelihood: -11292.327780304355
+Running H1
+Starting lnL=-11823.292
+Maximum likelihood: -11292.211810311368
+Starting with D=0.23193998597344034
+Rerunning H0, trying to reduce LR (D=0.23193998597344034)
+Starting lnL=-11292.349
+Maximum likelihood: -11292.349023281504
+Rerunning H0, trying to reduce LR (D=0.23193998597344034)
+Starting lnL=-11292.349
+Maximum likelihood: -11292.349023281504
+Final D=0.23193998597344034
+lnL0=-11292.327780, lnL1=-11292.211810
+Testing branch 35/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta#1))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11789.850
+Maximum likelihood: -11286.989415355358
+Running H1
+Starting lnL=-11526.390
+Maximum likelihood: -11285.492696232315
+Starting with D=2.993438246085134
+Rerunning H0, trying to reduce LR (D=2.993438246085134)
+Starting lnL=-11286.989
+Maximum likelihood: -11286.989463987406
+Rerunning H0, trying to reduce LR (D=2.993438246085134)
+Starting lnL=-11286.989
+Maximum likelihood: -11286.989463987406
+Final D=2.993438246085134
+NEB analysis
+Reference sequence: Condylura_cristata
+pos	codon	aa	p
+1	ATG	M	1.000
+2	CGC	R	1.000
+3	TGG	W	1.000
+4	GCA	A	1.000
+5	AAT	N	1.000
+6	GAG	E	1.000
+7	AGC	S	1.000
+8	GCC	A	1.000
+9	CCG	P	1.000
+10	CGG	R	1.000
+11	GAG	E	1.000
+12	TTC	F	1.000
+13	ATC	I	1.000
+14	CTC	L	1.000
+15	TTG	L	1.000
+16	GGG	G	1.000
+17	TTC	F	1.000
+18	TCA	S	1.000
+19	GAT	D	1.000
+20	CGG	R	1.000
+21	CCC	P	1.000
+22	TGG	W	1.000
+23	CTG	L	1.000
+24	GAG	E	1.000
+25	CTC	L	1.000
+26	CCC	P	1.000
+27	CTC	L	1.000
+28	TTC	F	1.000
+29	GTG	V	1.000
+30	GTG	V	1.000
+31	TTC	F	1.000
+32	CTG	L	1.000
+33	GTC	V	1.000
+34	TCC	S	1.000
+35	TAC	Y	1.000
+36	GTC	V	1.000
+37	TTG	L	1.000
+38	ACC	T	1.000
+39	ATC	I	1.000
+40	GTG	V	1.000
+41	GGC	G	1.000
+42	AAC	N	1.000
+43	CTG	L	1.000
+44	GCG	A	1.000
+45	ATC	I	1.000
+46	ATT	I	1.000
+47	GTT	V	1.000
+48	GTG	V	1.000
+49	TCC	S	1.000
+50	CGC	R	1.000
+51	CTG	L	1.000
+52	GAC	D	1.000
+53	GCC	A	1.000
+54	AAA	K	1.000
+55	CTC	L	1.000
+56	CAC	H	1.000
+57	ACC	T	1.000
+58	CCC	P	1.000
+59	ATG	M	1.000
+60	TAC	Y	1.000
+61	TTC	F	1.000
+62	TTC	F	1.000
+63	CTC	L	1.000
+64	ACC	T	1.000
+65	AAC	N	1.000
+66	CTC	L	1.000
+67	TCG	S	1.000
+68	GTG	V	1.000
+69	CTG	L	1.000
+70	GAC	D	1.000
+71	CTG	L	1.000
+72	TGC	C	1.000
+73	TAC	Y	1.000
+74	ACC	T	1.000
+75	ACC	T	1.000
+76	AGC	S	1.000
+77	ACC	T	1.000
+78	GTC	V	1.000
+79	CCT	P	1.000
+80	CAG	Q	1.000
+81	ATG	M	1.000
+82	CTG	L	1.000
+83	GTG	V	1.000
+84	AAC	N	1.000
+85	ATC	I	1.000
+86	CGC	R	1.000
+87	AGC	S	1.000
+88	AGG	R	1.000
+89	AGG	R	1.000
+90	AAG	K	1.000
+91	GTC	V	1.000
+92	ATC	I	1.000
+93	AGC	S	1.000
+94	TAC	Y	1.000
+95	GGC	G	1.000
+96	GGC	G	1.000
+97	TGC	C	1.000
+98	GTG	V	1.000
+99	GCC	A	1.000
+100	CAG	Q	1.000
+101	CTT	L	1.000
+102	TTC	F	1.000
+103	ATT	I	1.000
+104	TTC	F	1.000
+105	CTG	L	1.000
+106	GCC	A	1.000
+107	TTG	L	1.000
+108	GGC	G	1.000
+109	TCC	S	1.000
+110	ACC	T	1.000
+111	GAG	E	1.000
+112	TGC	C	1.000
+113	CTG	L	1.000
+114	CTC	L	1.000
+115	TTG	L	1.000
+116	GCC	A	1.000
+117	GTC	V	1.000
+118	ATG	M	1.000
+119	TCC	S	1.000
+120	TGG	W	1.000
+121	GAC	D	1.000
+122	AGG	R	1.000
+123	TTC	F	1.000
+124	GTG	V	1.000
+125	GCC	A	1.000
+126	ATC	I	1.000
+127	TGC	C	1.000
+128	CGG	R	1.000
+129	CCT	P	1.000
+130	CTC	L	1.000
+131	CAC	H	1.000
+132	TAC	Y	1.000
+133	TCG	S	1.000
+134	GTC	V	1.000
+135	ATC	I	1.000
+136	ATG	M	1.000
+137	CAC	H	1.000
+138	CAG	Q	1.000
+139	CGC	R	1.000
+140	CGC	R	1.000
+141	TGC	C	1.000
+142	CTC	L	1.000
+143	CAG	Q	1.000
+144	CTT	L	1.000
+145	TCG	S	1.000
+146	GCC	A	1.000
+147	GCC	A	1.000
+148	TCC	S	1.000
+149	TGG	W	1.000
+150	ACG	T	1.000
+151	AGC	S	1.000
+152	GGC	G	1.000
+153	TTC	F	1.000
+154	AGC	S	1.000
+155	AAC	N	1.000
+156	TCG	S	1.000
+157	GTC	V	1.000
+158	CTG	L	1.000
+159	CAG	Q	1.000
+160	TCG	S	1.000
+161	TCG	S	1.000
+162	CTG	L	1.000
+163	ACC	T	1.000
+164	CTC	L	1.000
+165	CGG	R	1.000
+166	ATG	M	1.000
+167	CCC	P	1.000
+168	CTG	L	1.000
+169	TGC	C	1.000
+170	GGC	G	1.000
+171	CAC	H	1.000
+172	CAC	H	1.000
+173	GCG	A	1.000
+174	GTG	V	1.000
+175	GAC	D	1.000
+176	CAC	H	1.000
+177	TTC	F	1.000
+178	TTC	F	1.000
+179	TGC	C	1.000
+180	GAA	E	1.000
+181	GTG	V	1.000
+182	CCC	P	1.000
+183	GCG	A	1.000
+184	CTG	L	1.000
+185	CTC	L	1.000
+186	AAG	K	1.000
+187	CTG	L	1.000
+188	TCC	S	1.000
+189	TGC	C	1.000
+190	GCG	A	1.000
+191	GAC	D	1.000
+192	ACG	T	1.000
+193	ACG	T	1.000
+194	GCC	A	1.000
+195	AAC	N	1.000
+196	GAG	E	1.000
+197	GCC	A	1.000
+198	GAG	E	1.000
+199	CTC	L	1.000
+200	TTC	F	1.000
+201	TTC	F	1.000
+202	ATC	I	1.000
+203	AGC	S	1.000
+204	GTG	V	1.000
+205	CTG	L	1.000
+206	TTC	F	1.000
+207	CTG	L	1.000
+208	CTC	L	1.000
+209	ATC	I	1.000
+210	CCG	P	1.000
+211	CTC	L	1.000
+212	ACG	T	1.000
+213	CTC	L	1.000
+214	ATT	I	1.000
+215	CTC	L	1.000
+216	ATC	I	1.000
+217	TCC	S	1.000
+218	TAC	Y	1.000
+219	GCG	A	1.000
+220	TTC	F	1.000
+221	ATC	I	1.000
+222	GCC	A	1.000
+223	CGC	R	1.000
+224	GCC	A	1.000
+225	GTG	V	1.000
+226	CTG	L	1.000
+227	AGG	R	1.000
+228	ATC	I	1.000
+229	AAG	K	1.000
+230	TCG	S	1.000
+231	GCG	A	1.000
+232	GAA	E	1.000
+233	GGT	G	1.000
+234	CGC	R	1.000
+235	CGG	R	1.000
+236	AAG	K	1.000
+237	GCC	A	1.000
+238	TTG	L	1.000
+239	GGC	G	1.000
+240	ACC	T	1.000
+241	TGC	C	1.000
+242	GGC	G	1.000
+243	TCG	S	1.000
+244	CAC	H	1.000
+245	CTG	L	1.000
+246	GTG	V	1.000
+247	GTG	V	1.000
+248	GTG	V	1.000
+249	TCC	S	1.000
+250	CTG	L	1.000
+251	TTC	F	1.000
+252	TAT	Y	1.000
+253	GGC	G	1.000
+254	ACC	T	1.000
+255	GCC	A	1.000
+256	ATC	I	1.000
+257	TAC	Y	1.000
+258	ATG	M	1.000
+259	TAC	Y	1.000
+260	CTG	L	1.000
+261	CAG	Q	1.000
+262	CCC	P	1.000
+263	CCC	P	1.000
+264	TCC	S	1.000
+265	CCG	P	1.000
+266	GCC	A	1.000
+267	TCC	S	1.000
+268	AAA	K	1.000
+269	GAC	D	1.000
+270	CGG	R	1.000
+271	GGC	G	1.000
+272	AAG	K	1.000
+273	ATG	M	1.000
+274	GTG	V	1.000
+275	TCG	S	1.000
+276	CTC	L	1.000
+277	TTC	F	1.000
+278	TAC	Y	1.000
+279	GGC	G	1.000
+280	ATC	I	1.000
+281	ATC	I	1.000
+282	ACA	T	1.000
+283	CCC	P	1.000
+284	ATG	M	1.000
+285	CTG	L	1.000
+286	AAC	N	1.000
+287	CCG	P	1.000
+288	CTG	L	1.000
+289	ATC	I	1.000
+290	TAC	Y	1.000
+291	ACG	T	1.000
+292	CTG	L	1.000
+293	AGG	R	1.000
+294	AAC	N	1.000
+295	AAG	K	1.000
+296	GAC	D	1.000
+297	GTG	V	1.000
+298	AAG	K	1.000
+299	GCG	A	1.000
+300	GCC	A	1.000
+301	TTC	F	1.000
+302	AAG	K	1.000
+303	AGG	R	1.000
+304	CTG	L	1.000
+305	GTC	V	1.000
+306	ACG	T	1.000
+307	AGG	R	1.000
+308	GTC	V	1.000
+309	TTC	F	1.000
+310	TTG	L	1.000
+311	ATC	I	1.000
+312	AAG	K	1.000
+313	AAA	K	1.000
+BEB analysis
+Reference sequence: Condylura_cristata
+pos	codon	aa	p
+1	ATG	M	0.659
+2	CGC	R	0.659
+3	TGG	W	0.659
+4	GCA	A	0.659
+5	AAT	N	0.659
+6	GAG	E	0.659
+7	AGC	S	0.659
+8	GCC	A	0.659
+9	CCG	P	0.659
+10	CGG	R	0.659
+11	GAG	E	0.659
+12	TTC	F	0.659
+13	ATC	I	0.659
+14	CTC	L	0.659
+15	TTG	L	0.659
+16	GGG	G	0.659
+17	TTC	F	0.659
+18	TCA	S	0.659
+19	GAT	D	0.659
+20	CGG	R	0.659
+21	CCC	P	0.659
+22	TGG	W	0.659
+23	CTG	L	0.659
+24	GAG	E	0.659
+25	CTC	L	0.659
+26	CCC	P	0.659
+27	CTC	L	0.659
+28	TTC	F	0.659
+29	GTG	V	0.659
+30	GTG	V	0.659
+31	TTC	F	0.659
+32	CTG	L	0.659
+33	GTC	V	0.659
+34	TCC	S	0.659
+35	TAC	Y	0.659
+36	GTC	V	0.659
+37	TTG	L	0.659
+38	ACC	T	0.659
+39	ATC	I	0.659
+40	GTG	V	0.659
+41	GGC	G	0.659
+42	AAC	N	0.659
+43	CTG	L	0.659
+44	GCG	A	0.659
+45	ATC	I	0.659
+46	ATT	I	0.659
+47	GTT	V	0.659
+48	GTG	V	0.659
+49	TCC	S	0.659
+50	CGC	R	0.659
+51	CTG	L	0.659
+52	GAC	D	0.659
+53	GCC	A	0.659
+54	AAA	K	0.659
+55	CTC	L	0.659
+56	CAC	H	0.659
+57	ACC	T	0.659
+58	CCC	P	0.659
+59	ATG	M	0.990
+60	TAC	Y	0.659
+61	TTC	F	0.659
+62	TTC	F	0.659
+63	CTC	L	0.659
+64	ACC	T	0.659
+65	AAC	N	0.659
+66	CTC	L	0.659
+67	TCG	S	0.659
+68	GTG	V	0.659
+69	CTG	L	0.659
+70	GAC	D	0.659
+71	CTG	L	0.659
+72	TGC	C	0.659
+73	TAC	Y	0.659
+74	ACC	T	0.659
+75	ACC	T	0.659
+76	AGC	S	0.659
+77	ACC	T	0.659
+78	GTC	V	0.659
+79	CCT	P	0.659
+80	CAG	Q	0.659
+81	ATG	M	0.659
+82	CTG	L	0.659
+83	GTG	V	0.659
+84	AAC	N	0.659
+85	ATC	I	0.659
+86	CGC	R	0.659
+87	AGC	S	0.659
+88	AGG	R	0.659
+89	AGG	R	0.659
+90	AAG	K	0.659
+91	GTC	V	0.659
+92	ATC	I	0.659
+93	AGC	S	0.659
+94	TAC	Y	0.659
+95	GGC	G	0.659
+96	GGC	G	0.659
+97	TGC	C	0.659
+98	GTG	V	0.659
+99	GCC	A	0.659
+100	CAG	Q	0.659
+101	CTT	L	0.659
+102	TTC	F	0.659
+103	ATT	I	0.659
+104	TTC	F	0.659
+105	CTG	L	0.659
+106	GCC	A	0.659
+107	TTG	L	0.659
+108	GGC	G	0.659
+109	TCC	S	0.659
+110	ACC	T	0.659
+111	GAG	E	0.659
+112	TGC	C	0.659
+113	CTG	L	0.659
+114	CTC	L	0.659
+115	TTG	L	0.659
+116	GCC	A	0.659
+117	GTC	V	0.659
+118	ATG	M	0.659
+119	TCC	S	0.659
+120	TGG	W	0.659
+121	GAC	D	0.659
+122	AGG	R	0.659
+123	TTC	F	0.659
+124	GTG	V	0.659
+125	GCC	A	0.659
+126	ATC	I	0.659
+127	TGC	C	0.659
+128	CGG	R	0.659
+129	CCT	P	0.659
+130	CTC	L	0.659
+131	CAC	H	0.659
+132	TAC	Y	0.659
+133	TCG	S	0.659
+134	GTC	V	0.659
+135	ATC	I	0.659
+136	ATG	M	0.659
+137	CAC	H	0.659
+138	CAG	Q	0.659
+139	CGC	R	0.659
+140	CGC	R	0.659
+141	TGC	C	0.659
+142	CTC	L	0.659
+143	CAG	Q	0.659
+144	CTT	L	0.659
+145	TCG	S	0.659
+146	GCC	A	0.659
+147	GCC	A	0.659
+148	TCC	S	0.659
+149	TGG	W	0.659
+150	ACG	T	0.659
+151	AGC	S	0.659
+152	GGC	G	0.659
+153	TTC	F	0.659
+154	AGC	S	0.659
+155	AAC	N	0.659
+156	TCG	S	0.659
+157	GTC	V	0.659
+158	CTG	L	0.659
+159	CAG	Q	0.659
+160	TCG	S	0.659
+161	TCG	S	0.659
+162	CTG	L	0.659
+163	ACC	T	0.659
+164	CTC	L	0.659
+165	CGG	R	0.659
+166	ATG	M	0.659
+167	CCC	P	0.659
+168	CTG	L	0.659
+169	TGC	C	0.659
+170	GGC	G	0.659
+171	CAC	H	0.659
+172	CAC	H	0.659
+173	GCG	A	0.659
+174	GTG	V	0.659
+175	GAC	D	0.659
+176	CAC	H	0.659
+177	TTC	F	0.659
+178	TTC	F	0.659
+179	TGC	C	0.659
+180	GAA	E	0.659
+181	GTG	V	0.990
+182	CCC	P	0.659
+183	GCG	A	0.659
+184	CTG	L	0.989
+185	CTC	L	0.659
+186	AAG	K	0.659
+187	CTG	L	0.659
+188	TCC	S	0.659
+189	TGC	C	0.659
+190	GCG	A	0.659
+191	GAC	D	0.659
+192	ACG	T	0.659
+193	ACG	T	0.659
+194	GCC	A	0.659
+195	AAC	N	0.659
+196	GAG	E	0.659
+197	GCC	A	0.659
+198	GAG	E	0.659
+199	CTC	L	0.659
+200	TTC	F	0.659
+201	TTC	F	0.659
+202	ATC	I	0.659
+203	AGC	S	0.659
+204	GTG	V	0.659
+205	CTG	L	0.659
+206	TTC	F	0.659
+207	CTG	L	0.659
+208	CTC	L	0.659
+209	ATC	I	0.659
+210	CCG	P	0.659
+211	CTC	L	0.659
+212	ACG	T	0.659
+213	CTC	L	0.659
+214	ATT	I	0.659
+215	CTC	L	0.659
+216	ATC	I	0.659
+217	TCC	S	0.659
+218	TAC	Y	0.659
+219	GCG	A	0.659
+220	TTC	F	0.659
+221	ATC	I	0.659
+222	GCC	A	0.659
+223	CGC	R	0.659
+224	GCC	A	0.659
+225	GTG	V	0.659
+226	CTG	L	0.659
+227	AGG	R	0.659
+228	ATC	I	0.659
+229	AAG	K	0.659
+230	TCG	S	0.659
+231	GCG	A	0.659
+232	GAA	E	0.659
+233	GGT	G	0.659
+234	CGC	R	0.659
+235	CGG	R	0.659
+236	AAG	K	0.659
+237	GCC	A	0.659
+238	TTG	L	0.659
+239	GGC	G	0.659
+240	ACC	T	0.659
+241	TGC	C	0.659
+242	GGC	G	0.659
+243	TCG	S	0.659
+244	CAC	H	0.659
+245	CTG	L	0.659
+246	GTG	V	0.659
+247	GTG	V	0.659
+248	GTG	V	0.659
+249	TCC	S	0.659
+250	CTG	L	0.659
+251	TTC	F	0.659
+252	TAT	Y	0.659
+253	GGC	G	0.659
+254	ACC	T	0.659
+255	GCC	A	0.659
+256	ATC	I	0.659
+257	TAC	Y	0.659
+258	ATG	M	0.659
+259	TAC	Y	0.659
+260	CTG	L	0.659
+261	CAG	Q	0.659
+262	CCC	P	0.659
+263	CCC	P	0.659
+264	TCC	S	0.659
+265	CCG	P	0.659
+266	GCC	A	0.659
+267	TCC	S	0.659
+268	AAA	K	0.659
+269	GAC	D	0.659
+270	CGG	R	0.659
+271	GGC	G	0.659
+272	AAG	K	0.659
+273	ATG	M	0.659
+274	GTG	V	0.659
+275	TCG	S	0.659
+276	CTC	L	0.659
+277	TTC	F	0.659
+278	TAC	Y	0.659
+279	GGC	G	0.659
+280	ATC	I	0.659
+281	ATC	I	0.659
+282	ACA	T	0.659
+283	CCC	P	0.659
+284	ATG	M	0.659
+285	CTG	L	0.659
+286	AAC	N	0.659
+287	CCG	P	0.659
+288	CTG	L	0.659
+289	ATC	I	0.990
+290	TAC	Y	0.659
+291	ACG	T	0.659
+292	CTG	L	0.659
+293	AGG	R	0.659
+294	AAC	N	0.659
+295	AAG	K	0.659
+296	GAC	D	0.659
+297	GTG	V	0.659
+298	AAG	K	0.659
+299	GCG	A	0.659
+300	GCC	A	0.659
+301	TTC	F	0.659
+302	AAG	K	0.659
+303	AGG	R	0.659
+304	CTG	L	0.659
+305	GTC	V	0.659
+306	ACG	T	0.659
+307	AGG	R	0.659
+308	GTC	V	0.659
+309	TTC	F	0.659
+310	TTG	L	0.659
+311	ATC	I	0.659
+312	AAG	K	0.659
+313	AAA	K	0.659
+lnL0=-11286.989415, lnL1=-11285.492696
+Testing branch 36/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii#1),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11551.701
+Maximum likelihood: -11290.945658121303
+Running H1
+Starting lnL=-11520.367
+Maximum likelihood: -11290.945658327582
+Starting with D=-4.125577106606215e-07
+Rerunning H1 because of negative LR (D=-4.125577106606215e-07)
+Starting lnL=-11290.946
+Maximum likelihood: -11290.945658120914
+Final D=7.785274647176266e-10
+lnL0=-11290.945658, lnL1=-11290.945658
+Testing branch 37/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)#1),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11379.446
+Maximum likelihood: -11292.438414207929
+Running H1
+Starting lnL=-11648.459
+Maximum likelihood: -11292.438414097365
+Starting with D=2.211272658314556e-07
+Final D=2.211272658314556e-07
+lnL0=-11292.438414, lnL1=-11292.438414
+Testing branch 38/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili))#1,Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11559.414
+Maximum likelihood: -11292.438414339269
+Running H1
+Starting lnL=-11619.819
+Maximum likelihood: -11292.438414195867
+Starting with D=2.868036972358823e-07
+Final D=2.868036972358823e-07
+lnL0=-11292.438414, lnL1=-11292.438414
+Testing branch 39/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus)#1,(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11546.149
+Maximum likelihood: -11292.438414081018
+Running H1
+Starting lnL=-11608.995
+Maximum likelihood: -11352.197837947493
+Starting with D=-119.51884773295023
+Rerunning H1 because of negative LR (D=-119.51884773295023)
+Starting lnL=-11292.438
+Maximum likelihood: -11292.43841407962
+Final D=2.7976057026535273e-09
+lnL0=-11292.438414, lnL1=-11292.438414
+Testing branch 40/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera#1,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11807.264
+Maximum likelihood: -11292.434242719151
+Running H1
+Starting lnL=-11669.925
+Maximum likelihood: -11292.324633497861
+Starting with D=0.21921844258031342
+Rerunning H0, trying to reduce LR (D=0.21921844258031342)
+Starting lnL=-11292.436
+Maximum likelihood: -11292.435910945278
+Rerunning H0, trying to reduce LR (D=0.21921844258031342)
+Starting lnL=-11292.436
+Maximum likelihood: -11292.435910945278
+Final D=0.21921844258031342
+lnL0=-11292.434243, lnL1=-11292.324633
+Testing branch 41/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus#1),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11830.347
+Maximum likelihood: -11292.43816767513
+Running H1
+Starting lnL=-11633.583
+Maximum likelihood: -11292.28089098131
+Starting with D=0.31455338764135377
+Rerunning H0, trying to reduce LR (D=0.31455338764135377)
+Starting lnL=-11292.464
+Maximum likelihood: -11292.46371887798
+Rerunning H0, trying to reduce LR (D=0.31455338764135377)
+Starting lnL=-11292.464
+Maximum likelihood: -11292.46371887798
+Final D=0.31455338764135377
+lnL0=-11292.438168, lnL1=-11292.280891
+Testing branch 42/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)#1),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11545.854
+Maximum likelihood: -11292.401054418444
+Running H1
+Starting lnL=-11441.713
+Maximum likelihood: -11292.4210396545
+Starting with D=-0.03997047211305471
+Rerunning H1 because of negative LR (D=-0.03997047211305471)
+Starting lnL=-11292.401
+Maximum likelihood: -11292.401054320686
+Final D=1.9551589502952993e-07
+lnL0=-11292.401054, lnL1=-11292.401054
+Testing branch 43/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari))#1,Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11515.741
+Maximum likelihood: -11292.271324820567
+Running H1
+Starting lnL=-11480.468
+Maximum likelihood: -11292.388163893173
+Starting with D=-0.23367814521043329
+Rerunning H1 because of negative LR (D=-0.23367814521043329)
+Starting lnL=-11292.271
+Maximum likelihood: -11292.27132481995
+Final D=1.2332748156040907e-09
+lnL0=-11292.271325, lnL1=-11292.271325
+Testing branch 44/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus))#1,(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11609.398
+Maximum likelihood: -11292.438414079526
+Running H1
+Starting lnL=-11729.167
+Maximum likelihood: -11292.43841412755
+Starting with D=-9.604627848602831e-08
+Rerunning H1 because of negative LR (D=-9.604627848602831e-08)
+Starting lnL=-11292.438
+Maximum likelihood: -11292.43841407814
+Final D=2.7721398510038853e-09
+lnL0=-11292.438414, lnL1=-11292.438414
+Testing branch 45/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus#1,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-12017.075
+Maximum likelihood: -11290.167937957596
+Running H1
+Starting lnL=-11537.787
+Maximum likelihood: -11290.167943893135
+Starting with D=-1.1871077731484547e-05
+Rerunning H1 because of negative LR (D=-1.1871077731484547e-05)
+Starting lnL=-11290.168
+Maximum likelihood: -11290.167937957596
+Final D=0
+lnL0=-11290.167938, lnL1=-11290.167938
+Testing branch 46/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)#1),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11392.171
+Maximum likelihood: -11292.43841409816
+Running H1
+Starting lnL=-13596.389
+Maximum likelihood: -11292.4384145233
+Starting with D=-8.502793207298964e-07
+Rerunning H1 because of negative LR (D=-8.502793207298964e-07)
+Starting lnL=-11292.438
+Maximum likelihood: -11292.438414093514
+Final D=9.291397873312235e-09
+lnL0=-11292.438414, lnL1=-11292.438414
+Testing branch 47/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster#1,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11579.127
+Maximum likelihood: -11292.315560787933
+Running H1
+Starting lnL=-11499.553
+Maximum likelihood: -11292.438414140286
+Starting with D=-0.24570670470711775
+Rerunning H1 because of negative LR (D=-0.24570670470711775)
+Starting lnL=-11292.316
+Maximum likelihood: -11292.315560787933
+Final D=0
+lnL0=-11292.315561, lnL1=-11292.315561
+Testing branch 48/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus#1)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11595.763
+Maximum likelihood: -11292.438414090515
+Running H1
+Starting lnL=-11530.823
+Maximum likelihood: -11292.438414124897
+Starting with D=-6.876507541164756e-08
+Rerunning H1 because of negative LR (D=-6.876507541164756e-08)
+Starting lnL=-11292.438
+Maximum likelihood: -11292.438414088067
+Final D=4.896719474345446e-09
+lnL0=-11292.438414, lnL1=-11292.438414
+Testing branch 49/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)#1),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11449.519
+Maximum likelihood: -11291.999087468828
+Running H1
+Starting lnL=-11916.197
+Maximum likelihood: -11291.572443696652
+Starting with D=0.8532875443524972
+Rerunning H0, trying to reduce LR (D=0.8532875443524972)
+Starting lnL=-11292.151
+Maximum likelihood: -11292.151477109037
+Rerunning H0, trying to reduce LR (D=0.8532875443524972)
+Starting lnL=-11292.151
+Maximum likelihood: -11292.151477109037
+Final D=0.8532875443524972
+lnL0=-11291.999087, lnL1=-11291.572444
+Testing branch 50/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus)#1,Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11525.282
+Maximum likelihood: -11292.43842010842
+Running H1
+Starting lnL=-11458.697
+Maximum likelihood: -11292.438414082964
+Starting with D=1.2050910299876705e-05
+Rerunning H0, trying to reduce LR (D=1.2050910299876705e-05)
+Starting lnL=-11292.438
+Maximum likelihood: -11292.438414082728
+Rerunning H1 because of negative LR (D=-4.729372449219227e-10)
+Starting lnL=-11292.438
+Maximum likelihood: -11292.438414082011
+Final D=1.433363649994135e-09
+lnL0=-11292.438414, lnL1=-11292.438414
+Testing branch 51/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus)#1,Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11461.857
+Maximum likelihood: -11292.438414204042
+Running H1
+Starting lnL=-11576.637
+Maximum likelihood: -11292.438414165592
+Starting with D=7.689959602430463e-08
+Final D=7.689959602430463e-08
+lnL0=-11292.438414, lnL1=-11292.438414
+Testing branch 52/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli#1,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11520.537
+Maximum likelihood: -11289.417484436884
+Running H1
+Starting lnL=-11660.446
+Maximum likelihood: -11289.784053087766
+Starting with D=-0.7331373017623264
+Rerunning H1 because of negative LR (D=-0.7331373017623264)
+Starting lnL=-11289.417
+Maximum likelihood: -11289.417484436113
+Final D=1.5425030142068863e-09
+lnL0=-11289.417484, lnL1=-11289.417484
+Testing branch 53/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus#1),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-12788.101
+Maximum likelihood: -11292.179701413355
+Running H1
+Starting lnL=-11708.667
+Maximum likelihood: -11292.255588305285
+Starting with D=-0.15177378385851625
+Rerunning H1 because of negative LR (D=-0.15177378385851625)
+Starting lnL=-11292.180
+Maximum likelihood: -11292.179701302866
+Final D=2.2097810870036483e-07
+lnL0=-11292.179701, lnL1=-11292.179701
+Testing branch 54/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus#1),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11552.013
+Maximum likelihood: -11292.438414143684
+Running H1
+Starting lnL=-11541.873
+Maximum likelihood: -11292.438423906768
+Starting with D=-1.9526167307049036e-05
+Rerunning H1 because of negative LR (D=-1.9526167307049036e-05)
+Starting lnL=-11292.438
+Maximum likelihood: -11292.438414142609
+Final D=2.1500454749912024e-09
+lnL0=-11292.438414, lnL1=-11292.438414
+Testing branch 55/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari#1)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11544.543
+Maximum likelihood: -11292.438414103492
+Running H1
+Starting lnL=-12260.864
+Maximum likelihood: -11292.438414302578
+Starting with D=-3.981731424573809e-07
+Rerunning H1 because of negative LR (D=-3.981731424573809e-07)
+Starting lnL=-11292.438
+Maximum likelihood: -11292.438414095148
+Final D=1.6687408788129687e-08
+lnL0=-11292.438414, lnL1=-11292.438414
+Testing branch 56/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili#1)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11520.899
+Maximum likelihood: -11292.438432975454
+Running H1
+Starting lnL=-11578.097
+Maximum likelihood: -11292.438414113227
+Starting with D=3.772445415961556e-05
+Rerunning H0, trying to reduce LR (D=3.772445415961556e-05)
+Starting lnL=-11292.438
+Maximum likelihood: -11292.438414110733
+Rerunning H1 because of negative LR (D=-4.9876689445227385e-09)
+Starting lnL=-11292.438
+Maximum likelihood: -11292.438414108916
+Final D=3.6343408282846212e-09
+lnL0=-11292.438414, lnL1=-11292.438414
+Testing branch 57/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii#1)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11667.281
+Maximum likelihood: -11292.438414104508
+Running H1
+Starting lnL=-11435.147
+Maximum likelihood: -11292.438414090522
+Starting with D=2.797241904772818e-08
+Final D=2.797241904772818e-08
+lnL0=-11292.438414, lnL1=-11292.438414
+Testing branch 58/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))#1))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11441.332
+Maximum likelihood: -11292.438414096
+Running H1
+Starting lnL=-11498.036
+Maximum likelihood: -11292.438414078028
+Starting with D=3.5943230614066124e-08
+Final D=3.5943230614066124e-08
+lnL0=-11292.438414, lnL1=-11292.438414
+Testing branch 59/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus#1,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11686.955
+Maximum likelihood: -11292.438414155024
+Running H1
+Starting lnL=-11460.221
+Maximum likelihood: -11292.438414346885
+Starting with D=-3.837230906356126e-07
+Rerunning H1 because of negative LR (D=-3.837230906356126e-07)
+Starting lnL=-11292.438
+Maximum likelihood: -11292.438414148311
+Final D=1.342414179816842e-08
+lnL0=-11292.438414, lnL1=-11292.438414
+Testing branch 60/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus)))))#1)))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11593.944
+Maximum likelihood: -11292.250335066128
+Running H1
+Starting lnL=-11713.991
+Maximum likelihood: -11292.176279324689
+Starting with D=0.14811148287844844
+Rerunning H0, trying to reduce LR (D=0.14811148287844844)
+Starting lnL=-11292.295
+Maximum likelihood: -11292.295279961472
+Rerunning H0, trying to reduce LR (D=0.14811148287844844)
+Starting lnL=-11292.295
+Maximum likelihood: -11292.295279961472
+Final D=0.14811148287844844
+lnL0=-11292.250335, lnL1=-11292.176279
+Testing branch 61/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius))#1,(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11693.445
+Maximum likelihood: -11292.43841421024
+Running H1
+Starting lnL=-11510.161
+Maximum likelihood: -11292.438414175364
+Starting with D=6.97546056471765e-08
+Final D=6.97546056471765e-08
+lnL0=-11292.438414, lnL1=-11292.438414
+Testing branch 62/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus#1,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11456.515
+Maximum likelihood: -11292.250858655152
+Running H1
+Starting lnL=-11471.183
+Maximum likelihood: -11291.785627799783
+Starting with D=0.9304617107372906
+Rerunning H0, trying to reduce LR (D=0.9304617107372906)
+Starting lnL=-11292.294
+Maximum likelihood: -11292.293552197169
+Rerunning H0, trying to reduce LR (D=0.9304617107372906)
+Starting lnL=-11292.294
+Maximum likelihood: -11292.293552197169
+Final D=0.9304617107372906
+lnL0=-11292.250859, lnL1=-11291.785628
+Testing branch 63/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)#1),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11613.946
+Maximum likelihood: -11292.438414119111
+Running H1
+Starting lnL=-11498.669
+Maximum likelihood: -11292.438414094973
+Starting with D=4.827597877010703e-08
+Final D=4.827597877010703e-08
+lnL0=-11292.438414, lnL1=-11292.438414
+Testing branch 64/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi)#1,Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11594.349
+Maximum likelihood: -11291.250926072813
+Running H1
+Starting lnL=-11549.360
+Maximum likelihood: -11291.370384634196
+Starting with D=-0.2389171227659972
+Rerunning H1 because of negative LR (D=-0.2389171227659972)
+Starting lnL=-11291.251
+Maximum likelihood: -11291.250926067712
+Final D=1.0200892575085163e-08
+lnL0=-11291.250926, lnL1=-11291.250926
+Testing branch 65/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii#1,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11393.432
+Maximum likelihood: -11288.334586966961
+Running H1
+Starting lnL=-11501.071
+Maximum likelihood: -11285.01076666081
+Starting with D=6.647640612303803
+Rerunning H0, trying to reduce LR (D=6.647640612303803)
+Starting lnL=-11290.348
+Maximum likelihood: -11290.347522555456
+Rerunning H0, trying to reduce LR (D=6.647640612303803)
+Starting lnL=-11290.348
+Maximum likelihood: -11290.347522555456
+Final D=6.647640612303803
+NEB analysis
+Reference sequence: Condylura_cristata
+pos	codon	aa	p
+48	GTG	V	0.984
+86	CGC	R	0.846
+90	AAG	K	0.979
+197	GCC	A	0.979
+222	GCC	A	0.710
+247	GTG	V	0.983
+254	ACC	T	0.974
+264	TCC	S	0.975
+266	GCC	A	0.995
+270	CGG	R	0.897
+BEB analysis
+Reference sequence: Condylura_cristata
+pos	codon	aa	p
+1	ATG	M	0.609
+2	CGC	R	0.609
+3	TGG	W	0.609
+4	GCA	A	0.609
+5	AAT	N	0.609
+6	GAG	E	0.609
+7	AGC	S	0.609
+8	GCC	A	0.609
+9	CCG	P	0.609
+10	CGG	R	0.609
+11	GAG	E	0.609
+12	TTC	F	0.609
+13	ATC	I	0.609
+14	CTC	L	0.609
+15	TTG	L	0.609
+16	GGG	G	0.598
+17	TTC	F	0.602
+18	TCA	S	0.604
+19	GAT	D	0.598
+20	CGG	R	0.602
+21	CCC	P	0.599
+22	TGG	W	0.603
+23	CTG	L	0.606
+24	GAG	E	0.604
+25	CTC	L	0.596
+26	CCC	P	0.597
+27	CTC	L	0.603
+28	TTC	F	0.600
+29	GTG	V	0.602
+30	GTG	V	0.598
+31	TTC	F	0.596
+32	CTG	L	0.600
+33	GTC	V	0.594
+34	TCC	S	0.603
+35	TAC	Y	0.598
+36	GTC	V	0.595
+37	TTG	L	0.602
+38	ACC	T	0.599
+39	ATC	I	0.602
+40	GTG	V	0.596
+41	GGC	G	0.603
+42	AAC	N	0.602
+43	CTG	L	0.607
+44	GCG	A	0.591
+45	ATC	I	0.597
+46	ATT	I	0.603
+47	GTT	V	0.604
+48	GTG	V	0.987
+49	TCC	S	0.601
+50	CGC	R	0.592
+51	CTG	L	0.606
+52	GAC	D	0.600
+53	GCC	A	0.601
+54	AAA	K	0.604
+55	CTC	L	0.602
+56	CAC	H	0.597
+57	ACC	T	0.590
+58	CCC	P	0.601
+59	ATG	M	0.593
+60	TAC	Y	0.600
+61	TTC	F	0.592
+62	TTC	F	0.602
+63	CTC	L	0.602
+64	ACC	T	0.601
+65	AAC	N	0.597
+66	CTC	L	0.605
+67	TCG	S	0.602
+68	GTG	V	0.599
+69	CTG	L	0.603
+70	GAC	D	0.597
+71	CTG	L	0.603
+72	TGC	C	0.597
+73	TAC	Y	0.598
+74	ACC	T	0.602
+75	ACC	T	0.602
+76	AGC	S	0.597
+77	ACC	T	0.590
+78	GTC	V	0.601
+79	CCT	P	0.599
+80	CAG	Q	0.601
+81	ATG	M	0.588
+82	CTG	L	0.605
+83	GTG	V	0.599
+84	AAC	N	0.601
+85	ATC	I	0.603
+86	CGC	R	0.912
+87	AGC	S	0.603
+88	AGG	R	0.598
+89	AGG	R	0.598
+90	AAG	K	0.986
+91	GTC	V	0.596
+92	ATC	I	0.599
+93	AGC	S	0.599
+94	TAC	Y	0.597
+95	GGC	G	0.597
+96	GGC	G	0.601
+97	TGC	C	0.602
+98	GTG	V	0.601
+99	GCC	A	0.593
+100	CAG	Q	0.602
+101	CTT	L	0.597
+102	TTC	F	0.601
+103	ATT	I	0.589
+104	TTC	F	0.605
+105	CTG	L	0.606
+106	GCC	A	0.592
+107	TTG	L	0.604
+108	GGC	G	0.601
+109	TCC	S	0.597
+110	ACC	T	0.597
+111	GAG	E	0.603
+112	TGC	C	0.602
+113	CTG	L	0.603
+114	CTC	L	0.593
+115	TTG	L	0.604
+116	GCC	A	0.590
+117	GTC	V	0.602
+118	ATG	M	0.597
+119	TCC	S	0.603
+120	TGG	W	0.595
+121	GAC	D	0.600
+122	AGG	R	0.602
+123	TTC	F	0.601
+124	GTG	V	0.602
+125	GCC	A	0.604
+126	ATC	I	0.602
+127	TGC	C	0.597
+128	CGG	R	0.602
+129	CCT	P	0.603
+130	CTC	L	0.602
+131	CAC	H	0.597
+132	TAC	Y	0.604
+133	TCG	S	0.600
+134	GTC	V	0.601
+135	ATC	I	0.600
+136	ATG	M	0.599
+137	CAC	H	0.600
+138	CAG	Q	0.600
+139	CGC	R	0.597
+140	CGC	R	0.599
+141	TGC	C	0.603
+142	CTC	L	0.598
+143	CAG	Q	0.604
+144	CTT	L	0.605
+145	TCG	S	0.599
+146	GCC	A	0.597
+147	GCC	A	0.602
+148	TCC	S	0.597
+149	TGG	W	0.605
+150	ACG	T	0.600
+151	AGC	S	0.595
+152	GGC	G	0.604
+153	TTC	F	0.598
+154	AGC	S	0.601
+155	AAC	N	0.595
+156	TCG	S	0.600
+157	GTC	V	0.601
+158	CTG	L	0.604
+159	CAG	Q	0.599
+160	TCG	S	0.594
+161	TCG	S	0.591
+162	CTG	L	0.603
+163	ACC	T	0.595
+164	CTC	L	0.596
+165	CGG	R	0.603
+166	ATG	M	0.605
+167	CCC	P	0.598
+168	CTG	L	0.593
+169	TGC	C	0.603
+170	GGC	G	0.603
+171	CAC	H	0.592
+172	CAC	H	0.597
+173	GCG	A	0.600
+174	GTG	V	0.597
+175	GAC	D	0.600
+176	CAC	H	0.601
+177	TTC	F	0.600
+178	TTC	F	0.609
+179	TGC	C	0.603
+180	GAA	E	0.602
+181	GTG	V	0.596
+182	CCC	P	0.602
+183	GCG	A	0.593
+184	CTG	L	0.606
+185	CTC	L	0.603
+186	AAG	K	0.600
+187	CTG	L	0.606
+188	TCC	S	0.597
+189	TGC	C	0.604
+190	GCG	A	0.597
+191	GAC	D	0.598
+192	ACG	T	0.599
+193	ACG	T	0.599
+194	GCC	A	0.602
+195	AAC	N	0.597
+196	GAG	E	0.598
+197	GCC	A	0.986
+198	GAG	E	0.607
+199	CTC	L	0.601
+200	TTC	F	0.601
+201	TTC	F	0.595
+202	ATC	I	0.594
+203	AGC	S	0.597
+204	GTG	V	0.603
+205	CTG	L	0.600
+206	TTC	F	0.600
+207	CTG	L	0.598
+208	CTC	L	0.603
+209	ATC	I	0.601
+210	CCG	P	0.599
+211	CTC	L	0.604
+212	ACG	T	0.600
+213	CTC	L	0.600
+214	ATT	I	0.598
+215	CTC	L	0.602
+216	ATC	I	0.598
+217	TCC	S	0.603
+218	TAC	Y	0.602
+219	GCG	A	0.595
+220	TTC	F	0.601
+221	ATC	I	0.602
+222	GCC	A	0.879
+223	CGC	R	0.602
+224	GCC	A	0.600
+225	GTG	V	0.601
+226	CTG	L	0.605
+227	AGG	R	0.599
+228	ATC	I	0.589
+229	AAG	K	0.600
+230	TCG	S	0.601
+231	GCG	A	0.593
+232	GAA	E	0.602
+233	GGT	G	0.598
+234	CGC	R	0.598
+235	CGG	R	0.601
+236	AAG	K	0.598
+237	GCC	A	0.599
+238	TTG	L	0.600
+239	GGC	G	0.600
+240	ACC	T	0.601
+241	TGC	C	0.604
+242	GGC	G	0.597
+243	TCG	S	0.597
+244	CAC	H	0.601
+245	CTG	L	0.606
+246	GTG	V	0.591
+247	GTG	V	0.986
+248	GTG	V	0.604
+249	TCC	S	0.599
+250	CTG	L	0.596
+251	TTC	F	0.600
+252	TAT	Y	0.603
+253	GGC	G	0.597
+254	ACC	T	0.985
+255	GCC	A	0.598
+256	ATC	I	0.597
+257	TAC	Y	0.599
+258	ATG	M	0.594
+259	TAC	Y	0.600
+260	CTG	L	0.604
+261	CAG	Q	0.602
+262	CCC	P	0.600
+263	CCC	P	0.598
+264	TCC	S	0.985
+265	CCG	P	0.592
+266	GCC	A	0.982
+267	TCC	S	0.599
+268	AAA	K	0.597
+269	GAC	D	0.596
+270	CGG	R	0.963
+271	GGC	G	0.601
+272	AAG	K	0.604
+273	ATG	M	0.586
+274	GTG	V	0.599
+275	TCG	S	0.596
+276	CTC	L	0.598
+277	TTC	F	0.600
+278	TAC	Y	0.603
+279	GGC	G	0.600
+280	ATC	I	0.601
+281	ATC	I	0.600
+282	ACA	T	0.601
+283	CCC	P	0.603
+284	ATG	M	0.599
+285	CTG	L	0.606
+286	AAC	N	0.595
+287	CCG	P	0.603
+288	CTG	L	0.599
+289	ATC	I	0.601
+290	TAC	Y	0.598
+291	ACG	T	0.604
+292	CTG	L	0.603
+293	AGG	R	0.599
+294	AAC	N	0.604
+295	AAG	K	0.603
+296	GAC	D	0.593
+297	GTG	V	0.604
+298	AAG	K	0.599
+299	GCG	A	0.596
+300	GCC	A	0.601
+301	TTC	F	0.597
+302	AAG	K	0.599
+303	AGG	R	0.602
+304	CTG	L	0.601
+305	GTC	V	0.601
+306	ACG	T	0.600
+307	AGG	R	0.601
+308	GTC	V	0.599
+309	TTC	F	0.593
+310	TTG	L	0.604
+311	ATC	I	0.599
+312	AAG	K	0.598
+313	AAA	K	0.599
+lnL0=-11288.334587, lnL1=-11285.010767
+Testing branch 66/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi#1),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11437.226
+Maximum likelihood: -11290.54947372958
+Running H1
+Starting lnL=-11524.613
+Maximum likelihood: -11290.836689950956
+Starting with D=-0.5744324427541869
+Rerunning H1 because of negative LR (D=-0.5744324427541869)
+Starting lnL=-11290.549
+Maximum likelihood: -11290.549473717316
+Final D=2.452725311741233e-08
+lnL0=-11290.549474, lnL1=-11290.549474
+Testing branch 67/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius#1)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11660.827
+Maximum likelihood: -11292.438415574878
+Running H1
+Starting lnL=-11419.873
+Maximum likelihood: -11292.438414260328
+Starting with D=2.629098162287846e-06
+Rerunning H0, trying to reduce LR (D=2.629098162287846e-06)
+Starting lnL=-11292.438
+Maximum likelihood: -11292.438414167686
+Rerunning H1 because of negative LR (D=-1.8528589862398803e-07)
+Starting lnL=-11292.438
+Maximum likelihood: -11292.438414156708
+Final D=2.1955202100798488e-08
+lnL0=-11292.438414, lnL1=-11292.438414
+Testing branch 68/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))#1))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11413.081
+Maximum likelihood: -11292.438463635837
+Running H1
+Starting lnL=-11678.094
+Maximum likelihood: -11292.438414224747
+Starting with D=9.882218000711873e-05
+Rerunning H0, trying to reduce LR (D=9.882218000711873e-05)
+Starting lnL=-11292.438
+Maximum likelihood: -11292.438414178268
+Rerunning H1 because of negative LR (D=-9.295763447880745e-08)
+Starting lnL=-11292.438
+Maximum likelihood: -11292.438414176324
+Final D=3.888999344781041e-09
+lnL0=-11292.438414, lnL1=-11292.438414
+Testing branch 69/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus#1,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11578.474
+Maximum likelihood: -11292.268282419016
+Running H1
+Starting lnL=-13926.900
+Maximum likelihood: -11292.244437634165
+Starting with D=0.04768956970292493
+Rerunning H0, trying to reduce LR (D=0.04768956970292493)
+Starting lnL=-11292.289
+Maximum likelihood: -11292.28918711049
+Rerunning H0, trying to reduce LR (D=0.04768956970292493)
+Starting lnL=-11292.289
+Maximum likelihood: -11292.28918711049
+Final D=0.04768956970292493
+lnL0=-11292.268282, lnL1=-11292.244438
+Testing branch 70/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus)))#1)))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11413.951
+Maximum likelihood: -11292.34214270288
+Running H1
+Starting lnL=-11449.045
+Maximum likelihood: -11292.33623158973
+Starting with D=0.011822226300864713
+Rerunning H0, trying to reduce LR (D=0.011822226300864713)
+Starting lnL=-11292.388
+Maximum likelihood: -11292.388282606524
+Rerunning H0, trying to reduce LR (D=0.011822226300864713)
+Starting lnL=-11292.388
+Maximum likelihood: -11292.388282606524
+Final D=0.011822226300864713
+lnL0=-11292.342143, lnL1=-11292.336232
+Testing branch 71/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica#1,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-12015.764
+Maximum likelihood: -11278.861645413115
+Running H1
+Starting lnL=-11418.059
+Maximum likelihood: -11278.813861873556
+Starting with D=0.09556707911906415
+Rerunning H0, trying to reduce LR (D=0.09556707911906415)
+Starting lnL=-11278.954
+Maximum likelihood: -11278.954089477673
+Rerunning H0, trying to reduce LR (D=0.09556707911906415)
+Starting lnL=-11278.954
+Maximum likelihood: -11278.954089477673
+Final D=0.09556707911906415
+lnL0=-11278.861645, lnL1=-11278.813862
+Testing branch 72/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))#1))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11497.223
+Maximum likelihood: -11292.438414127138
+Running H1
+Starting lnL=-11545.807
+Maximum likelihood: -11292.438414173545
+Starting with D=-9.281211532652378e-08
+Rerunning H1 because of negative LR (D=-9.281211532652378e-08)
+Starting lnL=-11292.438
+Maximum likelihood: -11292.438414109905
+Final D=3.446621121838689e-08
+lnL0=-11292.438414, lnL1=-11292.438414
+Testing branch 73/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa#1,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11450.076
+Maximum likelihood: -11290.71493190701
+Running H1
+Starting lnL=-11622.430
+Maximum likelihood: -11289.959488364007
+Starting with D=1.5108870860058232
+Rerunning H0, trying to reduce LR (D=1.5108870860058232)
+Starting lnL=-11291.332
+Maximum likelihood: -11291.331631261404
+Rerunning H0, trying to reduce LR (D=1.5108870860058232)
+Starting lnL=-11291.332
+Maximum likelihood: -11291.331631261404
+Final D=1.5108870860058232
+lnL0=-11290.714932, lnL1=-11289.959488
+Testing branch 74/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus)#1)))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11378.737
+Maximum likelihood: -11290.91449516391
+Running H1
+Starting lnL=-11616.577
+Maximum likelihood: -11290.914444436637
+Starting with D=0.00010145454507437535
+Rerunning H0, trying to reduce LR (D=0.00010145454507437535)
+Starting lnL=-11290.915
+Maximum likelihood: -11290.914656554485
+Rerunning H0, trying to reduce LR (D=0.00010145454507437535)
+Starting lnL=-11290.915
+Maximum likelihood: -11290.914656554485
+Final D=0.00010145454507437535
+lnL0=-11290.914495, lnL1=-11290.914444
+Testing branch 75/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries#1,Bos_taurus))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11489.733
+Maximum likelihood: -11292.38566715857
+Running H1
+Starting lnL=-11611.619
+Maximum likelihood: -11292.350594914065
+Starting with D=0.07014448901099968
+Rerunning H0, trying to reduce LR (D=0.07014448901099968)
+Starting lnL=-11292.405
+Maximum likelihood: -11292.405066111682
+Rerunning H0, trying to reduce LR (D=0.07014448901099968)
+Starting lnL=-11292.405
+Maximum likelihood: -11292.405066111682
+Final D=0.07014448901099968
+lnL0=-11292.385667, lnL1=-11292.350595
+Testing branch 76/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus#1))))))))))),Phascolarctos_cinereus);
+Running H0
+Starting lnL=-11483.792
+Maximum likelihood: -11284.270860222503
+Running H1
+Starting lnL=-11765.567
+Maximum likelihood: -11284.06494172013
+Starting with D=0.41183700474721263
+Rerunning H0, trying to reduce LR (D=0.41183700474721263)
+Starting lnL=-11284.738
+Maximum likelihood: -11284.738321198754
+Rerunning H0, trying to reduce LR (D=0.41183700474721263)
+Starting lnL=-11284.738
+Maximum likelihood: -11284.738321198754
+Final D=0.41183700474721263
+lnL0=-11284.270860, lnL1=-11284.064942
+Testing branch 77/77
+Foreground branch: (((Condylura_cristata,Tupaia_chinensis),Marmota_marmota_marmota),(Chrysochloris_asiatica,(Canis_familiaris,(Piliocolobus_tephrosceles,(((Choloepus_hoffmanni,Dasypus_novemcinctus),Loxodonta_africana),((((Cebus_capucinus,(((Homo_sapiens,(Pan_paniscus,Pan_troglodytes)),Pongo_abelii),((Macaca_fascicularis,Macaca_nemestrina),Macaca_mulatta))),Otolemur_garnettii),(((Chinchilla_lanigera,Oryctolagus_cuniculus),(((Cricetulus_griseus,(Microtus_ochrogaster,Peromyscus_maniculatus)),(((Mus_caroli,Mus_musculus),Mus_spretus),Mus_pahari)),Nannospalax_galili)),Dipodomys_ordii)),(Erinaceus_europaeus,((Felis_catus,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Mustela_putorius)),(Equus_caballus,(Manis_javanica,(Sus_scrofa,(Ovis_aries,Bos_taurus))))))))))),Phascolarctos_cinereus#1);
+Running H0
+Starting lnL=-11454.328
+Maximum likelihood: -11291.915949133183
+Running H1
+Starting lnL=-11484.731
+Maximum likelihood: -11291.828732973918
+Starting with D=0.17443231853030738
+Rerunning H0, trying to reduce LR (D=0.17443231853030738)
+Starting lnL=-11291.940
+Maximum likelihood: -11291.940493787934
+Rerunning H0, trying to reduce LR (D=0.17443231853030738)
+Starting lnL=-11291.940
+Maximum likelihood: -11291.940493787934
+Final D=0.17443231853030738
+lnL0=-11291.915949, lnL1=-11291.828733
+Running time: 7h10m27.46040732s

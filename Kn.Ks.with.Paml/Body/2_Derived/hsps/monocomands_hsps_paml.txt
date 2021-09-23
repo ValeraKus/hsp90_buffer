@@ -1,0 +1,15 @@
+~/paml4.9j/bin/codeml ./ctl_files_hsps/ENSG00000007923_DNAJC11_NT_branch_model.ctl
+~/paml4.9j/bin/codeml ./ctl_files_hsps/ENSG00000069345_DNAJA2_NT_branch_model.ctl
+~/paml4.9j/bin/codeml ./ctl_files_hsps/ENSG00000096384_HSP90AB1_NT_branch_model.ctl
+~/paml4.9j/bin/codeml ./ctl_files_hsps/ENSG00000109971_HSPA8_NT_branch_model.ctl
+~/paml4.9j/bin/codeml ./ctl_files_hsps/ENSG00000115484_CCT4_NT_branch_model.ctl
+~/paml4.9j/bin/codeml ./ctl_files_hsps/ENSG00000116675_DNAJC6_NT_branch_model.ctl
+~/paml4.9j/bin/codeml ./ctl_files_hsps/ENSG00000120438_TCP1_NT_branch_model.ctl
+~/paml4.9j/bin/codeml ./ctl_files_hsps/ENSG00000138246_DNAJC13_NT_branch_model.ctl
+~/paml4.9j/bin/codeml ./ctl_files_hsps/ENSG00000150753_CCT5_NT_branch_model.ctl
+~/paml4.9j/bin/codeml ./ctl_files_hsps/ENSG00000156261_CCT8_NT_branch_model.ctl
+~/paml4.9j/bin/codeml ./ctl_files_hsps/ENSG00000163468_CCT3_NT_branch_model.ctl
+~/paml4.9j/bin/codeml ./ctl_files_hsps/ENSG00000166226_CCT2_NT_branch_model.ctl
+~/paml4.9j/bin/codeml ./ctl_files_hsps/ENSG00000166598_HSP90B1_NT_branch_model.ctl
+~/paml4.9j/bin/codeml ./ctl_files_hsps/ENSG00000168259_DNAJC7_NT_branch_model.ctl
+~/paml4.9j/bin/codeml ./ctl_files_hsps/ENSG00000170606_HSPA4_NT_branch_model.ctl

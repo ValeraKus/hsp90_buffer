@@ -1,0 +1,17 @@
+species	D
+Choloepus_hoffmanni	0
+Dasypus_novemcinctus	0
+Chrysochloris_asiatica	0
+Echinops_telfairi	0.002321129839401692
+Elephantulus_edwardii	0.013771183585049585
+Orycteropus_afer_afer	0
+Loxodonta_africana	0
+Procavia_capensis	0.0004192520573269576
+Trichechus_manatus_latirostris	5.579356949223438
+Aotus_nancymaae	1.5252444427460432e-06
+Cebus_capucinus	0.016255903348792344
+Saimiri_boliviensis	0
+Callithrix_jacchus	1.9345047457318287
+Cercocebus_atys	5.022156983613968e-07
+Mandrillus_leucophaeus	0.013072201778413728
+Papio_anubis	2.1451848424912896

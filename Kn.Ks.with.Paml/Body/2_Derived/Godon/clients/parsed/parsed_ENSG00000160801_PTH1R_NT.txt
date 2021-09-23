@@ -1,0 +1,3 @@
+species	D
+Condylura_cristata	0.2882985596515937
+Erinaceus_europaeus	9.209892596118152e-06

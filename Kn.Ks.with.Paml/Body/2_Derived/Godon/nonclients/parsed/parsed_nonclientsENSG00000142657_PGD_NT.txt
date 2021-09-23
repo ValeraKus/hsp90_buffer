@@ -1,0 +1,11 @@
+species	D
+Monodelphis_domestica	3.2123352866619825e-08
+Phascolarctos_cinereus	6.706686690449715e-07
+Sarcophilus_harrisii	2.637691504598479
+Cavia_aperea	0
+Cavia_porcellus	5.540423444472253e-07
+Chinchilla_lanigera	9.796785889193416e-07
+Octodon_degus	8.841598173603415e-07
+Fukomys_damarensis	0.5405244370631408
+Heterocephalus_glaber	2.648448571562767e-09
+Ochotona_princeps	7.16187059879303e-07

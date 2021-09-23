@@ -1,0 +1,377 @@
+Tree is rooted. Will unroot.
+No class=1 nodes (#1)
+Optimizing branch lengths using M0
+Starting lnL=-30228.031
+Maximum likelihood: -24264.87230268048
+Testing multiple branches
+Testing branch 1/211
+Foreground branch: ((Monodelphis_domestica,(Phascolarctos_cinereus,Sarcophilus_harrisii))#1,(((((Cavia_aperea,Cavia_porcellus),(Chinchilla_lanigera,Octodon_degus)),(Fukomys_damarensis,Heterocephalus_glaber)),(Ochotona_princeps,Oryctolagus_cuniculus)),(Sus_scrofa,(Condylura_cristata,(((((((Balaenoptera_acutorostrata_scammoni,Physeter_catodon),((Delphinapterus_leucas,(Orcinus_orca,Tursiops_truncatus)),Lipotes_vexillifer)),(((((Bison_bison_bison,(Bos_indicus,Bos_taurus)),Bos_mutus),Bubalus_bubalis),((Capra_hircus,Ovis_aries),Pantholops_hodgsonii)),Odocoileus_virginianus_texanus)),(((Camelus_bactrianus,Camelus_dromedarius),Camelus_ferus),Vicugna_pacos)),((((((((Callithrix_jacchus,Saimiri_boliviensis),((((((Cercocebus_atys,Mandrillus_leucophaeus),((Macaca_fascicularis,Macaca_mulatta),Macaca_nemestrina)),Papio_anubis),(Piliocolobus_tephrosceles,(Rhinopithecus_bieti,Rhinopithecus_roxellana))),Chlorocebus_sabaeus),((Gorilla_gorilla,(Homo_sapiens,(Pan_paniscus,Pan_troglodytes))),(Nomascus_leucogenys,Pongo_abelii)))),((Carlito_syrichta,(Microcebus_murinus,Propithecus_coquereli)),Otolemur_garnettii)),(Castor_canadensis,((((((((Cricetulus_griseus,Mesocricetus_auratus),Microtus_ochrogaster),Peromyscus_maniculatus),((Mus_caroli,(Mus_musculus,Mus_spretus)),Mus_pahari)),Nannospalax_galili),Jaculus_jaculus),(Ictidomys_tridecemlineatus,Marmota_marmota_marmota)),Dipodomys_ordii))),(Galeopterus_variegatus,(Tupaia_belangeri,Tupaia_chinensis))),((Choloepus_hoffmanni,Dasypus_novemcinctus),((Chrysochloris_asiatica,Loxodonta_africana),((((Echinops_telfairi,Elephantulus_edwardii),Procavia_capensis),Trichechus_manatus_latirostris),Orycteropus_afer_afer)))),Manis_javanica),(Ceratotherium_simum_simum,(Equus_asinus,(Equus_caballus,Equus_przewalskii))))),(((Eptesicus_fuscus,((Myotis_brandtii,Myotis_davidii),Myotis_lucifugus)),Miniopterus_natalensis),((Hipposideros_armiger,Rhinolophus_sinicus),((Pteropus_alecto,Pteropus_vampyrus),Rousettus_aegyptiacus)))),((((Ailuropoda_melanoleuca,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Odobenus_rosmarus_divergens)),(Enhydra_lutris_kenyoni,Mustela_putorius)),Canis_familiaris),((Panthera_pardus,Panthera_tigris_altaica),(Felis_catus,Acinonyx_jubatus))))))),Ornithorhynchus_anatinus);
+Running H0
+Starting lnL=-24555.150
+Maximum likelihood: -23055.279322274593
+Running H1
+Starting lnL=-24626.497
+Maximum likelihood: -23055.279341036698
+Starting with D=-3.752420889213681e-05
+Rerunning H1 because of negative LR (D=-3.752420889213681e-05)
+Starting lnL=-23055.279
+Maximum likelihood: -23055.279316696524
+Rerunning H0, trying to reduce LR (D=1.1156138498336077e-05)
+Starting lnL=-23055.279
+Maximum likelihood: -23055.279316347973
+Rerunning H1 because of negative LR (D=-6.971022230572999e-07)
+Starting lnL=-23055.279
+Maximum likelihood: -23055.279315863772
+Final D=9.684008546173573e-07
+lnL0=-23055.279316, lnL1=-23055.279316
+Testing branch 2/211
+Foreground branch: ((Monodelphis_domestica#1,(Phascolarctos_cinereus,Sarcophilus_harrisii)),(((((Cavia_aperea,Cavia_porcellus),(Chinchilla_lanigera,Octodon_degus)),(Fukomys_damarensis,Heterocephalus_glaber)),(Ochotona_princeps,Oryctolagus_cuniculus)),(Sus_scrofa,(Condylura_cristata,(((((((Balaenoptera_acutorostrata_scammoni,Physeter_catodon),((Delphinapterus_leucas,(Orcinus_orca,Tursiops_truncatus)),Lipotes_vexillifer)),(((((Bison_bison_bison,(Bos_indicus,Bos_taurus)),Bos_mutus),Bubalus_bubalis),((Capra_hircus,Ovis_aries),Pantholops_hodgsonii)),Odocoileus_virginianus_texanus)),(((Camelus_bactrianus,Camelus_dromedarius),Camelus_ferus),Vicugna_pacos)),((((((((Callithrix_jacchus,Saimiri_boliviensis),((((((Cercocebus_atys,Mandrillus_leucophaeus),((Macaca_fascicularis,Macaca_mulatta),Macaca_nemestrina)),Papio_anubis),(Piliocolobus_tephrosceles,(Rhinopithecus_bieti,Rhinopithecus_roxellana))),Chlorocebus_sabaeus),((Gorilla_gorilla,(Homo_sapiens,(Pan_paniscus,Pan_troglodytes))),(Nomascus_leucogenys,Pongo_abelii)))),((Carlito_syrichta,(Microcebus_murinus,Propithecus_coquereli)),Otolemur_garnettii)),(Castor_canadensis,((((((((Cricetulus_griseus,Mesocricetus_auratus),Microtus_ochrogaster),Peromyscus_maniculatus),((Mus_caroli,(Mus_musculus,Mus_spretus)),Mus_pahari)),Nannospalax_galili),Jaculus_jaculus),(Ictidomys_tridecemlineatus,Marmota_marmota_marmota)),Dipodomys_ordii))),(Galeopterus_variegatus,(Tupaia_belangeri,Tupaia_chinensis))),((Choloepus_hoffmanni,Dasypus_novemcinctus),((Chrysochloris_asiatica,Loxodonta_africana),((((Echinops_telfairi,Elephantulus_edwardii),Procavia_capensis),Trichechus_manatus_latirostris),Orycteropus_afer_afer)))),Manis_javanica),(Ceratotherium_simum_simum,(Equus_asinus,(Equus_caballus,Equus_przewalskii))))),(((Eptesicus_fuscus,((Myotis_brandtii,Myotis_davidii),Myotis_lucifugus)),Miniopterus_natalensis),((Hipposideros_armiger,Rhinolophus_sinicus),((Pteropus_alecto,Pteropus_vampyrus),Rousettus_aegyptiacus)))),((((Ailuropoda_melanoleuca,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Odobenus_rosmarus_divergens)),(Enhydra_lutris_kenyoni,Mustela_putorius)),Canis_familiaris),((Panthera_pardus,Panthera_tigris_altaica),(Felis_catus,Acinonyx_jubatus))))))),Ornithorhynchus_anatinus);
+Running H0
+Starting lnL=-24411.434
+Maximum likelihood: -23055.279469348774
+Running H1
+Starting lnL=-24724.911
+Maximum likelihood: -23055.279323504565
+Starting with D=0.00029168841865612194
+Rerunning H0, trying to reduce LR (D=0.00029168841865612194)
+Starting lnL=-23055.279
+Maximum likelihood: -23055.27932333709
+Rerunning H1 because of negative LR (D=-3.34948708768934e-07)
+Starting lnL=-23055.279
+Maximum likelihood: -23055.27932332103
+Final D=3.2123352866619825e-08
+lnL0=-23055.279323, lnL1=-23055.279323
+Testing branch 3/211
+Foreground branch: ((Monodelphis_domestica,(Phascolarctos_cinereus,Sarcophilus_harrisii)#1),(((((Cavia_aperea,Cavia_porcellus),(Chinchilla_lanigera,Octodon_degus)),(Fukomys_damarensis,Heterocephalus_glaber)),(Ochotona_princeps,Oryctolagus_cuniculus)),(Sus_scrofa,(Condylura_cristata,(((((((Balaenoptera_acutorostrata_scammoni,Physeter_catodon),((Delphinapterus_leucas,(Orcinus_orca,Tursiops_truncatus)),Lipotes_vexillifer)),(((((Bison_bison_bison,(Bos_indicus,Bos_taurus)),Bos_mutus),Bubalus_bubalis),((Capra_hircus,Ovis_aries),Pantholops_hodgsonii)),Odocoileus_virginianus_texanus)),(((Camelus_bactrianus,Camelus_dromedarius),Camelus_ferus),Vicugna_pacos)),((((((((Callithrix_jacchus,Saimiri_boliviensis),((((((Cercocebus_atys,Mandrillus_leucophaeus),((Macaca_fascicularis,Macaca_mulatta),Macaca_nemestrina)),Papio_anubis),(Piliocolobus_tephrosceles,(Rhinopithecus_bieti,Rhinopithecus_roxellana))),Chlorocebus_sabaeus),((Gorilla_gorilla,(Homo_sapiens,(Pan_paniscus,Pan_troglodytes))),(Nomascus_leucogenys,Pongo_abelii)))),((Carlito_syrichta,(Microcebus_murinus,Propithecus_coquereli)),Otolemur_garnettii)),(Castor_canadensis,((((((((Cricetulus_griseus,Mesocricetus_auratus),Microtus_ochrogaster),Peromyscus_maniculatus),((Mus_caroli,(Mus_musculus,Mus_spretus)),Mus_pahari)),Nannospalax_galili),Jaculus_jaculus),(Ictidomys_tridecemlineatus,Marmota_marmota_marmota)),Dipodomys_ordii))),(Galeopterus_variegatus,(Tupaia_belangeri,Tupaia_chinensis))),((Choloepus_hoffmanni,Dasypus_novemcinctus),((Chrysochloris_asiatica,Loxodonta_africana),((((Echinops_telfairi,Elephantulus_edwardii),Procavia_capensis),Trichechus_manatus_latirostris),Orycteropus_afer_afer)))),Manis_javanica),(Ceratotherium_simum_simum,(Equus_asinus,(Equus_caballus,Equus_przewalskii))))),(((Eptesicus_fuscus,((Myotis_brandtii,Myotis_davidii),Myotis_lucifugus)),Miniopterus_natalensis),((Hipposideros_armiger,Rhinolophus_sinicus),((Pteropus_alecto,Pteropus_vampyrus),Rousettus_aegyptiacus)))),((((Ailuropoda_melanoleuca,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Odobenus_rosmarus_divergens)),(Enhydra_lutris_kenyoni,Mustela_putorius)),Canis_familiaris),((Panthera_pardus,Panthera_tigris_altaica),(Felis_catus,Acinonyx_jubatus))))))),Ornithorhynchus_anatinus);
+Running H0
+Starting lnL=-24459.288
+Maximum likelihood: -23055.279424101507
+Running H1
+Starting lnL=-24757.671
+Maximum likelihood: -23055.279315473108
+Starting with D=0.00021725679835071787
+Rerunning H0, trying to reduce LR (D=0.00021725679835071787)
+Starting lnL=-23055.279
+Maximum likelihood: -23055.27931539016
+Rerunning H1 because of negative LR (D=-1.658991095609963e-07)
+Starting lnL=-23055.279
+Maximum likelihood: -23055.279315325228
+Final D=1.2986129149794579e-07
+lnL0=-23055.279315, lnL1=-23055.279315
+Testing branch 4/211
+Foreground branch: ((Monodelphis_domestica,(Phascolarctos_cinereus#1,Sarcophilus_harrisii)),(((((Cavia_aperea,Cavia_porcellus),(Chinchilla_lanigera,Octodon_degus)),(Fukomys_damarensis,Heterocephalus_glaber)),(Ochotona_princeps,Oryctolagus_cuniculus)),(Sus_scrofa,(Condylura_cristata,(((((((Balaenoptera_acutorostrata_scammoni,Physeter_catodon),((Delphinapterus_leucas,(Orcinus_orca,Tursiops_truncatus)),Lipotes_vexillifer)),(((((Bison_bison_bison,(Bos_indicus,Bos_taurus)),Bos_mutus),Bubalus_bubalis),((Capra_hircus,Ovis_aries),Pantholops_hodgsonii)),Odocoileus_virginianus_texanus)),(((Camelus_bactrianus,Camelus_dromedarius),Camelus_ferus),Vicugna_pacos)),((((((((Callithrix_jacchus,Saimiri_boliviensis),((((((Cercocebus_atys,Mandrillus_leucophaeus),((Macaca_fascicularis,Macaca_mulatta),Macaca_nemestrina)),Papio_anubis),(Piliocolobus_tephrosceles,(Rhinopithecus_bieti,Rhinopithecus_roxellana))),Chlorocebus_sabaeus),((Gorilla_gorilla,(Homo_sapiens,(Pan_paniscus,Pan_troglodytes))),(Nomascus_leucogenys,Pongo_abelii)))),((Carlito_syrichta,(Microcebus_murinus,Propithecus_coquereli)),Otolemur_garnettii)),(Castor_canadensis,((((((((Cricetulus_griseus,Mesocricetus_auratus),Microtus_ochrogaster),Peromyscus_maniculatus),((Mus_caroli,(Mus_musculus,Mus_spretus)),Mus_pahari)),Nannospalax_galili),Jaculus_jaculus),(Ictidomys_tridecemlineatus,Marmota_marmota_marmota)),Dipodomys_ordii))),(Galeopterus_variegatus,(Tupaia_belangeri,Tupaia_chinensis))),((Choloepus_hoffmanni,Dasypus_novemcinctus),((Chrysochloris_asiatica,Loxodonta_africana),((((Echinops_telfairi,Elephantulus_edwardii),Procavia_capensis),Trichechus_manatus_latirostris),Orycteropus_afer_afer)))),Manis_javanica),(Ceratotherium_simum_simum,(Equus_asinus,(Equus_caballus,Equus_przewalskii))))),(((Eptesicus_fuscus,((Myotis_brandtii,Myotis_davidii),Myotis_lucifugus)),Miniopterus_natalensis),((Hipposideros_armiger,Rhinolophus_sinicus),((Pteropus_alecto,Pteropus_vampyrus),Rousettus_aegyptiacus)))),((((Ailuropoda_melanoleuca,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Odobenus_rosmarus_divergens)),(Enhydra_lutris_kenyoni,Mustela_putorius)),Canis_familiaris),((Panthera_pardus,Panthera_tigris_altaica),(Felis_catus,Acinonyx_jubatus))))))),Ornithorhynchus_anatinus);
+Running H0
+Starting lnL=-26211.856
+Maximum likelihood: -23055.279831876534
+Running H1
+Starting lnL=-24644.933
+Maximum likelihood: -23055.279321541522
+Starting with D=0.0010206700244452804
+Rerunning H0, trying to reduce LR (D=0.0010206700244452804)
+Starting lnL=-23055.279
+Maximum likelihood: -23055.279316776254
+Rerunning H1 because of negative LR (D=-9.530536772217602e-06)
+Starting lnL=-23055.279
+Maximum likelihood: -23055.27931644092
+Final D=6.706686690449715e-07
+lnL0=-23055.279317, lnL1=-23055.279316
+Testing branch 5/211
+Foreground branch: ((Monodelphis_domestica,(Phascolarctos_cinereus,Sarcophilus_harrisii#1)),(((((Cavia_aperea,Cavia_porcellus),(Chinchilla_lanigera,Octodon_degus)),(Fukomys_damarensis,Heterocephalus_glaber)),(Ochotona_princeps,Oryctolagus_cuniculus)),(Sus_scrofa,(Condylura_cristata,(((((((Balaenoptera_acutorostrata_scammoni,Physeter_catodon),((Delphinapterus_leucas,(Orcinus_orca,Tursiops_truncatus)),Lipotes_vexillifer)),(((((Bison_bison_bison,(Bos_indicus,Bos_taurus)),Bos_mutus),Bubalus_bubalis),((Capra_hircus,Ovis_aries),Pantholops_hodgsonii)),Odocoileus_virginianus_texanus)),(((Camelus_bactrianus,Camelus_dromedarius),Camelus_ferus),Vicugna_pacos)),((((((((Callithrix_jacchus,Saimiri_boliviensis),((((((Cercocebus_atys,Mandrillus_leucophaeus),((Macaca_fascicularis,Macaca_mulatta),Macaca_nemestrina)),Papio_anubis),(Piliocolobus_tephrosceles,(Rhinopithecus_bieti,Rhinopithecus_roxellana))),Chlorocebus_sabaeus),((Gorilla_gorilla,(Homo_sapiens,(Pan_paniscus,Pan_troglodytes))),(Nomascus_leucogenys,Pongo_abelii)))),((Carlito_syrichta,(Microcebus_murinus,Propithecus_coquereli)),Otolemur_garnettii)),(Castor_canadensis,((((((((Cricetulus_griseus,Mesocricetus_auratus),Microtus_ochrogaster),Peromyscus_maniculatus),((Mus_caroli,(Mus_musculus,Mus_spretus)),Mus_pahari)),Nannospalax_galili),Jaculus_jaculus),(Ictidomys_tridecemlineatus,Marmota_marmota_marmota)),Dipodomys_ordii))),(Galeopterus_variegatus,(Tupaia_belangeri,Tupaia_chinensis))),((Choloepus_hoffmanni,Dasypus_novemcinctus),((Chrysochloris_asiatica,Loxodonta_africana),((((Echinops_telfairi,Elephantulus_edwardii),Procavia_capensis),Trichechus_manatus_latirostris),Orycteropus_afer_afer)))),Manis_javanica),(Ceratotherium_simum_simum,(Equus_asinus,(Equus_caballus,Equus_przewalskii))))),(((Eptesicus_fuscus,((Myotis_brandtii,Myotis_davidii),Myotis_lucifugus)),Miniopterus_natalensis),((Hipposideros_armiger,Rhinolophus_sinicus),((Pteropus_alecto,Pteropus_vampyrus),Rousettus_aegyptiacus)))),((((Ailuropoda_melanoleuca,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Odobenus_rosmarus_divergens)),(Enhydra_lutris_kenyoni,Mustela_putorius)),Canis_familiaris),((Panthera_pardus,Panthera_tigris_altaica),(Felis_catus,Acinonyx_jubatus))))))),Ornithorhynchus_anatinus);
+Running H0
+Starting lnL=-24275.217
+Maximum likelihood: -23048.068258703286
+Running H1
+Starting lnL=-24211.081
+Maximum likelihood: -23046.749412950987
+Starting with D=2.637691504598479
+Rerunning H0, trying to reduce LR (D=2.637691504598479)
+Starting lnL=-23049.408
+Maximum likelihood: -23049.40797446172
+Rerunning H0, trying to reduce LR (D=2.637691504598479)
+Starting lnL=-23049.408
+Maximum likelihood: -23049.40797446172
+Final D=2.637691504598479
+lnL0=-23048.068259, lnL1=-23046.749413
+Testing branch 6/211
+Foreground branch: ((Monodelphis_domestica,(Phascolarctos_cinereus,Sarcophilus_harrisii)),(((((Cavia_aperea,Cavia_porcellus),(Chinchilla_lanigera,Octodon_degus)),(Fukomys_damarensis,Heterocephalus_glaber)),(Ochotona_princeps,Oryctolagus_cuniculus)),(Sus_scrofa,(Condylura_cristata,(((((((Balaenoptera_acutorostrata_scammoni,Physeter_catodon),((Delphinapterus_leucas,(Orcinus_orca,Tursiops_truncatus)),Lipotes_vexillifer)),(((((Bison_bison_bison,(Bos_indicus,Bos_taurus)),Bos_mutus),Bubalus_bubalis),((Capra_hircus,Ovis_aries),Pantholops_hodgsonii)),Odocoileus_virginianus_texanus)),(((Camelus_bactrianus,Camelus_dromedarius),Camelus_ferus),Vicugna_pacos)),((((((((Callithrix_jacchus,Saimiri_boliviensis),((((((Cercocebus_atys,Mandrillus_leucophaeus),((Macaca_fascicularis,Macaca_mulatta),Macaca_nemestrina)),Papio_anubis),(Piliocolobus_tephrosceles,(Rhinopithecus_bieti,Rhinopithecus_roxellana))),Chlorocebus_sabaeus),((Gorilla_gorilla,(Homo_sapiens,(Pan_paniscus,Pan_troglodytes))),(Nomascus_leucogenys,Pongo_abelii)))),((Carlito_syrichta,(Microcebus_murinus,Propithecus_coquereli)),Otolemur_garnettii)),(Castor_canadensis,((((((((Cricetulus_griseus,Mesocricetus_auratus),Microtus_ochrogaster),Peromyscus_maniculatus),((Mus_caroli,(Mus_musculus,Mus_spretus)),Mus_pahari)),Nannospalax_galili),Jaculus_jaculus),(Ictidomys_tridecemlineatus,Marmota_marmota_marmota)),Dipodomys_ordii))),(Galeopterus_variegatus,(Tupaia_belangeri,Tupaia_chinensis))),((Choloepus_hoffmanni,Dasypus_novemcinctus),((Chrysochloris_asiatica,Loxodonta_africana),((((Echinops_telfairi,Elephantulus_edwardii),Procavia_capensis),Trichechus_manatus_latirostris),Orycteropus_afer_afer)))),Manis_javanica),(Ceratotherium_simum_simum,(Equus_asinus,(Equus_caballus,Equus_przewalskii))))),(((Eptesicus_fuscus,((Myotis_brandtii,Myotis_davidii),Myotis_lucifugus)),Miniopterus_natalensis),((Hipposideros_armiger,Rhinolophus_sinicus),((Pteropus_alecto,Pteropus_vampyrus),Rousettus_aegyptiacus)))),((((Ailuropoda_melanoleuca,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Odobenus_rosmarus_divergens)),(Enhydra_lutris_kenyoni,Mustela_putorius)),Canis_familiaris),((Panthera_pardus,Panthera_tigris_altaica),(Felis_catus,Acinonyx_jubatus)))))))#1,Ornithorhynchus_anatinus);
+Running H0
+Starting lnL=-24444.620
+Maximum likelihood: -23055.279423451295
+Running H1
+Starting lnL=-24438.142
+Maximum likelihood: -23055.279318067383
+Starting with D=0.00021076782286399975
+Rerunning H0, trying to reduce LR (D=0.00021076782286399975)
+Starting lnL=-23055.279
+Maximum likelihood: -23055.279316470387
+Rerunning H1 because of negative LR (D=-3.193992597516626e-06)
+Starting lnL=-23055.279
+Maximum likelihood: -23055.279315594766
+Rerunning H0, trying to reduce LR (D=1.7512429622001946e-06)
+Starting lnL=-23055.279
+Maximum likelihood: -23055.27931548929
+Rerunning H1 because of negative LR (D=-2.1095183910802007e-07)
+Starting lnL=-23055.279
+Maximum likelihood: -23055.27931530822
+Final D=3.621389623731375e-07
+lnL0=-23055.279315, lnL1=-23055.279315
+Testing branch 7/211
+Foreground branch: ((Monodelphis_domestica,(Phascolarctos_cinereus,Sarcophilus_harrisii)),(((((Cavia_aperea,Cavia_porcellus),(Chinchilla_lanigera,Octodon_degus)),(Fukomys_damarensis,Heterocephalus_glaber)),(Ochotona_princeps,Oryctolagus_cuniculus))#1,(Sus_scrofa,(Condylura_cristata,(((((((Balaenoptera_acutorostrata_scammoni,Physeter_catodon),((Delphinapterus_leucas,(Orcinus_orca,Tursiops_truncatus)),Lipotes_vexillifer)),(((((Bison_bison_bison,(Bos_indicus,Bos_taurus)),Bos_mutus),Bubalus_bubalis),((Capra_hircus,Ovis_aries),Pantholops_hodgsonii)),Odocoileus_virginianus_texanus)),(((Camelus_bactrianus,Camelus_dromedarius),Camelus_ferus),Vicugna_pacos)),((((((((Callithrix_jacchus,Saimiri_boliviensis),((((((Cercocebus_atys,Mandrillus_leucophaeus),((Macaca_fascicularis,Macaca_mulatta),Macaca_nemestrina)),Papio_anubis),(Piliocolobus_tephrosceles,(Rhinopithecus_bieti,Rhinopithecus_roxellana))),Chlorocebus_sabaeus),((Gorilla_gorilla,(Homo_sapiens,(Pan_paniscus,Pan_troglodytes))),(Nomascus_leucogenys,Pongo_abelii)))),((Carlito_syrichta,(Microcebus_murinus,Propithecus_coquereli)),Otolemur_garnettii)),(Castor_canadensis,((((((((Cricetulus_griseus,Mesocricetus_auratus),Microtus_ochrogaster),Peromyscus_maniculatus),((Mus_caroli,(Mus_musculus,Mus_spretus)),Mus_pahari)),Nannospalax_galili),Jaculus_jaculus),(Ictidomys_tridecemlineatus,Marmota_marmota_marmota)),Dipodomys_ordii))),(Galeopterus_variegatus,(Tupaia_belangeri,Tupaia_chinensis))),((Choloepus_hoffmanni,Dasypus_novemcinctus),((Chrysochloris_asiatica,Loxodonta_africana),((((Echinops_telfairi,Elephantulus_edwardii),Procavia_capensis),Trichechus_manatus_latirostris),Orycteropus_afer_afer)))),Manis_javanica),(Ceratotherium_simum_simum,(Equus_asinus,(Equus_caballus,Equus_przewalskii))))),(((Eptesicus_fuscus,((Myotis_brandtii,Myotis_davidii),Myotis_lucifugus)),Miniopterus_natalensis),((Hipposideros_armiger,Rhinolophus_sinicus),((Pteropus_alecto,Pteropus_vampyrus),Rousettus_aegyptiacus)))),((((Ailuropoda_melanoleuca,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Odobenus_rosmarus_divergens)),(Enhydra_lutris_kenyoni,Mustela_putorius)),Canis_familiaris),((Panthera_pardus,Panthera_tigris_altaica),(Felis_catus,Acinonyx_jubatus))))))),Ornithorhynchus_anatinus);
+Running H0
+Starting lnL=-24125.432
+Maximum likelihood: -23055.27932227493
+Running H1
+Starting lnL=-24784.053
+Maximum likelihood: -23055.279355270213
+Starting with D=-6.599056359846145e-05
+Rerunning H1 because of negative LR (D=-6.599056359846145e-05)
+Starting lnL=-23055.279
+Maximum likelihood: -23055.279322188893
+Final D=1.7207639757543802e-07
+lnL0=-23055.279322, lnL1=-23055.279322
+Testing branch 8/211
+Foreground branch: ((Monodelphis_domestica,(Phascolarctos_cinereus,Sarcophilus_harrisii)),(((((Cavia_aperea,Cavia_porcellus),(Chinchilla_lanigera,Octodon_degus)),(Fukomys_damarensis,Heterocephalus_glaber))#1,(Ochotona_princeps,Oryctolagus_cuniculus)),(Sus_scrofa,(Condylura_cristata,(((((((Balaenoptera_acutorostrata_scammoni,Physeter_catodon),((Delphinapterus_leucas,(Orcinus_orca,Tursiops_truncatus)),Lipotes_vexillifer)),(((((Bison_bison_bison,(Bos_indicus,Bos_taurus)),Bos_mutus),Bubalus_bubalis),((Capra_hircus,Ovis_aries),Pantholops_hodgsonii)),Odocoileus_virginianus_texanus)),(((Camelus_bactrianus,Camelus_dromedarius),Camelus_ferus),Vicugna_pacos)),((((((((Callithrix_jacchus,Saimiri_boliviensis),((((((Cercocebus_atys,Mandrillus_leucophaeus),((Macaca_fascicularis,Macaca_mulatta),Macaca_nemestrina)),Papio_anubis),(Piliocolobus_tephrosceles,(Rhinopithecus_bieti,Rhinopithecus_roxellana))),Chlorocebus_sabaeus),((Gorilla_gorilla,(Homo_sapiens,(Pan_paniscus,Pan_troglodytes))),(Nomascus_leucogenys,Pongo_abelii)))),((Carlito_syrichta,(Microcebus_murinus,Propithecus_coquereli)),Otolemur_garnettii)),(Castor_canadensis,((((((((Cricetulus_griseus,Mesocricetus_auratus),Microtus_ochrogaster),Peromyscus_maniculatus),((Mus_caroli,(Mus_musculus,Mus_spretus)),Mus_pahari)),Nannospalax_galili),Jaculus_jaculus),(Ictidomys_tridecemlineatus,Marmota_marmota_marmota)),Dipodomys_ordii))),(Galeopterus_variegatus,(Tupaia_belangeri,Tupaia_chinensis))),((Choloepus_hoffmanni,Dasypus_novemcinctus),((Chrysochloris_asiatica,Loxodonta_africana),((((Echinops_telfairi,Elephantulus_edwardii),Procavia_capensis),Trichechus_manatus_latirostris),Orycteropus_afer_afer)))),Manis_javanica),(Ceratotherium_simum_simum,(Equus_asinus,(Equus_caballus,Equus_przewalskii))))),(((Eptesicus_fuscus,((Myotis_brandtii,Myotis_davidii),Myotis_lucifugus)),Miniopterus_natalensis),((Hipposideros_armiger,Rhinolophus_sinicus),((Pteropus_alecto,Pteropus_vampyrus),Rousettus_aegyptiacus)))),((((Ailuropoda_melanoleuca,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Odobenus_rosmarus_divergens)),(Enhydra_lutris_kenyoni,Mustela_putorius)),Canis_familiaris),((Panthera_pardus,Panthera_tigris_altaica),(Felis_catus,Acinonyx_jubatus))))))),Ornithorhynchus_anatinus);
+Running H0
+Starting lnL=-24813.738
+Maximum likelihood: -23055.279376912404
+Running H1
+Starting lnL=-24691.948
+Maximum likelihood: -23055.27933364118
+Starting with D=8.654244447825477e-05
+Rerunning H0, trying to reduce LR (D=8.654244447825477e-05)
+Starting lnL=-23055.279
+Maximum likelihood: -23055.27933356798
+Rerunning H1 because of negative LR (D=-1.463995431549847e-07)
+Starting lnL=-23055.279
+Maximum likelihood: -23055.2793334853
+Final D=1.6536068869754672e-07
+lnL0=-23055.279334, lnL1=-23055.279333
+Testing branch 9/211
+Foreground branch: ((Monodelphis_domestica,(Phascolarctos_cinereus,Sarcophilus_harrisii)),(((((Cavia_aperea,Cavia_porcellus),(Chinchilla_lanigera,Octodon_degus))#1,(Fukomys_damarensis,Heterocephalus_glaber)),(Ochotona_princeps,Oryctolagus_cuniculus)),(Sus_scrofa,(Condylura_cristata,(((((((Balaenoptera_acutorostrata_scammoni,Physeter_catodon),((Delphinapterus_leucas,(Orcinus_orca,Tursiops_truncatus)),Lipotes_vexillifer)),(((((Bison_bison_bison,(Bos_indicus,Bos_taurus)),Bos_mutus),Bubalus_bubalis),((Capra_hircus,Ovis_aries),Pantholops_hodgsonii)),Odocoileus_virginianus_texanus)),(((Camelus_bactrianus,Camelus_dromedarius),Camelus_ferus),Vicugna_pacos)),((((((((Callithrix_jacchus,Saimiri_boliviensis),((((((Cercocebus_atys,Mandrillus_leucophaeus),((Macaca_fascicularis,Macaca_mulatta),Macaca_nemestrina)),Papio_anubis),(Piliocolobus_tephrosceles,(Rhinopithecus_bieti,Rhinopithecus_roxellana))),Chlorocebus_sabaeus),((Gorilla_gorilla,(Homo_sapiens,(Pan_paniscus,Pan_troglodytes))),(Nomascus_leucogenys,Pongo_abelii)))),((Carlito_syrichta,(Microcebus_murinus,Propithecus_coquereli)),Otolemur_garnettii)),(Castor_canadensis,((((((((Cricetulus_griseus,Mesocricetus_auratus),Microtus_ochrogaster),Peromyscus_maniculatus),((Mus_caroli,(Mus_musculus,Mus_spretus)),Mus_pahari)),Nannospalax_galili),Jaculus_jaculus),(Ictidomys_tridecemlineatus,Marmota_marmota_marmota)),Dipodomys_ordii))),(Galeopterus_variegatus,(Tupaia_belangeri,Tupaia_chinensis))),((Choloepus_hoffmanni,Dasypus_novemcinctus),((Chrysochloris_asiatica,Loxodonta_africana),((((Echinops_telfairi,Elephantulus_edwardii),Procavia_capensis),Trichechus_manatus_latirostris),Orycteropus_afer_afer)))),Manis_javanica),(Ceratotherium_simum_simum,(Equus_asinus,(Equus_caballus,Equus_przewalskii))))),(((Eptesicus_fuscus,((Myotis_brandtii,Myotis_davidii),Myotis_lucifugus)),Miniopterus_natalensis),((Hipposideros_armiger,Rhinolophus_sinicus),((Pteropus_alecto,Pteropus_vampyrus),Rousettus_aegyptiacus)))),((((Ailuropoda_melanoleuca,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Odobenus_rosmarus_divergens)),(Enhydra_lutris_kenyoni,Mustela_putorius)),Canis_familiaris),((Panthera_pardus,Panthera_tigris_altaica),(Felis_catus,Acinonyx_jubatus))))))),Ornithorhynchus_anatinus);
+Running H0
+Starting lnL=-24190.232
+Maximum likelihood: -23054.73121164173
+Running H1
+Starting lnL=-25887.493
+Maximum likelihood: -23054.896886284972
+Starting with D=-0.33134928648360074
+Rerunning H1 because of negative LR (D=-0.33134928648360074)
+Starting lnL=-23054.731
+Maximum likelihood: -23054.7311931038
+Rerunning H0, trying to reduce LR (D=3.707586438395083e-05)
+Starting lnL=-23054.731
+Maximum likelihood: -23054.72969697695
+Rerunning H1 because of negative LR (D=-0.0029922536996309645)
+Starting lnL=-23054.730
+Maximum likelihood: -23054.72969692886
+Final D=9.617360774427652e-08
+lnL0=-23054.729697, lnL1=-23054.729697
+Testing branch 10/211
+Foreground branch: ((Monodelphis_domestica,(Phascolarctos_cinereus,Sarcophilus_harrisii)),(((((Cavia_aperea,Cavia_porcellus)#1,(Chinchilla_lanigera,Octodon_degus)),(Fukomys_damarensis,Heterocephalus_glaber)),(Ochotona_princeps,Oryctolagus_cuniculus)),(Sus_scrofa,(Condylura_cristata,(((((((Balaenoptera_acutorostrata_scammoni,Physeter_catodon),((Delphinapterus_leucas,(Orcinus_orca,Tursiops_truncatus)),Lipotes_vexillifer)),(((((Bison_bison_bison,(Bos_indicus,Bos_taurus)),Bos_mutus),Bubalus_bubalis),((Capra_hircus,Ovis_aries),Pantholops_hodgsonii)),Odocoileus_virginianus_texanus)),(((Camelus_bactrianus,Camelus_dromedarius),Camelus_ferus),Vicugna_pacos)),((((((((Callithrix_jacchus,Saimiri_boliviensis),((((((Cercocebus_atys,Mandrillus_leucophaeus),((Macaca_fascicularis,Macaca_mulatta),Macaca_nemestrina)),Papio_anubis),(Piliocolobus_tephrosceles,(Rhinopithecus_bieti,Rhinopithecus_roxellana))),Chlorocebus_sabaeus),((Gorilla_gorilla,(Homo_sapiens,(Pan_paniscus,Pan_troglodytes))),(Nomascus_leucogenys,Pongo_abelii)))),((Carlito_syrichta,(Microcebus_murinus,Propithecus_coquereli)),Otolemur_garnettii)),(Castor_canadensis,((((((((Cricetulus_griseus,Mesocricetus_auratus),Microtus_ochrogaster),Peromyscus_maniculatus),((Mus_caroli,(Mus_musculus,Mus_spretus)),Mus_pahari)),Nannospalax_galili),Jaculus_jaculus),(Ictidomys_tridecemlineatus,Marmota_marmota_marmota)),Dipodomys_ordii))),(Galeopterus_variegatus,(Tupaia_belangeri,Tupaia_chinensis))),((Choloepus_hoffmanni,Dasypus_novemcinctus),((Chrysochloris_asiatica,Loxodonta_africana),((((Echinops_telfairi,Elephantulus_edwardii),Procavia_capensis),Trichechus_manatus_latirostris),Orycteropus_afer_afer)))),Manis_javanica),(Ceratotherium_simum_simum,(Equus_asinus,(Equus_caballus,Equus_przewalskii))))),(((Eptesicus_fuscus,((Myotis_brandtii,Myotis_davidii),Myotis_lucifugus)),Miniopterus_natalensis),((Hipposideros_armiger,Rhinolophus_sinicus),((Pteropus_alecto,Pteropus_vampyrus),Rousettus_aegyptiacus)))),((((Ailuropoda_melanoleuca,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Odobenus_rosmarus_divergens)),(Enhydra_lutris_kenyoni,Mustela_putorius)),Canis_familiaris),((Panthera_pardus,Panthera_tigris_altaica),(Felis_catus,Acinonyx_jubatus))))))),Ornithorhynchus_anatinus);
+Running H0
+Starting lnL=-24578.216
+Maximum likelihood: -23055.269150631
+Running H1
+Starting lnL=-24766.023
+Maximum likelihood: -23055.21526539093
+Starting with D=0.10777048014278989
+Rerunning H0, trying to reduce LR (D=0.10777048014278989)
+Starting lnL=-23055.270
+Maximum likelihood: -23055.270452525892
+Rerunning H0, trying to reduce LR (D=0.10777048014278989)
+Starting lnL=-23055.270
+Maximum likelihood: -23055.270452525892
+Final D=0.10777048014278989
+lnL0=-23055.269151, lnL1=-23055.215265
+Testing branch 11/211
+Foreground branch: ((Monodelphis_domestica,(Phascolarctos_cinereus,Sarcophilus_harrisii)),(((((Cavia_aperea#1,Cavia_porcellus),(Chinchilla_lanigera,Octodon_degus)),(Fukomys_damarensis,Heterocephalus_glaber)),(Ochotona_princeps,Oryctolagus_cuniculus)),(Sus_scrofa,(Condylura_cristata,(((((((Balaenoptera_acutorostrata_scammoni,Physeter_catodon),((Delphinapterus_leucas,(Orcinus_orca,Tursiops_truncatus)),Lipotes_vexillifer)),(((((Bison_bison_bison,(Bos_indicus,Bos_taurus)),Bos_mutus),Bubalus_bubalis),((Capra_hircus,Ovis_aries),Pantholops_hodgsonii)),Odocoileus_virginianus_texanus)),(((Camelus_bactrianus,Camelus_dromedarius),Camelus_ferus),Vicugna_pacos)),((((((((Callithrix_jacchus,Saimiri_boliviensis),((((((Cercocebus_atys,Mandrillus_leucophaeus),((Macaca_fascicularis,Macaca_mulatta),Macaca_nemestrina)),Papio_anubis),(Piliocolobus_tephrosceles,(Rhinopithecus_bieti,Rhinopithecus_roxellana))),Chlorocebus_sabaeus),((Gorilla_gorilla,(Homo_sapiens,(Pan_paniscus,Pan_troglodytes))),(Nomascus_leucogenys,Pongo_abelii)))),((Carlito_syrichta,(Microcebus_murinus,Propithecus_coquereli)),Otolemur_garnettii)),(Castor_canadensis,((((((((Cricetulus_griseus,Mesocricetus_auratus),Microtus_ochrogaster),Peromyscus_maniculatus),((Mus_caroli,(Mus_musculus,Mus_spretus)),Mus_pahari)),Nannospalax_galili),Jaculus_jaculus),(Ictidomys_tridecemlineatus,Marmota_marmota_marmota)),Dipodomys_ordii))),(Galeopterus_variegatus,(Tupaia_belangeri,Tupaia_chinensis))),((Choloepus_hoffmanni,Dasypus_novemcinctus),((Chrysochloris_asiatica,Loxodonta_africana),((((Echinops_telfairi,Elephantulus_edwardii),Procavia_capensis),Trichechus_manatus_latirostris),Orycteropus_afer_afer)))),Manis_javanica),(Ceratotherium_simum_simum,(Equus_asinus,(Equus_caballus,Equus_przewalskii))))),(((Eptesicus_fuscus,((Myotis_brandtii,Myotis_davidii),Myotis_lucifugus)),Miniopterus_natalensis),((Hipposideros_armiger,Rhinolophus_sinicus),((Pteropus_alecto,Pteropus_vampyrus),Rousettus_aegyptiacus)))),((((Ailuropoda_melanoleuca,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Odobenus_rosmarus_divergens)),(Enhydra_lutris_kenyoni,Mustela_putorius)),Canis_familiaris),((Panthera_pardus,Panthera_tigris_altaica),(Felis_catus,Acinonyx_jubatus))))))),Ornithorhynchus_anatinus);
+Running H0
+Starting lnL=-24718.032
+Maximum likelihood: -23055.27933551033
+Running H1
+Starting lnL=-24829.632
+Maximum likelihood: -23055.279316508237
+Starting with D=3.8004189264029264e-05
+Rerunning H0, trying to reduce LR (D=3.8004189264029264e-05)
+Starting lnL=-23055.279
+Maximum likelihood: -23055.279316508237
+Final D=0
+lnL0=-23055.279317, lnL1=-23055.279317
+Testing branch 12/211
+Foreground branch: ((Monodelphis_domestica,(Phascolarctos_cinereus,Sarcophilus_harrisii)),(((((Cavia_aperea,Cavia_porcellus#1),(Chinchilla_lanigera,Octodon_degus)),(Fukomys_damarensis,Heterocephalus_glaber)),(Ochotona_princeps,Oryctolagus_cuniculus)),(Sus_scrofa,(Condylura_cristata,(((((((Balaenoptera_acutorostrata_scammoni,Physeter_catodon),((Delphinapterus_leucas,(Orcinus_orca,Tursiops_truncatus)),Lipotes_vexillifer)),(((((Bison_bison_bison,(Bos_indicus,Bos_taurus)),Bos_mutus),Bubalus_bubalis),((Capra_hircus,Ovis_aries),Pantholops_hodgsonii)),Odocoileus_virginianus_texanus)),(((Camelus_bactrianus,Camelus_dromedarius),Camelus_ferus),Vicugna_pacos)),((((((((Callithrix_jacchus,Saimiri_boliviensis),((((((Cercocebus_atys,Mandrillus_leucophaeus),((Macaca_fascicularis,Macaca_mulatta),Macaca_nemestrina)),Papio_anubis),(Piliocolobus_tephrosceles,(Rhinopithecus_bieti,Rhinopithecus_roxellana))),Chlorocebus_sabaeus),((Gorilla_gorilla,(Homo_sapiens,(Pan_paniscus,Pan_troglodytes))),(Nomascus_leucogenys,Pongo_abelii)))),((Carlito_syrichta,(Microcebus_murinus,Propithecus_coquereli)),Otolemur_garnettii)),(Castor_canadensis,((((((((Cricetulus_griseus,Mesocricetus_auratus),Microtus_ochrogaster),Peromyscus_maniculatus),((Mus_caroli,(Mus_musculus,Mus_spretus)),Mus_pahari)),Nannospalax_galili),Jaculus_jaculus),(Ictidomys_tridecemlineatus,Marmota_marmota_marmota)),Dipodomys_ordii))),(Galeopterus_variegatus,(Tupaia_belangeri,Tupaia_chinensis))),((Choloepus_hoffmanni,Dasypus_novemcinctus),((Chrysochloris_asiatica,Loxodonta_africana),((((Echinops_telfairi,Elephantulus_edwardii),Procavia_capensis),Trichechus_manatus_latirostris),Orycteropus_afer_afer)))),Manis_javanica),(Ceratotherium_simum_simum,(Equus_asinus,(Equus_caballus,Equus_przewalskii))))),(((Eptesicus_fuscus,((Myotis_brandtii,Myotis_davidii),Myotis_lucifugus)),Miniopterus_natalensis),((Hipposideros_armiger,Rhinolophus_sinicus),((Pteropus_alecto,Pteropus_vampyrus),Rousettus_aegyptiacus)))),((((Ailuropoda_melanoleuca,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Odobenus_rosmarus_divergens)),(Enhydra_lutris_kenyoni,Mustela_putorius)),Canis_familiaris),((Panthera_pardus,Panthera_tigris_altaica),(Felis_catus,Acinonyx_jubatus))))))),Ornithorhynchus_anatinus);
+Running H0
+Starting lnL=-24394.767
+Maximum likelihood: -23055.279377179457
+Running H1
+Starting lnL=-24308.891
+Maximum likelihood: -23055.27933914333
+Starting with D=7.607225415995345e-05
+Rerunning H0, trying to reduce LR (D=7.607225415995345e-05)
+Starting lnL=-23055.279
+Maximum likelihood: -23055.279338060125
+Rerunning H1 because of negative LR (D=-2.166409103665501e-06)
+Starting lnL=-23055.279
+Maximum likelihood: -23055.279337460433
+Rerunning H0, trying to reduce LR (D=1.1993834050372243e-06)
+Starting lnL=-23055.279
+Maximum likelihood: -23055.27933691743
+Rerunning H1 because of negative LR (D=-1.0860094334930182e-06)
+Starting lnL=-23055.279
+Maximum likelihood: -23055.279336640408
+Final D=5.540423444472253e-07
+lnL0=-23055.279337, lnL1=-23055.279337
+Testing branch 13/211
+Foreground branch: ((Monodelphis_domestica,(Phascolarctos_cinereus,Sarcophilus_harrisii)),(((((Cavia_aperea,Cavia_porcellus),(Chinchilla_lanigera,Octodon_degus)#1),(Fukomys_damarensis,Heterocephalus_glaber)),(Ochotona_princeps,Oryctolagus_cuniculus)),(Sus_scrofa,(Condylura_cristata,(((((((Balaenoptera_acutorostrata_scammoni,Physeter_catodon),((Delphinapterus_leucas,(Orcinus_orca,Tursiops_truncatus)),Lipotes_vexillifer)),(((((Bison_bison_bison,(Bos_indicus,Bos_taurus)),Bos_mutus),Bubalus_bubalis),((Capra_hircus,Ovis_aries),Pantholops_hodgsonii)),Odocoileus_virginianus_texanus)),(((Camelus_bactrianus,Camelus_dromedarius),Camelus_ferus),Vicugna_pacos)),((((((((Callithrix_jacchus,Saimiri_boliviensis),((((((Cercocebus_atys,Mandrillus_leucophaeus),((Macaca_fascicularis,Macaca_mulatta),Macaca_nemestrina)),Papio_anubis),(Piliocolobus_tephrosceles,(Rhinopithecus_bieti,Rhinopithecus_roxellana))),Chlorocebus_sabaeus),((Gorilla_gorilla,(Homo_sapiens,(Pan_paniscus,Pan_troglodytes))),(Nomascus_leucogenys,Pongo_abelii)))),((Carlito_syrichta,(Microcebus_murinus,Propithecus_coquereli)),Otolemur_garnettii)),(Castor_canadensis,((((((((Cricetulus_griseus,Mesocricetus_auratus),Microtus_ochrogaster),Peromyscus_maniculatus),((Mus_caroli,(Mus_musculus,Mus_spretus)),Mus_pahari)),Nannospalax_galili),Jaculus_jaculus),(Ictidomys_tridecemlineatus,Marmota_marmota_marmota)),Dipodomys_ordii))),(Galeopterus_variegatus,(Tupaia_belangeri,Tupaia_chinensis))),((Choloepus_hoffmanni,Dasypus_novemcinctus),((Chrysochloris_asiatica,Loxodonta_africana),((((Echinops_telfairi,Elephantulus_edwardii),Procavia_capensis),Trichechus_manatus_latirostris),Orycteropus_afer_afer)))),Manis_javanica),(Ceratotherium_simum_simum,(Equus_asinus,(Equus_caballus,Equus_przewalskii))))),(((Eptesicus_fuscus,((Myotis_brandtii,Myotis_davidii),Myotis_lucifugus)),Miniopterus_natalensis),((Hipposideros_armiger,Rhinolophus_sinicus),((Pteropus_alecto,Pteropus_vampyrus),Rousettus_aegyptiacus)))),((((Ailuropoda_melanoleuca,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Odobenus_rosmarus_divergens)),(Enhydra_lutris_kenyoni,Mustela_putorius)),Canis_familiaris),((Panthera_pardus,Panthera_tigris_altaica),(Felis_catus,Acinonyx_jubatus))))))),Ornithorhynchus_anatinus);
+Running H0
+Starting lnL=-24414.983
+Maximum likelihood: -23054.945338968053
+Running H1
+Starting lnL=-24185.362
+Maximum likelihood: -23055.076083683856
+Starting with D=-0.26148943160660565
+Rerunning H1 because of negative LR (D=-0.26148943160660565)
+Starting lnL=-23054.945
+Maximum likelihood: -23054.945328906255
+Rerunning H0, trying to reduce LR (D=2.0123596186749637e-05)
+Starting lnL=-23054.945
+Maximum likelihood: -23054.945318314316
+Rerunning H1 because of negative LR (D=-2.1183877834118903e-05)
+Starting lnL=-23054.945
+Maximum likelihood: -23054.945317552436
+Rerunning H0, trying to reduce LR (D=1.5237601473927498e-06)
+Starting lnL=-23054.945
+Maximum likelihood: -23054.945316876754
+Rerunning H1 because of negative LR (D=-1.3513636076822877e-06)
+Starting lnL=-23054.945
+Maximum likelihood: -23054.94531673131
+Final D=2.908855094574392e-07
+lnL0=-23054.945317, lnL1=-23054.945317
+Testing branch 14/211
+Foreground branch: ((Monodelphis_domestica,(Phascolarctos_cinereus,Sarcophilus_harrisii)),(((((Cavia_aperea,Cavia_porcellus),(Chinchilla_lanigera#1,Octodon_degus)),(Fukomys_damarensis,Heterocephalus_glaber)),(Ochotona_princeps,Oryctolagus_cuniculus)),(Sus_scrofa,(Condylura_cristata,(((((((Balaenoptera_acutorostrata_scammoni,Physeter_catodon),((Delphinapterus_leucas,(Orcinus_orca,Tursiops_truncatus)),Lipotes_vexillifer)),(((((Bison_bison_bison,(Bos_indicus,Bos_taurus)),Bos_mutus),Bubalus_bubalis),((Capra_hircus,Ovis_aries),Pantholops_hodgsonii)),Odocoileus_virginianus_texanus)),(((Camelus_bactrianus,Camelus_dromedarius),Camelus_ferus),Vicugna_pacos)),((((((((Callithrix_jacchus,Saimiri_boliviensis),((((((Cercocebus_atys,Mandrillus_leucophaeus),((Macaca_fascicularis,Macaca_mulatta),Macaca_nemestrina)),Papio_anubis),(Piliocolobus_tephrosceles,(Rhinopithecus_bieti,Rhinopithecus_roxellana))),Chlorocebus_sabaeus),((Gorilla_gorilla,(Homo_sapiens,(Pan_paniscus,Pan_troglodytes))),(Nomascus_leucogenys,Pongo_abelii)))),((Carlito_syrichta,(Microcebus_murinus,Propithecus_coquereli)),Otolemur_garnettii)),(Castor_canadensis,((((((((Cricetulus_griseus,Mesocricetus_auratus),Microtus_ochrogaster),Peromyscus_maniculatus),((Mus_caroli,(Mus_musculus,Mus_spretus)),Mus_pahari)),Nannospalax_galili),Jaculus_jaculus),(Ictidomys_tridecemlineatus,Marmota_marmota_marmota)),Dipodomys_ordii))),(Galeopterus_variegatus,(Tupaia_belangeri,Tupaia_chinensis))),((Choloepus_hoffmanni,Dasypus_novemcinctus),((Chrysochloris_asiatica,Loxodonta_africana),((((Echinops_telfairi,Elephantulus_edwardii),Procavia_capensis),Trichechus_manatus_latirostris),Orycteropus_afer_afer)))),Manis_javanica),(Ceratotherium_simum_simum,(Equus_asinus,(Equus_caballus,Equus_przewalskii))))),(((Eptesicus_fuscus,((Myotis_brandtii,Myotis_davidii),Myotis_lucifugus)),Miniopterus_natalensis),((Hipposideros_armiger,Rhinolophus_sinicus),((Pteropus_alecto,Pteropus_vampyrus),Rousettus_aegyptiacus)))),((((Ailuropoda_melanoleuca,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Odobenus_rosmarus_divergens)),(Enhydra_lutris_kenyoni,Mustela_putorius)),Canis_familiaris),((Panthera_pardus,Panthera_tigris_altaica),(Felis_catus,Acinonyx_jubatus))))))),Ornithorhynchus_anatinus);
+Running H0
+Starting lnL=-24368.790
+Maximum likelihood: -23055.279389900275
+Running H1
+Starting lnL=-24576.335
+Maximum likelihood: -23055.279339013832
+Starting with D=0.0001017728864098899
+Rerunning H0, trying to reduce LR (D=0.0001017728864098899)
+Starting lnL=-23055.279
+Maximum likelihood: -23055.27933400415
+Rerunning H1 because of negative LR (D=-1.00193647085689e-05)
+Starting lnL=-23055.279
+Maximum likelihood: -23055.279325082563
+Rerunning H0, trying to reduce LR (D=1.7843172827269882e-05)
+Starting lnL=-23055.279
+Maximum likelihood: -23055.279324562176
+Rerunning H1 because of negative LR (D=-1.0407748050056398e-06)
+Starting lnL=-23055.279
+Maximum likelihood: -23055.279323918872
+Rerunning H0, trying to reduce LR (D=1.2866075849160552e-06)
+Starting lnL=-23055.279
+Maximum likelihood: -23055.27932346389
+Rerunning H1 because of negative LR (D=-9.099676390178502e-07)
+Starting lnL=-23055.279
+Maximum likelihood: -23055.27932297405
+Final D=9.796785889193416e-07
+lnL0=-23055.279323, lnL1=-23055.279323
+Testing branch 15/211
+Foreground branch: ((Monodelphis_domestica,(Phascolarctos_cinereus,Sarcophilus_harrisii)),(((((Cavia_aperea,Cavia_porcellus),(Chinchilla_lanigera,Octodon_degus#1)),(Fukomys_damarensis,Heterocephalus_glaber)),(Ochotona_princeps,Oryctolagus_cuniculus)),(Sus_scrofa,(Condylura_cristata,(((((((Balaenoptera_acutorostrata_scammoni,Physeter_catodon),((Delphinapterus_leucas,(Orcinus_orca,Tursiops_truncatus)),Lipotes_vexillifer)),(((((Bison_bison_bison,(Bos_indicus,Bos_taurus)),Bos_mutus),Bubalus_bubalis),((Capra_hircus,Ovis_aries),Pantholops_hodgsonii)),Odocoileus_virginianus_texanus)),(((Camelus_bactrianus,Camelus_dromedarius),Camelus_ferus),Vicugna_pacos)),((((((((Callithrix_jacchus,Saimiri_boliviensis),((((((Cercocebus_atys,Mandrillus_leucophaeus),((Macaca_fascicularis,Macaca_mulatta),Macaca_nemestrina)),Papio_anubis),(Piliocolobus_tephrosceles,(Rhinopithecus_bieti,Rhinopithecus_roxellana))),Chlorocebus_sabaeus),((Gorilla_gorilla,(Homo_sapiens,(Pan_paniscus,Pan_troglodytes))),(Nomascus_leucogenys,Pongo_abelii)))),((Carlito_syrichta,(Microcebus_murinus,Propithecus_coquereli)),Otolemur_garnettii)),(Castor_canadensis,((((((((Cricetulus_griseus,Mesocricetus_auratus),Microtus_ochrogaster),Peromyscus_maniculatus),((Mus_caroli,(Mus_musculus,Mus_spretus)),Mus_pahari)),Nannospalax_galili),Jaculus_jaculus),(Ictidomys_tridecemlineatus,Marmota_marmota_marmota)),Dipodomys_ordii))),(Galeopterus_variegatus,(Tupaia_belangeri,Tupaia_chinensis))),((Choloepus_hoffmanni,Dasypus_novemcinctus),((Chrysochloris_asiatica,Loxodonta_africana),((((Echinops_telfairi,Elephantulus_edwardii),Procavia_capensis),Trichechus_manatus_latirostris),Orycteropus_afer_afer)))),Manis_javanica),(Ceratotherium_simum_simum,(Equus_asinus,(Equus_caballus,Equus_przewalskii))))),(((Eptesicus_fuscus,((Myotis_brandtii,Myotis_davidii),Myotis_lucifugus)),Miniopterus_natalensis),((Hipposideros_armiger,Rhinolophus_sinicus),((Pteropus_alecto,Pteropus_vampyrus),Rousettus_aegyptiacus)))),((((Ailuropoda_melanoleuca,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Odobenus_rosmarus_divergens)),(Enhydra_lutris_kenyoni,Mustela_putorius)),Canis_familiaris),((Panthera_pardus,Panthera_tigris_altaica),(Felis_catus,Acinonyx_jubatus))))))),Ornithorhynchus_anatinus);
+Running H0
+Starting lnL=-24540.076
+Maximum likelihood: -23055.27936453353
+Running H1
+Starting lnL=-24583.571
+Maximum likelihood: -23055.27932885563
+Starting with D=7.13557965354994e-05
+Rerunning H0, trying to reduce LR (D=7.13557965354994e-05)
+Starting lnL=-23055.279
+Maximum likelihood: -23055.279328498236
+Rerunning H1 because of negative LR (D=-7.147900760173798e-07)
+Starting lnL=-23055.279
+Maximum likelihood: -23055.279328056156
+Final D=8.841598173603415e-07
+lnL0=-23055.279328, lnL1=-23055.279328
+Testing branch 16/211
+Foreground branch: ((Monodelphis_domestica,(Phascolarctos_cinereus,Sarcophilus_harrisii)),(((((Cavia_aperea,Cavia_porcellus),(Chinchilla_lanigera,Octodon_degus)),(Fukomys_damarensis,Heterocephalus_glaber)#1),(Ochotona_princeps,Oryctolagus_cuniculus)),(Sus_scrofa,(Condylura_cristata,(((((((Balaenoptera_acutorostrata_scammoni,Physeter_catodon),((Delphinapterus_leucas,(Orcinus_orca,Tursiops_truncatus)),Lipotes_vexillifer)),(((((Bison_bison_bison,(Bos_indicus,Bos_taurus)),Bos_mutus),Bubalus_bubalis),((Capra_hircus,Ovis_aries),Pantholops_hodgsonii)),Odocoileus_virginianus_texanus)),(((Camelus_bactrianus,Camelus_dromedarius),Camelus_ferus),Vicugna_pacos)),((((((((Callithrix_jacchus,Saimiri_boliviensis),((((((Cercocebus_atys,Mandrillus_leucophaeus),((Macaca_fascicularis,Macaca_mulatta),Macaca_nemestrina)),Papio_anubis),(Piliocolobus_tephrosceles,(Rhinopithecus_bieti,Rhinopithecus_roxellana))),Chlorocebus_sabaeus),((Gorilla_gorilla,(Homo_sapiens,(Pan_paniscus,Pan_troglodytes))),(Nomascus_leucogenys,Pongo_abelii)))),((Carlito_syrichta,(Microcebus_murinus,Propithecus_coquereli)),Otolemur_garnettii)),(Castor_canadensis,((((((((Cricetulus_griseus,Mesocricetus_auratus),Microtus_ochrogaster),Peromyscus_maniculatus),((Mus_caroli,(Mus_musculus,Mus_spretus)),Mus_pahari)),Nannospalax_galili),Jaculus_jaculus),(Ictidomys_tridecemlineatus,Marmota_marmota_marmota)),Dipodomys_ordii))),(Galeopterus_variegatus,(Tupaia_belangeri,Tupaia_chinensis))),((Choloepus_hoffmanni,Dasypus_novemcinctus),((Chrysochloris_asiatica,Loxodonta_africana),((((Echinops_telfairi,Elephantulus_edwardii),Procavia_capensis),Trichechus_manatus_latirostris),Orycteropus_afer_afer)))),Manis_javanica),(Ceratotherium_simum_simum,(Equus_asinus,(Equus_caballus,Equus_przewalskii))))),(((Eptesicus_fuscus,((Myotis_brandtii,Myotis_davidii),Myotis_lucifugus)),Miniopterus_natalensis),((Hipposideros_armiger,Rhinolophus_sinicus),((Pteropus_alecto,Pteropus_vampyrus),Rousettus_aegyptiacus)))),((((Ailuropoda_melanoleuca,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Odobenus_rosmarus_divergens)),(Enhydra_lutris_kenyoni,Mustela_putorius)),Canis_familiaris),((Panthera_pardus,Panthera_tigris_altaica),(Felis_catus,Acinonyx_jubatus))))))),Ornithorhynchus_anatinus);
+Running H0
+Starting lnL=-24280.581
+Maximum likelihood: -23054.17908239726
+Running H1
+Starting lnL=-24297.743
+Maximum likelihood: -23054.34739688208
+Starting with D=-0.3366289696423337
+Rerunning H1 because of negative LR (D=-0.3366289696423337)
+Starting lnL=-23054.179
+Maximum likelihood: -23054.179082267714
+Final D=2.590895746834576e-07
+lnL0=-23054.179082, lnL1=-23054.179082
+Testing branch 17/211
+Foreground branch: ((Monodelphis_domestica,(Phascolarctos_cinereus,Sarcophilus_harrisii)),(((((Cavia_aperea,Cavia_porcellus),(Chinchilla_lanigera,Octodon_degus)),(Fukomys_damarensis#1,Heterocephalus_glaber)),(Ochotona_princeps,Oryctolagus_cuniculus)),(Sus_scrofa,(Condylura_cristata,(((((((Balaenoptera_acutorostrata_scammoni,Physeter_catodon),((Delphinapterus_leucas,(Orcinus_orca,Tursiops_truncatus)),Lipotes_vexillifer)),(((((Bison_bison_bison,(Bos_indicus,Bos_taurus)),Bos_mutus),Bubalus_bubalis),((Capra_hircus,Ovis_aries),Pantholops_hodgsonii)),Odocoileus_virginianus_texanus)),(((Camelus_bactrianus,Camelus_dromedarius),Camelus_ferus),Vicugna_pacos)),((((((((Callithrix_jacchus,Saimiri_boliviensis),((((((Cercocebus_atys,Mandrillus_leucophaeus),((Macaca_fascicularis,Macaca_mulatta),Macaca_nemestrina)),Papio_anubis),(Piliocolobus_tephrosceles,(Rhinopithecus_bieti,Rhinopithecus_roxellana))),Chlorocebus_sabaeus),((Gorilla_gorilla,(Homo_sapiens,(Pan_paniscus,Pan_troglodytes))),(Nomascus_leucogenys,Pongo_abelii)))),((Carlito_syrichta,(Microcebus_murinus,Propithecus_coquereli)),Otolemur_garnettii)),(Castor_canadensis,((((((((Cricetulus_griseus,Mesocricetus_auratus),Microtus_ochrogaster),Peromyscus_maniculatus),((Mus_caroli,(Mus_musculus,Mus_spretus)),Mus_pahari)),Nannospalax_galili),Jaculus_jaculus),(Ictidomys_tridecemlineatus,Marmota_marmota_marmota)),Dipodomys_ordii))),(Galeopterus_variegatus,(Tupaia_belangeri,Tupaia_chinensis))),((Choloepus_hoffmanni,Dasypus_novemcinctus),((Chrysochloris_asiatica,Loxodonta_africana),((((Echinops_telfairi,Elephantulus_edwardii),Procavia_capensis),Trichechus_manatus_latirostris),Orycteropus_afer_afer)))),Manis_javanica),(Ceratotherium_simum_simum,(Equus_asinus,(Equus_caballus,Equus_przewalskii))))),(((Eptesicus_fuscus,((Myotis_brandtii,Myotis_davidii),Myotis_lucifugus)),Miniopterus_natalensis),((Hipposideros_armiger,Rhinolophus_sinicus),((Pteropus_alecto,Pteropus_vampyrus),Rousettus_aegyptiacus)))),((((Ailuropoda_melanoleuca,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Odobenus_rosmarus_divergens)),(Enhydra_lutris_kenyoni,Mustela_putorius)),Canis_familiaris),((Panthera_pardus,Panthera_tigris_altaica),(Felis_catus,Acinonyx_jubatus))))))),Ornithorhynchus_anatinus);
+Running H0
+Starting lnL=-24640.483
+Maximum likelihood: -23055.13621195857
+Running H1
+Starting lnL=-26402.591
+Maximum likelihood: -23054.865949740037
+Starting with D=0.5405244370631408
+Rerunning H0, trying to reduce LR (D=0.5405244370631408)
+Starting lnL=-23055.207
+Maximum likelihood: -23055.20713617701
+Rerunning H0, trying to reduce LR (D=0.5405244370631408)
+Starting lnL=-23055.207
+Maximum likelihood: -23055.20713617701
+Final D=0.5405244370631408
+lnL0=-23055.136212, lnL1=-23054.865950
+Testing branch 18/211
+Foreground branch: ((Monodelphis_domestica,(Phascolarctos_cinereus,Sarcophilus_harrisii)),(((((Cavia_aperea,Cavia_porcellus),(Chinchilla_lanigera,Octodon_degus)),(Fukomys_damarensis,Heterocephalus_glaber#1)),(Ochotona_princeps,Oryctolagus_cuniculus)),(Sus_scrofa,(Condylura_cristata,(((((((Balaenoptera_acutorostrata_scammoni,Physeter_catodon),((Delphinapterus_leucas,(Orcinus_orca,Tursiops_truncatus)),Lipotes_vexillifer)),(((((Bison_bison_bison,(Bos_indicus,Bos_taurus)),Bos_mutus),Bubalus_bubalis),((Capra_hircus,Ovis_aries),Pantholops_hodgsonii)),Odocoileus_virginianus_texanus)),(((Camelus_bactrianus,Camelus_dromedarius),Camelus_ferus),Vicugna_pacos)),((((((((Callithrix_jacchus,Saimiri_boliviensis),((((((Cercocebus_atys,Mandrillus_leucophaeus),((Macaca_fascicularis,Macaca_mulatta),Macaca_nemestrina)),Papio_anubis),(Piliocolobus_tephrosceles,(Rhinopithecus_bieti,Rhinopithecus_roxellana))),Chlorocebus_sabaeus),((Gorilla_gorilla,(Homo_sapiens,(Pan_paniscus,Pan_troglodytes))),(Nomascus_leucogenys,Pongo_abelii)))),((Carlito_syrichta,(Microcebus_murinus,Propithecus_coquereli)),Otolemur_garnettii)),(Castor_canadensis,((((((((Cricetulus_griseus,Mesocricetus_auratus),Microtus_ochrogaster),Peromyscus_maniculatus),((Mus_caroli,(Mus_musculus,Mus_spretus)),Mus_pahari)),Nannospalax_galili),Jaculus_jaculus),(Ictidomys_tridecemlineatus,Marmota_marmota_marmota)),Dipodomys_ordii))),(Galeopterus_variegatus,(Tupaia_belangeri,Tupaia_chinensis))),((Choloepus_hoffmanni,Dasypus_novemcinctus),((Chrysochloris_asiatica,Loxodonta_africana),((((Echinops_telfairi,Elephantulus_edwardii),Procavia_capensis),Trichechus_manatus_latirostris),Orycteropus_afer_afer)))),Manis_javanica),(Ceratotherium_simum_simum,(Equus_asinus,(Equus_caballus,Equus_przewalskii))))),(((Eptesicus_fuscus,((Myotis_brandtii,Myotis_davidii),Myotis_lucifugus)),Miniopterus_natalensis),((Hipposideros_armiger,Rhinolophus_sinicus),((Pteropus_alecto,Pteropus_vampyrus),Rousettus_aegyptiacus)))),((((Ailuropoda_melanoleuca,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Odobenus_rosmarus_divergens)),(Enhydra_lutris_kenyoni,Mustela_putorius)),Canis_familiaris),((Panthera_pardus,Panthera_tigris_altaica),(Felis_catus,Acinonyx_jubatus))))))),Ornithorhynchus_anatinus);
+Running H0
+Starting lnL=-24721.406
+Maximum likelihood: -23055.279324164225
+Running H1
+Starting lnL=-24657.173
+Maximum likelihood: -23055.279322461774
+Starting with D=3.404900780878961e-06
+Rerunning H0, trying to reduce LR (D=3.404900780878961e-06)
+Starting lnL=-23055.279
+Maximum likelihood: -23055.279322019833
+Rerunning H1 because of negative LR (D=-8.838833309710026e-07)
+Starting lnL=-23055.279
+Maximum likelihood: -23055.27932201851
+Final D=2.648448571562767e-09
+lnL0=-23055.279322, lnL1=-23055.279322
+Testing branch 19/211
+Foreground branch: ((Monodelphis_domestica,(Phascolarctos_cinereus,Sarcophilus_harrisii)),(((((Cavia_aperea,Cavia_porcellus),(Chinchilla_lanigera,Octodon_degus)),(Fukomys_damarensis,Heterocephalus_glaber)),(Ochotona_princeps,Oryctolagus_cuniculus)#1),(Sus_scrofa,(Condylura_cristata,(((((((Balaenoptera_acutorostrata_scammoni,Physeter_catodon),((Delphinapterus_leucas,(Orcinus_orca,Tursiops_truncatus)),Lipotes_vexillifer)),(((((Bison_bison_bison,(Bos_indicus,Bos_taurus)),Bos_mutus),Bubalus_bubalis),((Capra_hircus,Ovis_aries),Pantholops_hodgsonii)),Odocoileus_virginianus_texanus)),(((Camelus_bactrianus,Camelus_dromedarius),Camelus_ferus),Vicugna_pacos)),((((((((Callithrix_jacchus,Saimiri_boliviensis),((((((Cercocebus_atys,Mandrillus_leucophaeus),((Macaca_fascicularis,Macaca_mulatta),Macaca_nemestrina)),Papio_anubis),(Piliocolobus_tephrosceles,(Rhinopithecus_bieti,Rhinopithecus_roxellana))),Chlorocebus_sabaeus),((Gorilla_gorilla,(Homo_sapiens,(Pan_paniscus,Pan_troglodytes))),(Nomascus_leucogenys,Pongo_abelii)))),((Carlito_syrichta,(Microcebus_murinus,Propithecus_coquereli)),Otolemur_garnettii)),(Castor_canadensis,((((((((Cricetulus_griseus,Mesocricetus_auratus),Microtus_ochrogaster),Peromyscus_maniculatus),((Mus_caroli,(Mus_musculus,Mus_spretus)),Mus_pahari)),Nannospalax_galili),Jaculus_jaculus),(Ictidomys_tridecemlineatus,Marmota_marmota_marmota)),Dipodomys_ordii))),(Galeopterus_variegatus,(Tupaia_belangeri,Tupaia_chinensis))),((Choloepus_hoffmanni,Dasypus_novemcinctus),((Chrysochloris_asiatica,Loxodonta_africana),((((Echinops_telfairi,Elephantulus_edwardii),Procavia_capensis),Trichechus_manatus_latirostris),Orycteropus_afer_afer)))),Manis_javanica),(Ceratotherium_simum_simum,(Equus_asinus,(Equus_caballus,Equus_przewalskii))))),(((Eptesicus_fuscus,((Myotis_brandtii,Myotis_davidii),Myotis_lucifugus)),Miniopterus_natalensis),((Hipposideros_armiger,Rhinolophus_sinicus),((Pteropus_alecto,Pteropus_vampyrus),Rousettus_aegyptiacus)))),((((Ailuropoda_melanoleuca,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Odobenus_rosmarus_divergens)),(Enhydra_lutris_kenyoni,Mustela_putorius)),Canis_familiaris),((Panthera_pardus,Panthera_tigris_altaica),(Felis_catus,Acinonyx_jubatus))))))),Ornithorhynchus_anatinus);
+Running H0
+Starting lnL=-24442.084
+Maximum likelihood: -23054.543998400713
+Running H1
+Starting lnL=-24656.709
+Maximum likelihood: -23053.827916281465
+Starting with D=1.4321642384966253
+Rerunning H0, trying to reduce LR (D=1.4321642384966253)
+Starting lnL=-23054.673
+Maximum likelihood: -23054.672909993707
+Rerunning H0, trying to reduce LR (D=1.4321642384966253)
+Starting lnL=-23054.673
+Maximum likelihood: -23054.672909993707
+Final D=1.4321642384966253
+lnL0=-23054.543998, lnL1=-23053.827916
+Testing branch 20/211
+Foreground branch: ((Monodelphis_domestica,(Phascolarctos_cinereus,Sarcophilus_harrisii)),(((((Cavia_aperea,Cavia_porcellus),(Chinchilla_lanigera,Octodon_degus)),(Fukomys_damarensis,Heterocephalus_glaber)),(Ochotona_princeps#1,Oryctolagus_cuniculus)),(Sus_scrofa,(Condylura_cristata,(((((((Balaenoptera_acutorostrata_scammoni,Physeter_catodon),((Delphinapterus_leucas,(Orcinus_orca,Tursiops_truncatus)),Lipotes_vexillifer)),(((((Bison_bison_bison,(Bos_indicus,Bos_taurus)),Bos_mutus),Bubalus_bubalis),((Capra_hircus,Ovis_aries),Pantholops_hodgsonii)),Odocoileus_virginianus_texanus)),(((Camelus_bactrianus,Camelus_dromedarius),Camelus_ferus),Vicugna_pacos)),((((((((Callithrix_jacchus,Saimiri_boliviensis),((((((Cercocebus_atys,Mandrillus_leucophaeus),((Macaca_fascicularis,Macaca_mulatta),Macaca_nemestrina)),Papio_anubis),(Piliocolobus_tephrosceles,(Rhinopithecus_bieti,Rhinopithecus_roxellana))),Chlorocebus_sabaeus),((Gorilla_gorilla,(Homo_sapiens,(Pan_paniscus,Pan_troglodytes))),(Nomascus_leucogenys,Pongo_abelii)))),((Carlito_syrichta,(Microcebus_murinus,Propithecus_coquereli)),Otolemur_garnettii)),(Castor_canadensis,((((((((Cricetulus_griseus,Mesocricetus_auratus),Microtus_ochrogaster),Peromyscus_maniculatus),((Mus_caroli,(Mus_musculus,Mus_spretus)),Mus_pahari)),Nannospalax_galili),Jaculus_jaculus),(Ictidomys_tridecemlineatus,Marmota_marmota_marmota)),Dipodomys_ordii))),(Galeopterus_variegatus,(Tupaia_belangeri,Tupaia_chinensis))),((Choloepus_hoffmanni,Dasypus_novemcinctus),((Chrysochloris_asiatica,Loxodonta_africana),((((Echinops_telfairi,Elephantulus_edwardii),Procavia_capensis),Trichechus_manatus_latirostris),Orycteropus_afer_afer)))),Manis_javanica),(Ceratotherium_simum_simum,(Equus_asinus,(Equus_caballus,Equus_przewalskii))))),(((Eptesicus_fuscus,((Myotis_brandtii,Myotis_davidii),Myotis_lucifugus)),Miniopterus_natalensis),((Hipposideros_armiger,Rhinolophus_sinicus),((Pteropus_alecto,Pteropus_vampyrus),Rousettus_aegyptiacus)))),((((Ailuropoda_melanoleuca,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Odobenus_rosmarus_divergens)),(Enhydra_lutris_kenyoni,Mustela_putorius)),Canis_familiaris),((Panthera_pardus,Panthera_tigris_altaica),(Felis_catus,Acinonyx_jubatus))))))),Ornithorhynchus_anatinus);
+Running H0
+Starting lnL=-24937.504
+Maximum likelihood: -23055.279318869485
+Running H1
+Starting lnL=-24732.457
+Maximum likelihood: -23055.27931851139
+Starting with D=7.16187059879303e-07
+Final D=7.16187059879303e-07
+lnL0=-23055.279319, lnL1=-23055.279319
+Testing branch 21/211
+Foreground branch: ((Monodelphis_domestica,(Phascolarctos_cinereus,Sarcophilus_harrisii)),(((((Cavia_aperea,Cavia_porcellus),(Chinchilla_lanigera,Octodon_degus)),(Fukomys_damarensis,Heterocephalus_glaber)),(Ochotona_princeps,Oryctolagus_cuniculus#1)),(Sus_scrofa,(Condylura_cristata,(((((((Balaenoptera_acutorostrata_scammoni,Physeter_catodon),((Delphinapterus_leucas,(Orcinus_orca,Tursiops_truncatus)),Lipotes_vexillifer)),(((((Bison_bison_bison,(Bos_indicus,Bos_taurus)),Bos_mutus),Bubalus_bubalis),((Capra_hircus,Ovis_aries),Pantholops_hodgsonii)),Odocoileus_virginianus_texanus)),(((Camelus_bactrianus,Camelus_dromedarius),Camelus_ferus),Vicugna_pacos)),((((((((Callithrix_jacchus,Saimiri_boliviensis),((((((Cercocebus_atys,Mandrillus_leucophaeus),((Macaca_fascicularis,Macaca_mulatta),Macaca_nemestrina)),Papio_anubis),(Piliocolobus_tephrosceles,(Rhinopithecus_bieti,Rhinopithecus_roxellana))),Chlorocebus_sabaeus),((Gorilla_gorilla,(Homo_sapiens,(Pan_paniscus,Pan_troglodytes))),(Nomascus_leucogenys,Pongo_abelii)))),((Carlito_syrichta,(Microcebus_murinus,Propithecus_coquereli)),Otolemur_garnettii)),(Castor_canadensis,((((((((Cricetulus_griseus,Mesocricetus_auratus),Microtus_ochrogaster),Peromyscus_maniculatus),((Mus_caroli,(Mus_musculus,Mus_spretus)),Mus_pahari)),Nannospalax_galili),Jaculus_jaculus),(Ictidomys_tridecemlineatus,Marmota_marmota_marmota)),Dipodomys_ordii))),(Galeopterus_variegatus,(Tupaia_belangeri,Tupaia_chinensis))),((Choloepus_hoffmanni,Dasypus_novemcinctus),((Chrysochloris_asiatica,Loxodonta_africana),((((Echinops_telfairi,Elephantulus_edwardii),Procavia_capensis),Trichechus_manatus_latirostris),Orycteropus_afer_afer)))),Manis_javanica),(Ceratotherium_simum_simum,(Equus_asinus,(Equus_caballus,Equus_przewalskii))))),(((Eptesicus_fuscus,((Myotis_brandtii,Myotis_davidii),Myotis_lucifugus)),Miniopterus_natalensis),((Hipposideros_armiger,Rhinolophus_sinicus),((Pteropus_alecto,Pteropus_vampyrus),Rousettus_aegyptiacus)))),((((Ailuropoda_melanoleuca,((Leptonychotes_weddellii,Neomonachus_schauinslandi),Odobenus_rosmarus_divergens)),(Enhydra_lutris_kenyoni,Mustela_putorius)),Canis_familiaris),((Panthera_pardus,Panthera_tigris_altaica),(Felis_catus,Acinonyx_jubatus))))))),Ornithorhynchus_anatinus);
+Running H0
+Starting lnL=-24313.990
+Maximum likelihood: -23055.27934059763
+Running H1
+Starting lnL=-24193.160

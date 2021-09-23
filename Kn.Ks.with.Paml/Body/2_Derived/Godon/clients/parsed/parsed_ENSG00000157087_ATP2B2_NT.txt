@@ -1,0 +1,5 @@
+species	D
+Monodelphis_domestica	4.198102987167658
+Notamacropus_eugenii	0.44461552807479165
+Phascolarctos_cinereus	0
+Sarcophilus_harrisii	0

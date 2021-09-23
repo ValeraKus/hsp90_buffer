@@ -1,0 +1,15 @@
+species	D
+Monodelphis_domestica	9.882933227345347e-08
+Phascolarctos_cinereus	9.668292477726936e-08
+Sarcophilus_harrisii	0.02796160893558408
+Chrysochloris_asiatica	0
+Elephantulus_edwardii	3.622517397161573e-07
+Orycteropus_afer_afer	3.0170485842972994e-07
+Loxodonta_africana	12.803940963098285
+Procavia_capensis	1.247681211680174e-07
+Trichechus_manatus_latirostris	2.7834539650939405e-07
+Echinops_telfairi	0.182381772017834
+Callithrix_jacchus	1.9652361515909433e-08
+Cebus_capucinus	0.11743273291358491
+Saimiri_boliviensis	7.948947313707322e-07
+Cercocebus_atys	1.109765435103327e-07

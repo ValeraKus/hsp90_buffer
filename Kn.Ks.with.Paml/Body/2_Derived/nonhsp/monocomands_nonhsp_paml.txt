@@ -1,0 +1,15 @@
+~/paml4.9j/bin/codeml ./ctl_files_nonhsp/ENSG00000009335_UBE3C_NT_branch_model.ctl
+~/paml4.9j/bin/codeml ./ctl_files_nonhsp/ENSG00000070018_LRP6_NT_branch_model.ctl
+~/paml4.9j/bin/codeml ./ctl_files_nonhsp/ENSG00000076826_CAMSAP3_NT_branch_model.ctl
+~/paml4.9j/bin/codeml ./ctl_files_nonhsp/ENSG00000090372_STRN4_NT_branch_model.ctl
+~/paml4.9j/bin/codeml ./ctl_files_nonhsp/ENSG00000108946_PRKAR1A_NT_branch_model.ctl
+~/paml4.9j/bin/codeml ./ctl_files_nonhsp/ENSG00000115380_EFEMP1_NT_branch_model.ctl
+~/paml4.9j/bin/codeml ./ctl_files_nonhsp/ENSG00000116544_DLGAP3_NT_branch_model.ctl
+~/paml4.9j/bin/codeml ./ctl_files_nonhsp/ENSG00000116754_SRSF11_NT_branch_model.ctl
+~/paml4.9j/bin/codeml ./ctl_files_nonhsp/ENSG00000121741_ZMYM2_NT_branch_model.ctl
+~/paml4.9j/bin/codeml ./ctl_files_nonhsp/ENSG00000124813_RUNX2_NT_branch_model.ctl
+~/paml4.9j/bin/codeml ./ctl_files_nonhsp/ENSG00000125944_HNRNPR_NT_branch_model.ctl
+~/paml4.9j/bin/codeml ./ctl_files_nonhsp/ENSG00000130338_TULP4_NT_branch_model.ctl
+~/paml4.9j/bin/codeml ./ctl_files_nonhsp/ENSG00000135999_EPC2_NT_branch_model.ctl
+~/paml4.9j/bin/codeml ./ctl_files_nonhsp/ENSG00000141030_COPS3_NT_branch_model.ctl
+~/paml4.9j/bin/codeml ./ctl_files_nonhsp/ENSG00000159256_MORC3_NT_branch_model.ctl

@@ -1,0 +1,16 @@
+species	D
+Monodelphis_domestica	0
+Notamacropus_eugenii	0.07782356272218749
+Phascolarctos_cinereus	0.0020455775666050613
+Sarcophilus_harrisii	0
+Choloepus_hoffmanni	0.5789609620114788
+Dasypus_novemcinctus	4.594691563397646e-05
+Chrysochloris_asiatica	0.22203747055027634
+Echinops_telfairi	9.893402797228191
+Elephantulus_edwardii	0
+Orycteropus_afer_afer	9.531523733923677
+Loxodonta_africana	3.253024030535016
+Procavia_capensis	3.1298259273171425e-07
+Trichechus_manatus_latirostris	1.586826972255949
+Aotus_nancymaae	0
+Callithrix_jacchus	0

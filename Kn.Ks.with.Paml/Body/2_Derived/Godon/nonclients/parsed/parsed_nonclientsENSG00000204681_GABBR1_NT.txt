@@ -1,0 +1,4 @@
+species	D
+Monodelphis_domestica	0
+Notamacropus_eugenii	0
+Phascolarctos_cinereus	0.5187879891309422

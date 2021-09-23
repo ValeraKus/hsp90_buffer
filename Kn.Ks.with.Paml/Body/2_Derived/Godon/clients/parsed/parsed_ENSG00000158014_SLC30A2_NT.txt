@@ -1,0 +1,9 @@
+species	D
+Tupaia_chinensis	0
+Sorex_araneus	0.38148327927774517
+Dasypus_novemcinctus	0
+Choloepus_hoffmanni	0
+Chrysochloris_asiatica	0.044380503000866156
+Elephantulus_edwardii	1.1965312296524644e-07
+Orycteropus_afer_afer	0
+Loxodonta_africana	1.2954114936292171e-07
