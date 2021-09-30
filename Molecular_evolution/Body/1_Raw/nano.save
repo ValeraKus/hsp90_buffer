@@ -1,0 +1,8 @@
+!#bin/bash 
+
+list = ls omm_NT_fasta.v10b_116tax_CDS_final/
+
+for file in list
+do
+perl ../../Head/2Scripts/Fasta2Phylip.pl file omm_NT_fasta.v10b_116tax_CDS_fnal/
+

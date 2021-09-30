@@ -1,0 +1,58 @@
+Accession	Source Database	Name	Tax ID	Tax Name	Length	Entry Accession	Matches
+A0A024RD80	unreviewed	HATPase_c domain-containing protein	9606	Homo sapiens	724	IPR001404	1..724
+A0A140VJY2	unreviewed	HATPase_c domain-containing protein	9606	Homo sapiens	704	IPR001404	52..704
+A0A1W2PRR1	unreviewed	HATPase_c domain-containing protein	9606	Homo sapiens	315	IPR001404	1..314
+A8K3W9	unreviewed	cDNA FLJ77842	9606	Homo sapiens	362	IPR001404	1..362
+B4DGL0	unreviewed	HATPase_c domain-containing protein	9606	Homo sapiens	714	IPR001404	1..714
+B4DHT9	unreviewed	cDNA FLJ58812, highly similar to Endoplasmin (Heat shock protein 90kDa beta member 1)	9606	Homo sapiens	468	IPR001404	1..462
+B4DMA2	unreviewed	HATPase_c domain-containing protein	9606	Homo sapiens	686	IPR001404	1..686
+B4DQX3	unreviewed	cDNA FLJ58927, highly similar to Endoplasmin (Heat shock protein 90 kDa beta member 1)	9606	Homo sapiens	163	IPR001404	1..145
+B4DTA5	unreviewed	HATPase_c domain-containing protein	9606	Homo sapiens	183	IPR001404	1..183
+B4DU71	unreviewed	cDNA FLJ58626, highly similar to Endoplasmin (Heat shock protein 90 kDa beta member 1)	9606	Homo sapiens	552	IPR001404	1..546
+F8VPC7	unreviewed	Endoplasmin	9606	Homo sapiens	53	IPR001404	1..52
+F8W026	unreviewed	Endoplasmin	9606	Homo sapiens	48	IPR001404	1..48
+G3V2J8	unreviewed	HATPase_c domain-containing protein	9606	Homo sapiens	174	IPR001404	1..108,108..173
+H0YIV0	unreviewed	Endoplasmin	9606	Homo sapiens	147	IPR001404	2..146
+H0YJF5	unreviewed	Heat shock protein HSP 90-alpha	9606	Homo sapiens	52	IPR001404	2..40
+I3L0K7	unreviewed	Heat shock protein 75 kDa, mitochondrial	9606	Homo sapiens	495	IPR001404	1..495
+I3L0P6	unreviewed	Heat shock protein 75 kDa, mitochondrial	9606	Homo sapiens	35	IPR001404	1..35
+I3L239	unreviewed	Heat shock protein 75 kDa, mitochondrial	9606	Homo sapiens	215	IPR001404	7..215
+I3L253	unreviewed	Heat shock protein 75 kDa, mitochondrial	9606	Homo sapiens	59	IPR001404	2..58
+I3L2D5	unreviewed	Heat shock protein 75 kDa, mitochondrial	9606	Homo sapiens	108	IPR001404	2..86
+K0A7K7	unreviewed	HATPase_c domain-containing protein	9606	Homo sapiens	676	IPR001404	27..676
+K9JA46	unreviewed	HATPase_c domain-containing protein	9606	Homo sapiens	732	IPR001404	1..732
+O14942	unreviewed	Heat shock protein beta	9606	Homo sapiens	130	IPR001404	1..109
+O75322	unreviewed	Hsp89-alpha-delta-N	9606	Homo sapiens	539	IPR001404	30..539
+P07900	reviewed	Heat shock protein HSP 90-alpha	9606	Homo sapiens	732	IPR001404	1..732
+P08238	reviewed	Heat shock protein HSP 90-beta	9606	Homo sapiens	724	IPR001404	1..724
+P14625	reviewed	Endoplasmin	9606	Homo sapiens	803	IPR001404	1..797
+Q12931	reviewed	Heat shock protein 75 kDa, mitochondrial	9606	Homo sapiens	704	IPR001404	52..704
+Q14568	reviewed	Heat shock protein HSP 90-alpha A2	9606	Homo sapiens	343	IPR001404	1..343
+Q2VPJ6	unreviewed	HATPase_c domain-containing protein	9606	Homo sapiens	585	IPR001404	1..585
+Q53FS6	unreviewed	HATPase_c domain-containing protein	9606	Homo sapiens	704	IPR001404	52..704
+Q53G55	unreviewed	HATPase_c domain-containing protein	9606	Homo sapiens	704	IPR001404	52..704
+Q58FF2	unreviewed	Heat shock protein 94c	9606	Homo sapiens	453	IPR001404	1..453
+Q58FF3	reviewed	Putative endoplasmin-like protein	9606	Homo sapiens	399	IPR001404	8..355
+Q58FF4	unreviewed	Heat shock protein 90Bf	9606	Homo sapiens	361	IPR001404	1..361
+Q58FF5	unreviewed	Heat shock protein 90Be	9606	Homo sapiens	74	IPR001404	1..66
+Q58FF6	reviewed	Putative heat shock protein HSP 90-beta 4	9606	Homo sapiens	505	IPR001404	1..329,328..505
+Q58FF7	reviewed	Putative heat shock protein HSP 90-beta-3	9606	Homo sapiens	597	IPR001404	1..347,343..597
+Q58FF8	reviewed	Putative heat shock protein HSP 90-beta 2	9606	Homo sapiens	381	IPR001404	1..107,109..246,243..381
+Q58FF9	unreviewed	Heat shock protein 90Af	9606	Homo sapiens	101	IPR001404	1..64
+Q58FG0	reviewed	Putative heat shock protein HSP 90-alpha A5	9606	Homo sapiens	334	IPR001404	22..160,160..278,277..330
+Q58FG1	reviewed	Putative heat shock protein HSP 90-alpha A4	9606	Homo sapiens	418	IPR001404	2..111,109..207,205..417
+Q59EK6	unreviewed	HATPase_c domain-containing protein	9606	Homo sapiens	703	IPR001404	51..703
+Q59FC6	unreviewed	HATPase_c domain-containing protein	9606	Homo sapiens	576	IPR001404	27..576
+Q5CAQ4	unreviewed	TNF receptor-associated protein 1	9606	Homo sapiens	495	IPR001404	1..495
+Q5CAQ5	unreviewed	HATPase_c domain-containing protein	9606	Homo sapiens	802	IPR001404	1..796
+Q6PK50	unreviewed	HATPase_c domain-containing protein	9606	Homo sapiens	351	IPR001404	1..351
+Q86SX1	unreviewed	HATPase_c domain-containing protein	9606	Homo sapiens	262	IPR001404	123..262
+Q86U12	unreviewed	Full-length cDNA clone CS0CAP007YF18 of Thymus of Homo sapiens (human)	9606	Homo sapiens	413	IPR001404	1..408
+Q8N9Z3	unreviewed	HATPase_c domain-containing protein	9606	Homo sapiens	579	IPR001404	52..579
+Q8TBA7	unreviewed	HSP90AA1 protein	9606	Homo sapiens	638	IPR001404	1..638
+Q96GW1	unreviewed	HATPase_c domain-containing protein	9606	Homo sapiens	315	IPR001404	1..312
+Q96HX7	unreviewed	HSP90AA1 protein	9606	Homo sapiens	422	IPR001404	1..422
+Q9BV61	unreviewed	HATPase_c domain-containing protein	9606	Homo sapiens	699	IPR001404	47..699
+Q9H6X9	unreviewed	cDNA: FLJ21717 fis, clone COL10322	9606	Homo sapiens	362	IPR001404	1..362
+Q9NSI7	unreviewed	PRED15 protein	9606	Homo sapiens	136	IPR001404	61..105
+V9HWP2	unreviewed	HATPase_c domain-containing protein	9606	Homo sapiens	803	IPR001404	1..797
