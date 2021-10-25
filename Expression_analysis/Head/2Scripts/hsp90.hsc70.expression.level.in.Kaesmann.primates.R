@@ -56,7 +56,7 @@ p1 <- ggplot(hsp90, aes(y = RPKM, x = reorder(species, RPKM), fill = species))+
   theme(axis.text.x = element_text(angle = 45, vjust = 0.8, hjust = 0.8, size = 12), legend.position = 'None',
         text = element_text(size = 13, face = 'bold'))
   
-ggsave('../../Body/4_Figures/hsp90.expression.primates.Kaesmann.png', p1)  
+ggsave('../../Body/4_Figures/hsp90.expression.primates.Kaesmann.pdf', p1)  
   
 
 ggplot(hsp90[(hsp90$species == 'Macaca mulatta' | hsp90$species == 'Gorilla gorilla') & hsp90$tissue == 'Heart',], aes(y = RPKM, x = reorder(species, RPKM), fill = species))+
@@ -100,7 +100,7 @@ p1 <- ggplot(hsc70, aes(y = RPKM, x = reorder(species, -RPKM), fill = species))+
   theme(axis.text.x = element_text(angle = 45, vjust = 0.8, hjust = 0.8, size = 12), legend.position = 'None',
         text = element_text(size = 13, face = 'bold'))
 
-ggsave('../../Body/4_Figures/hsc70.expression.primates.Kaesmann.png', p1)  
+ggsave('../../Body/4_Figures/hsc70.expression.primates.Kaesmann.pdf', p1)  
 
 ggplot(hsc70[hsc70$species == 'Macaca mulatta' | hsc70$species == 'Gorilla gorilla',], aes(y = RPKM, x = reorder(species, -RPKM), fill = species))+
   geom_boxplot()+ 
