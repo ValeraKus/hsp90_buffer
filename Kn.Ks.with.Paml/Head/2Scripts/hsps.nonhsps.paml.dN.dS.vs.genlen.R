@@ -24,12 +24,32 @@ hsp90 <- hsps[hsps$gene == 'ENSG00000096384' | hsps$gene ==  controls[controls$h
 hsp90_control <- hsps[hsps$gene ==  controls[controls$hsp == 'ENSG00000096384',]$control_gene,]
 
 
-summary(lm(hsp90$dN.dS ~ log10(hsp90$GenerationLength_d) * hsp90$gene))
+summary(lm(hsp90$dN.dS ~ log10(hsp90$GenerationLength_d) * hsp90$role))
+#Coefficients:
+#Estimate Std. Error t value Pr(>|t|)  
+#(Intercept)                                       0.0341252  0.4766684   0.072   0.9430  
+#log10(hsp90$GenerationLength_d)                  -0.0008238  0.1384793  -0.006   0.9953  
+#hsp90$rolenonhsp                                 -1.1695724  0.6391362  -1.830   0.0692 .
+#log10(hsp90$GenerationLength_d):hsp90$rolenonhsp  0.3956450  0.1865679   2.121   0.0356 *
+#  ---
+#  Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+#Residual standard error: 0.3966 on 154 degrees of freedom
+#(36 observations deleted due to missingness)
+#Multiple R-squared:  0.1008,	Adjusted R-squared:  0.08327 
+#F-statistic: 5.754 on 3 and 154 DF,  p-value: 0.0009332
+
+
+summary(lm(hsp90[hsp90$gene == 'ENSG00000096384',]$dN.dS ~ log10(hsp90[hsp90$gene == 'ENSG00000096384',]$GenerationLength_d)))
 #Coefficients:
 #  Estimate Std. Error t value Pr(>|t|)
-#(Intercept)                      0.0341252  0.1140386   0.299    0.766
-#log10(hsp90$GenerationLength_d) -0.0008238  0.0331299  -0.025    0.980
+#(Intercept)                                                         0.0341252  0.1140386   0.299    0.766
+#log10(hsp90[hsp90$gene == "ENSG00000096384", ]$GenerationLength_d) -0.0008238  0.0331299  -0.025    0.980
 
+#Residual standard error: 0.09488 on 70 degrees of freedom
+#(18 observations deleted due to missingness)
+#Multiple R-squared:  8.833e-06,	Adjusted R-squared:  -0.01428 
+#F-statistic: 0.0006183 on 1 and 70 DF,  p-value: 0.9802
 
 summary(lm(hsp90_control$dN.dS ~ log10(hsp90_control$GenerationLength_d)))
 #Coefficients:
@@ -75,7 +95,7 @@ summary(lm(hsc70$dN.dS ~ log10(hsc70$GenerationLength_d) * hsc70$gene))
 
 library(ggplot2)
 
-ggplot(hsps[hsps$gene == 'ENSG00000096384' | hsps$gene == controls[controls$hsp == 'ENSG00000096384',]$control_gene,], 
+p1 <- ggplot(hsps[hsps$gene == 'ENSG00000096384' | hsps$gene == controls[controls$hsp == 'ENSG00000096384',]$control_gene,], 
        aes(x = log10(GenerationLength_d), y = dN.dS, color = gene))+
   geom_smooth(method = lm, size = 1.9)+
   geom_point()+
@@ -89,19 +109,21 @@ ggplot(hsps[hsps$gene == 'ENSG00000096384' | hsps$gene == controls[controls$hsp 
   labs(colour="Gene")
   
   
-  
+ggsave('../../Body/4_Figures/hsp90.control.paml.linear.model.dN.dS.vs.genlen.pdf', p1)  
 
-ggplot(hsps[hsps$gene == 'ENSG00000109971' | hsps$gene == 'ENSG00000009335',],aes(x = log10(GenerationLength_d), y = dN.dS, color = role))+
+p2 <- ggplot(hsps[hsps$gene == 'ENSG00000109971' | hsps$gene == 'ENSG00000009335',],aes(x = log10(GenerationLength_d), y = dN.dS, color = role))+
   geom_smooth(method = lm, size = 1.6)+
   geom_point()+
   theme_bw()+
   ylab('dN/dS')+
   xlab('log10(Generation length, days)')+
-  scale_color_discrete(name = "Gene", labels = c('HSÑ70', 'UBE3C'))+
-  theme(axis.title = element_text(size = 19),
-        axis.text = element_text(size = 15),
-        legend.title = element_text(size = 17, face = 'bold'), legend.text = element_text(size = 14))
+  scale_color_discrete(name = "Gene", labels = c('HSC70', 'UBE3C'))+
+  theme(axis.title = element_text(size = 27),
+        axis.text = element_text(size = 22),
+        legend.title = element_text(size = 25, face = 'bold'), legend.text = element_text(size = 20))+
+  labs(colour="Gene")
 
+ggsave('../../Body/4_Figures/hsc70.control.paml.linear.model.dN.dS.vs.genlen.pdf', p2)
 
 
 for (gene in unique(hsps[hsps$role == 'hsp',]$gene)) {
