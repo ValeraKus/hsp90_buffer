@@ -1,5 +1,6 @@
 rm(list=ls(all=TRUE))
 library(ggfortify)
+library(ggrepel)
 genes <- read.table('../../Body/1_Raw/gencode.v25.annotation.gtf.Genes.Shet.pLI.FIS.RVIS.GHIS.KnKs.GC.BrainSpecificRanking.Branch', header = 1)
 
 HSP_id <- 'ENSG00000096384'
@@ -58,4 +59,17 @@ autoplot(genes_pca, data = genes_without_na[,-c(1,2)], colour = 'gray', loadings
   ggtitle('biplot with hsps')+
   theme_bw()
 
+
+
+
 dev.off()
+
+
+pca_plot <- autoplot(genes_pca, data = genes_without_na[,-c(1,2)], colour = 'gray', loadings = TRUE, loadings.label = TRUE, loadings.label.size = 4, scale = 0, 
+         loadings.colour = 'black', loadings.label.colour = 'black')+
+  geom_point(data = genes_like_hsp, aes(PC1, PC2), colour = 'cyan', alpha = 0.1)+
+  geom_point(data = genes_PC[genes_PC$EnsemblId == HSP_id,], aes(PC1, PC2), colour = 'red', size = 3)+
+  ggtitle('')+
+  geom_text(data=genes_PC[genes_PC$EnsemblId == 'ENSG00000096384',], aes(PC1,PC2, label = 'HSP90'), nudge_y = 0.6, fontface = 'bold')+
+  theme_bw()
+ggsave('../../Body/4_Figures/hsp.like.genes.old.pca.biplot.pdf', pca_plot)
