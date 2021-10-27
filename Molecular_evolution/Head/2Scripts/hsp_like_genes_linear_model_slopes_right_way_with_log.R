@@ -53,7 +53,7 @@ summary(hsp90_lm1)
 
 
 
-lm_hsp90_log <- lm(log(hsp90$dN.dS_ENSG00000096384 + 0.00001) ~  log(hsp90$Generation_Length + 0.00001), data = hsp90)
+lm_hsp90_log <- lm((hsp90$dN.dS_ENSG00000096384 + 0.00001) ~  log10(hsp90$Generation_Length + 0.00001), data = hsp90)
 summary(lm_hsp90_log)
 
 #Coefficients:
@@ -317,4 +317,7 @@ wilcox.test(results[results$p_val_slope < 0.01, 'slopes'], mu = hsp, alternative
 #V = 2318, p-value = 8.94e-09
 #alternative hypothesis: true location is greater than 0.3804685
 
-
+boxplot(results[results$p_val_slope < 0.01,'slopes'], ylab = 'relaxarion ~ slope')
+points(results[(results$genes == 'dN.dS_ENSG00000096384') & (results$p_val_slope < 0.01), 'slopes'], col = 'red', pch = 19)
+title('Slopes of linear regression \"Kn/Ks\" ~ \"generation length\"\n for genes closed to hsp90 (red)\n n = 73')
+legend('topright',legend = 'HSP90AB1', col = 'red', pch = 19)

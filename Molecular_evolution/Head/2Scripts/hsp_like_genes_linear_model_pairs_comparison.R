@@ -36,7 +36,7 @@ write.table(df, '../../Body/2_Derived/hsp.like.genes.Species.kn.ks.Generation.Le
 
 library(ggplot2)
 pdf('../../Body/4_Figures/somegraff.pdf')
-ggplot(df, aes(x=Generation_Length, y=kn.ks, col=Gene_id, alpha = 0.1), show.legend = FALSE, alpha = 0.1) + 
+ggplot(df, aes(x=log10(Generation_Length), y=kn.ks, col=Gene_id, alpha = 0.1), show.legend = FALSE, alpha = 0.1) + 
   geom_smooth(method="lm", se=FALSE , show.legend = FALSE, alpha = 0.1)
 dev.off()
 
