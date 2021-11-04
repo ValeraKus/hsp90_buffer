@@ -127,9 +127,9 @@ wilcox.test(lm_clients[lm_clients$role == 'client',]$slopes, lm_clients[lm_clien
 ggplot(lm_clients[,], aes(x = role, y = slopes, fill = role))+
          geom_boxplot()+
   theme_bw()+
-  scale_fill_discrete(name = 'Группа', labels = c('клиенты', 'неклиенты'))+
-  scale_x_discrete(name = '', labels = c('клиенты', 'неклиенты'))+
-  ylab('наклон регрессионной прямой')+
+  #scale_fill_discrete(name = 'Группа', labels = c('клиенты', 'неклиенты'))+
+  #scale_x_discrete(name = '', labels = c('клиенты', 'неклиенты'))+
+  #ylab('наклон регрессионной прямой')+
   theme(axis.text.x = element_text(size = 15), axis.title.y = element_text(size = 15), 
         legend.title = element_text(size = 16, face = 'bold'), legend.text = element_text(size = 14))
 
@@ -148,8 +148,8 @@ ggplot(lm_clients[lm_clients$hsp_group %in% c('client_both', 'client_hsp90', 'co
        aes(x = role,y = slopes, fill = role))+
   geom_boxplot(outlier.shape = NA)+
   theme_bw()+ylim(c(-0.4,1))+
-  scale_x_discrete(name = "", labels = c('клиенты HSP90', 'неклиенты'))+
-  ylab('наклон регрессионной прямой')+
+  #scale_x_discrete(name = "", labels = c('клиенты HSP90', 'неклиенты'))+
+  #ylab('наклон регрессионной прямой')+
   theme(axis.text.x = element_text(size = 15), axis.title.y = element_text(size = 15), 
         legend.position = 'None', axis.text.y = element_text(size = 13))
 
@@ -198,16 +198,52 @@ ggplot(lm_clients, aes(x = hsp_group,y = intercept, fill = role))+
   theme(axis.text.x = element_text(size = 12, angle = 15, hjust = 0.5 ), axis.title.y = element_text(size = 15), 
         legend.title = element_text(size = 16, face = 'bold'), legend.text = element_text(size = 14))
 
+table(lm_clients[lm_clients$hsp_group %in% c('client_hsp90', 'client_both', 'control_hsp90', 'control_both') & !(is.na(lm_clients$slopes)),'role'])
+#client nonclient 
+#75        85 
 
-ggplot(lm_clients[lm_clients$hsp_group %in% c('client_hsp90', 'client_both', 'control_hsp90', 'control_both') & lm_clients$slopes >=0.05,],
+p1 <- ggplot(lm_clients[lm_clients$hsp_group %in% c('client_hsp90', 'client_both', 'control_hsp90', 'control_both'),],
        aes(x = role, y = slopes, fill = role))+
-  geom_boxplot()
+  geom_boxplot(outlier.shape  = NA)+
+  ylim(0,0.75)+
+  theme_bw()+
+  theme(axis.title = element_text(size = 27),
+        axis.text = element_text(size = 22), legend.position = "none")+
+  scale_x_discrete(name = "", labels = c('HSP90 clients (N = 75)', 'nonclients (N=85)'))+
+  ylab('slope')
+ggsave('../../Body/4_Figures/clients.nonclients.paml.dN.dS.vs.genlen.hsp90.pdf', p1)
 
-ggplot(lm_clients[lm_clients$hsp_group %in% c('client_hsc70', 'client_both', 'control_hsc70', 'control_both') & lm_clients$slopes >=0.05,],
+wilcox.test(lm_clients[lm_clients$hsp_group %in% c('client_hsp90', 'client_both'), 'slopes'], 
+            lm_clients[lm_clients$hsp_group %in% c('control_hsp90', 'control_both'), 'slopes'], alternative = 'greater')
+
+#W = 3538, p-value = 0.1157
+
+
+
+###################
+table(lm_clients[lm_clients$hsp_group %in% c('client_hsc70', 'client_both', 'control_hsc70', 'control_both') & !(is.na(lm_clients$slopes)),'role'])
+#client nonclient 
+#52        64
+
+p2 <- ggplot(lm_clients[lm_clients$hsp_group %in% c('client_hsc70', 'client_both', 'control_hsc70', 'control_both') & lm_clients$slopes >=0.05,],
        aes(x = role, y = slopes, fill = role))+
-  geom_boxplot()
+  geom_boxplot(outlier.shape  = NA)+
+  ylim(0,0.75)+
+  theme_bw()+
+  theme(axis.title = element_text(size = 27),
+        axis.text = element_text(size = 22), legend.position = "none")+
+  scale_x_discrete(name = "", labels = c('HSC70 clients (N = 52)', 'nonclients (N=64)'))+
+  ylab('slope')
+ggsave('../../Body/4_Figures/clients.nonclients.paml.dN.dS.vs.genlen.hsc70.pdf', p2)
+
+wilcox.test(lm_clients[lm_clients$hsp_group %in% c('client_hsc70', 'client_both'), 'slopes'], 
+            lm_clients[lm_clients$hsp_group %in% c('control_hsc70', 'control_both'), 'slopes'], alternative = 'greater')
+
+#W = 1748, p-value = 0.3215
 
 
+
+######
 
 wilcox.test(lm_clients[lm_clients$hsp_group == 'client_hsp90',]$slopes, lm_clients[lm_clients$hsp_group == 'control_hsp90',]$slopes)
 #W = 127, p-value = 0.7626
