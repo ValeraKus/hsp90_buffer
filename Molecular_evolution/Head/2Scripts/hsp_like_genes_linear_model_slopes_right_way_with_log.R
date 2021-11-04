@@ -317,7 +317,9 @@ wilcox.test(results[results$p_val_slope < 0.01, 'slopes'], mu = hsp, alternative
 #V = 2318, p-value = 8.94e-09
 #alternative hypothesis: true location is greater than 0.3804685
 
-boxplot(results[results$p_val_slope < 0.01,'slopes'], ylab = 'relaxarion ~ slope')
-points(results[(results$genes == 'dN.dS_ENSG00000096384') & (results$p_val_slope < 0.01), 'slopes'], col = 'red', pch = 19)
-title('Slopes of linear regression \"Kn/Ks\" ~ \"generation length\"\n for genes closed to hsp90 (red)\n n = 73')
-legend('topright',legend = 'HSP90AB1', col = 'red', pch = 19)
+pdf('../../Body/4_Figures/hsp_like_genes_log10_linear_model_slopes_with_log_nominally_sign.pdf')
+boxplot(results[results$p_val_slope < 0.01,'slopes'], ylab = 'relaxarion ~ slope', col = 'white', cex.lab=2.2, cex.axis = 1.7)
+points(results[(results$genes == 'dN.dS_ENSG00000096384') & (results$p_val_slope < 0.01), 'slopes'], col = 'red', pch = 19, cex = 1.3)
+#title('Slopes of linear regression \"Kn/Ks\" ~ \"generation length\"\n for genes closed to hsp90 (red)\n n = 73')
+legend('topright',legend = 'HSP90', col = 'red', pch = 19, cex = 2)
+dev.off()

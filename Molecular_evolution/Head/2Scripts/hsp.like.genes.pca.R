@@ -65,11 +65,14 @@ autoplot(genes_pca, data = genes_without_na[,-c(1,2)], colour = 'gray', loadings
 dev.off()
 
 
-pca_plot <- autoplot(genes_pca, data = genes_without_na[,-c(1,2)], colour = 'gray', loadings = TRUE, loadings.label = TRUE, loadings.label.size = 4, scale = 0, 
+pca_plot <- autoplot(genes_pca, data = genes_without_na[,-c(1,2)], colour = 'gray', loadings = TRUE, loadings.label = TRUE, loadings.label.size = 4.5, scale = 0, 
          loadings.colour = 'black', loadings.label.colour = 'black')+
   geom_point(data = genes_like_hsp, aes(PC1, PC2), colour = 'cyan', alpha = 0.1)+
   geom_point(data = genes_PC[genes_PC$EnsemblId == HSP_id,], aes(PC1, PC2), colour = 'red', size = 3)+
   ggtitle('')+
   geom_text(data=genes_PC[genes_PC$EnsemblId == 'ENSG00000096384',], aes(PC1,PC2, label = 'HSP90'), nudge_y = 0.6, fontface = 'bold')+
-  theme_bw()
+  theme_bw()+
+  theme(axis.title = element_text(size = 27),
+        axis.text = element_text(size = 22))
+
 ggsave('../../Body/4_Figures/hsp.like.genes.old.pca.biplot.pdf', pca_plot)

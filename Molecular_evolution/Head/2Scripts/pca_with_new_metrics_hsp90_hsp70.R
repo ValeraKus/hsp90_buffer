@@ -1,6 +1,7 @@
 rm(list = ls(all = TRUE))
 library(ggfortify)
 library(dabestr)
+library(ggrepel)
 set.seed(42)
 
 metrics_table <- read.table('../../Body/2_Derived/gencode.v25.annotation.gtf.Genes.Shet.pLI.FIS.RVIS.GHIS.KnKs.GC.BrainSpecificRanking.Branch.gnomad.oe_lof_upper_bin.p', header = T)
@@ -51,20 +52,24 @@ clients_PC[(clients_PC$HSP90AB1 == 'False') & (clients_PC$HSPA8 == 'True'), 'cha
 
 
 
-pdf('../../Body/4_Figures/pca_with_new_metrics_hsp90_hsc70_clients.pdf')
-autoplot(genes_pca, data = genes_without_na, colour = 'gray', loadings = TRUE, loadings.label = TRUE, loadings.label.size = 3, scale = 0, 
+#pdf('../../Body/4_Figures/pca_with_new_metrics_hsp90_hsc70_clients.pdf')
+pca_plot <- autoplot(genes_pca, data = genes_without_na, colour = 'gray', loadings = TRUE, loadings.label = TRUE, loadings.label.size = 8, scale = 0, 
          loadings.colour = 'black', loadings.label.colour = 'black')+
-  geom_point(data = clients_PC, aes(PC1, PC2, color = chaperone, alpha = 0.5),size = 2)+
-  ggtitle('Principal Component analisys with clients of hsp90 and hsc70')+
-  geom_point(data = genes_PC[genes_PC$gene_ids == 'ENSG00000096384',], aes(PC1, PC2, size = 1, alpha = 0.5, color = 'hsp90'))+
-  geom_point(data = genes_PC[genes_PC$gene_ids == 'ENSG00000109971',], aes(PC1, PC2, size = 1, alpha = 0.5, color = 'hsp70'))+         
+  geom_point(data = clients_PC, aes(PC1, PC2, color = chaperone, alpha = 0.5),size = 3)+
+  geom_point(data = genes_PC[genes_PC$gene_ids == 'ENSG00000096384',], aes(PC1, PC2, size = 5, alpha = 0.5, color = 'hsp90'), size = 6,  alpha = 0.6)+
+  geom_point(data = genes_PC[genes_PC$gene_ids == 'ENSG00000109971',], aes(PC1, PC2, size = 5, alpha = 0.5, color = 'hsp70'), size = 6,  alpha = 0.6)+         
   theme_bw()+
   scale_color_manual(name  ="Genes",
-                     breaks=c("both", "hsp70", 'hsp90', 'HSP90AB1', 'HSPA8'),
-                     labels=c("HSP90 and HSC70 clients", "HSPA8 (HSC70)", 'HSP90AB1 (HSP90)', 'HSP90 clients', 'HSC70 clients'),
-                     values = c('indianred2', 'goldenrod1', 'red3', 'deeppink4', 'purple'))+
+                     breaks=c("hsp70", "hsp90", 'HSPA8', 'HSP90AB1', 'both'),
+                     labels=c("HSC70", "HSP90", 'HSC70 clients', 'HSP90 clients', 'common clients'),
+                     values = c('royalblue3', 'red3', 'steelblue2', 'deeppink', 'blueviolet'))+
+  guides(alpha = "none")+
+  theme(axis.title.x = element_text(size = 29), axis.title.y = element_text(size = 29), 
+        legend.title = element_text(size = 27), legend.text = element_text(size = 27),
+        axis.text = element_text(size = 25))
+
+ggsave('../../Body/4_Figures/pca_with_new_metrics_hsp90_hsc70_clients.pdf', pca_plot, width = 16.5, height = 12)
   
-  guides(alpha = FALSE, size = FALSE)
 
 
 
@@ -78,20 +83,27 @@ genes_PC[genes_PC$client == 'Yes',]$client <- ifelse((genes_PC[genes_PC$client =
 
 par(mfcol = c(2,1))
 g1 <- ggplot(genes_PC, aes(x=PC1, color=client)) +
-  geom_density()+
-  scale_color_manual(values=c('indianred2', 'deeppink4', 'purple', 'darkgray'))+
-  theme_bw()
-ggsave(g1, file = '../../Body/4_Figures/density_pc1_clients.png', height = 2, width = 13)
+  geom_density(size = 1)+
+  scale_color_manual(values=c('blueviolet', 'steelblue2', 'deeppink', 'darkgray'))+
+  theme_bw()+
+  theme(legend.position = 'None', axis.title = element_text(size = 29), axis.text = element_text(size = 25))+
+  xlab('PC1 (25.14%)')
+
+ggsave(g1, file = '../../Body/4_Figures/density_pc1_clients.pdf', height = 4, width = 13)
 
 
 
 g2 <- ggplot(genes_PC, aes(x=PC2, color=client)) +
-  geom_density()+
-  scale_color_manual(values=c('indianred2', 'deeppink4', 'purple', 'darkgray'))+
-  theme_bw()
-ggsave(g2, file = '../../Body/4_Figures/density_pc2_clients.png', height = 2, width = 13)
+  geom_density(size = 1)+
+  scale_color_manual(values=c('blueviolet', 'steelblue2', 'deeppink', 'darkgray'))+
+  theme_bw()+
+  theme(legend.position = 'None', axis.title = element_text(size = 29), axis.text = element_text(size = 25))+
+  xlab('PC2 (11.6%)')+
+  scale_x_continuous(position="top")
 
-dev.off()
+ggsave(g2, file = '../../Body/4_Figures/density_pc2_clients.pdf', height = 4, width = 13)
+
+#dev.off()
 
 
 
