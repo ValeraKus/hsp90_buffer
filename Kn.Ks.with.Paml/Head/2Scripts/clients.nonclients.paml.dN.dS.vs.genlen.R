@@ -209,7 +209,7 @@ p1 <- ggplot(lm_clients[lm_clients$hsp_group %in% c('client_hsp90', 'client_both
   theme_bw()+
   theme(axis.title = element_text(size = 27),
         axis.text = element_text(size = 22), legend.position = "none")+
-  scale_x_discrete(name = "", labels = c('HSP90 clients (N = 75)', 'nonclients (N=85)'))+
+  scale_x_discrete(name = "", labels = c('HSP90 clients (N = 75)', 'nonclients (N = 85)'))+
   ylab('slope')
 ggsave('../../Body/4_Figures/clients.nonclients.paml.dN.dS.vs.genlen.hsp90.pdf', p1)
 
@@ -232,7 +232,7 @@ p2 <- ggplot(lm_clients[lm_clients$hsp_group %in% c('client_hsc70', 'client_both
   theme_bw()+
   theme(axis.title = element_text(size = 27),
         axis.text = element_text(size = 22), legend.position = "none")+
-  scale_x_discrete(name = "", labels = c('HSC70 clients (N = 52)', 'nonclients (N=64)'))+
+  scale_x_discrete(name = "", labels = c('HSC70 clients (N = 52)', 'nonclients (N = 64)'))+
   ylab('slope')
 ggsave('../../Body/4_Figures/clients.nonclients.paml.dN.dS.vs.genlen.hsc70.pdf', p2)
 
