@@ -7,12 +7,20 @@ pdf('../../Body/4_Figures/hsp90.human.protein.atlas.tissues.turover.rate.expless
 
 library(ggplot2)
 
-ggplot(data = hsp90_hpa_rna, aes(log10(turnover_rate_days), expression_level, label=tissue))+
+p1 <- ggplot(data = hsp90_hpa_rna, aes(log10(turnover_rate_days), expression_level, label=tissue))+
   geom_point()+
-  geom_text(check_overlap = TRUE, vjust = -0.2)+
+  geom_text(check_overlap = TRUE, vjust = -0.2,size=6)+
   geom_smooth(method = lm)+
-  ggtitle('Human Protein Atlas RNA for HSP90AB1')+
-    theme_classic()
+  ylab('Expression level of HSP90, NX')+
+  xlab('Turnover rate, days')+
+  xlim(0,5.2)+
+  #ggtitle('Human Protein Atlas RNA for HSP90AB1')+
+    theme_classic()+
+  theme(axis.title = element_text(size = 27), axis.text = element_text(size = 25))
+
+print(p1)
+ggsave('../../Body/4_Figures/hsp90.human.protein.atlas.tissues.turover.rate.explession.level.linear.reg.pdf', p1)
+
 
 ggplot(data = na.omit(hsp90_hpa_rna), aes(x = (log10(turnover_rate_days) > 3) , y = expression_level))+
   geom_boxplot()+
@@ -65,11 +73,13 @@ fast <- na.omit(hsp90_hpa_rna[hsp90_hpa_rna$turnover_rate_days <= 31,'tissue'])
 intermediate <- na.omit(hsp90_hpa_rna[hsp90_hpa_rna$turnover_rate_days > 31 & hsp90_hpa_rna$turnover_rate_days <= 3650, 'tissue'])
 slow <- na.omit(hsp90_hpa_rna[hsp90_hpa_rna$turnover_rate_days > 3650, 'tissue'])
 
+pdf('../../Body/4_Figures/hsp90.human.protein.atlas.tissues.turover.rate.explession.level.3.boxplots.pdf', width = 8, height = 6)
+par(mar=c(5,6,3,1))
 boxplot(hsp90_hpa_rna[hsp90_hpa_rna$tissue %in% fast, 'expression_level'], hsp90_hpa_rna[hsp90_hpa_rna$tissue %in% intermediate, 'expression_level'] ,
         hsp90_hpa_rna[hsp90_hpa_rna$tissue %in% slow, 'expression_level'], col = 'cyan3', names = c('fast', 'intermediate', 'slow'),
-        ylab = 'Expression level of HSP90, NX', xlab = 'turnover rate', outline = F, ylim = c(40, 145), cex.lab = 1.5, cex.axis = 1.2)
+        ylab = 'Expression level of HSP90, NX', xlab = 'turnover rate', outline = F, ylim = c(40, 145), cex.lab = 2.1, cex.axis = 1.7)
 
-
+dev.off()
 
 
 

@@ -54,8 +54,11 @@ p1 <- ggplot(hsp90, aes(y = RPKM, x = reorder(species, RPKM), fill = species))+
   theme_bw()+
   xlab('')+
   theme(axis.text.x = element_text(angle = 45, vjust = 0.8, hjust = 0.8, size = 12), legend.position = 'None',
-        text = element_text(size = 13, face = 'bold'))
+        text = element_text(size = 13, face = 'bold'))+
+  ylim(250, 3000)
   
+print(p1)
+
 ggsave('../../Body/4_Figures/hsp90.expression.primates.Kaesmann.pdf', p1)  
   
 
@@ -90,6 +93,20 @@ ggplot(hsp90[hsp90$species == 'Macaca mulatta' | hsp90$species == 'Pongo pygmaeu
   theme_bw()
 
 
+p_vals_tissues = c()
+
+for (t in unique(hsp90$tissue)){
+  test <- wilcox.test(hsp90[(hsp90$species == 'Macaca mulatta') & (hsp90$tissue == t),]$RPKM, 
+                      hsp90[(hsp90$species != 'Macaca mulatta') & (hsp90$tissue == t),]$RPKM)
+  p_vals_tissues <- c(p_vals_tissues, test$p.value)
+}
+
+p_vals_adj <- p.adjust(p_vals_tissues, method = 'hommel')
+
+
+ggplot(hsp90, aes(y = RPKM, x = species == 'Macaca mulatta'))+
+  geom_boxplot()+
+  facet_wrap( ~ tissue, nrow = 2)
 
 #####hsc70
 p1 <- ggplot(hsc70, aes(y = RPKM, x = reorder(species, -RPKM), fill = species))+
@@ -98,7 +115,10 @@ p1 <- ggplot(hsc70, aes(y = RPKM, x = reorder(species, -RPKM), fill = species))+
   theme_bw()+
   xlab('')+
   theme(axis.text.x = element_text(angle = 45, vjust = 0.8, hjust = 0.8, size = 12), legend.position = 'None',
-        text = element_text(size = 13, face = 'bold'))
+        text = element_text(size = 13, face = 'bold'))+
+  ylim(200, 2500)
+
+print(p1)
 
 ggsave('../../Body/4_Figures/hsc70.expression.primates.Kaesmann.pdf', p1)  
 
@@ -132,7 +152,15 @@ ggplot(hsc70[hsc70$species == 'mml' | hsc70$species == 'ppy',], aes(y = RPKM, x 
   facet_wrap( ~ tissue, nrow = 2)+
   theme_bw()
 
+p_vals_tissues = c()
 
+for (t in unique(hsc70$tissue)){
+  test <- wilcox.test(hsp90[(hsc70$species == 'Macaca mulatta') & (hsc70$tissue == t),]$RPKM, 
+                      hsp90[(hsc70$species != 'Macaca mulatta') & (hsc70$tissue == t),]$RPKM)
+  p_vals_tissues <- c(p_vals_tissues, test$p.value)
+}
+
+p_vals_adj <- p.adjust(p_vals_tissues, method = 'hommel')
 
 
 
