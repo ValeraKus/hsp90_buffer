@@ -1,0 +1,9 @@
+!#/bin/sh
+
+##hsp90 coordinates in human genome hg19 
+#awk '{if ($0 !~ "#" && $3 == "gene" && $9 ~ "HSP90AB1") print $0}' body/1raw/GRCh37_latest_genomic.gff | cut -f4,5 > body/2derived/HSP90AB1.hg19.coordinates.txt
+
+s = $(cut -f1 body/1raw/HSP90AB1.hg19.coordinates.txt)
+e = $(cut -f2 body/1raw/HSP90AB1.hg19.coordinates.txt)
+
+awk -v s='$s' -v e='$e' '{print s, e}'

@@ -1,0 +1,1 @@
+rs6937438	6	43815364	A	G	1	unweighted

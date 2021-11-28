@@ -1,0 +1,3 @@
+rs10498755	6	43330756	C	T	0.004523	Beta (corrected for sample overlap)
+rs881858	6	43806609	G	A	0.005468	Beta (corrected for sample overlap)
+rs833805	6	44030011	A	G	0.003853	Beta (corrected for sample overlap)

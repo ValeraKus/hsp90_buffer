@@ -1,0 +1,5 @@
+rs2125738	6	43327750	G	A	0.0130023	Beta (corrected for sample overlap)	lead SNPs
+rs9463015	6	44695058	A	G	0.0183823	Beta (corrected for sample overlap)	lead SNPs
+rs7749796	6	44890732	T	A	0.0326583	Beta (corrected for sample overlap)	lead SNPs
+rs9395066	6	45095163	C	A	0.023192	Beta (corrected for sample overlap)	lead SNPs
+rs12662272	6	45123889	C	A	0.0179949	Beta (corrected for sample overlap)	lead SNPs

@@ -1,0 +1,1 @@
+rs4711748	6	43694598	T	C	5.52	Inverse-Variance weighting	0.23	Variant info (UK Biobank) = 6:43694598-T	1.05
