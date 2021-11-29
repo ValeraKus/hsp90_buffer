@@ -57,7 +57,9 @@ pgs.summary.table <- data.frame(phenotypeID, num_of_snps, num_of_pos_snsps, prop
 write.table(pgs.summary.table, '../../body/2derived/pgs.phenotypes.hsp90.association.summary.txt')
 write(phenotypes_without_snps, '../../body/3results/pgs.phenotypes.with.no.association.hhp90.txt')
 
-ggplot(pgs.summary.table, aes(mean_beta, num_of_snps, color = proportion_of_pos_snps))+
+pgs.summary.table <- read.table('../../body/2derived/pgs.phenotypes.hsp90.association.summary.txt')
+
+ggplot(pgs.summary.table, aes(mean_beta, log10(num_of_snps), color = proportion_of_pos_snps))+
   geom_point()
 
 ggplot(pgs.summary.table, aes(pos_to_neg_effect_weight, num_of_snps, color = proportion_of_pos_snps))+
@@ -72,5 +74,44 @@ ggplot(pgs.summary.table, aes(x = num_of_snps, color = pos_to_neg_effect_weight 
   geom_boxplot(outlier.shape = NA)+
   xlim(0,50)+
   theme_bw()
+
+ggplot(pgs.summary.table, aes(mean_beta, fill = num_of_snps))+
+  geom_histogram(bins=60)
+
+wilcox.test(pgs.summary.table$mean_beta, mu=0, alternative = 'greater')
+
+##################
+######Phenotype Ids decoding
+##################
+
+
+phenotypes_decode <- read.csv('../../body/1raw/pgs_scores_data.csv')
+phenotypes_decode <- phenotypes_decode[,c(1,3)]
+phenotypes_decode$Polygenic.Score.ID...Name <- gsub('\\(.*\\)', '', phenotypes_decode$Polygenic.Score.ID...Name)
+colnames(phenotypes_decode) <- c('phenotypeID', 'Trait')
+
+pgs.summary.table <- merge(pgs.summary.table, phenotypes_decode, by = 'phenotypeID', all.x = T)
+
+
+####################
+#####Look at top 19 (num of snps > 1000) traits which hsp90 is associated with (by number of snps)
+#####################
+
+top <- pgs.summary.table[order(pgs.summary.table$num_of_snps, decreasing = T) & (pgs.summary.table$num_of_snps>1000), c(1,2,7)]
+
+#"Coronary artery disease"              "Ischaemic stroke"                    
+#"Coronary heart disease"               "Type 2 diabetes"                     
+# "Atrial fibrillation"                  "Breast cancer"                       
+# "Prostate cancer"                      "Atrial fibrillation"                 
+# "Chronic kidney disease"               "Type 2 diabetes"                     
+# "Diabetic retinopathy"                 "Estimated glomerular filtration rate"
+# "Major depressive disorder"            "Insomnia"                            
+# "Headache"                             "Body mass index"                     
+# "Coronary artery disease"              "Atrial fibrillation"                 
+# "Type 2 diabetes" 
+
+write.table(top, '../../body/3results/pgs.phenotypes.hsp90.association.top.phenotypes.num.of.snsps.more.1000.txt')
+
+
 
 
