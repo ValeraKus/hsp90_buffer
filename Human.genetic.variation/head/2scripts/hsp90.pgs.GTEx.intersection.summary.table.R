@@ -86,13 +86,16 @@ ggplot(na.omit(pgs.hsp90), aes(x = num_of_snps, y = proportion_of_pos_snps))+
 
 pdf('../../body/4figures/hsp90.pgs.GTEx.intersection.summary.table.pdf', width = 14)
 
-colors <- c("All PGS catalog SNPs" = "gray75", "Positively associated with phenotype" = "darkolivegreen2", "GTEx cis-eQTLs" = "mediumpurple2", 'GTEx cis-eQTLs positively associated with phenotype' = 'midnightblue')
+colors <- c("All PGS catalog SNPs" = "gray75", "Positively associated with phenotype" = "darkolivegreen2", 
+            "GTEx cis-eQTLs" = "mediumpurple2", 'GTEx cis-eQTLs positively associated with phenotype' = 'midnightblue',
+            'GTEx LOE cis-eQTLs positively associated with phenotype' = 'red3')
 
 ggplot(na.omit(pgs.hsp90), aes(y = num_of_snps, x = reorder(phenotypeID, num_of_snps), fill = 'All PGS catalog SNPs'))+
   geom_bar(stat='identity')+
   geom_bar(aes(x = reorder(phenotypeID, num_of_snps), y= num_of_pos_snsps, fill = 'Positively associated with phenotype'), alpha = 0.8, stat="identity")+
   geom_bar(aes(x = reorder(phenotypeID, num_of_snps), y= cis_eQTLs_total, fill = 'GTEx cis-eQTLs'), alpha = 0.8, stat="identity")+
   geom_bar(aes(x = reorder(phenotypeID, num_of_snps), y= cis_eQTLs_positive_association, fill = 'GTEx cis-eQTLs positively associated with phenotype'), alpha = 0.8, stat="identity")+
+  geom_bar(aes(x = reorder(phenotypeID, num_of_snps), y= LOE_positive_association, fill = 'GTEx LOE cis-eQTLs positively associated with phenotype'), alpha = 0.8, stat="identity")+
   theme_bw()+
   labs(x = "Phenotype",
        y = "number of SNPs",
