@@ -1,0 +1,83 @@
+---
+title: "Clinvar mutations in clients of hsp"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+rm(list = ls(all=T))
+library(ggplot2)
+```
+
+
+## Load the data
+```{r}
+clinvar_path <- read.delim('../../body/1raw/clinvar_patho_missense.tsv', sep = ' ')
+clinvar_ben <- read.delim('../../body/1raw/clinvar_benign_missense.tsv', sep = ' ')
+clients_hsp90 <- read.delim('../../body/2derived/clients.ids.list.txt', header = F)
+colnames(clients_hsp90) <- 'Gene'
+nonclients_hsp90 <- read.delim('../../body/2derived/nonclients.ids.list.txt', header = F)
+colnames(nonclients_hsp90) <- 'Gene'
+```
+
+## Merge clinvar and clients information
+```{r}
+clinvar_ben$hsp90_client <- ifelse(clinvar_ben$Gene %in% clients_hsp90$Gene, 1,0)
+clinvar_path$hsp90_client <- ifelse(clinvar_path$Gene %in% clients_hsp90$Gene, 1,0)
+
+clinvar_ben$Pathogenic <- 0
+clinvar_path$Pathogenic <- 1
+
+clinvar_clients <- rbind(clinvar_ben, clinvar_path)
+clinvar_clients <- clinvar_clients[,c(8,12,16,17)]
+```
+
+## Compare clients with all others genes - Fisher
+
+```{r}
+mosaicplot(table(clinvar_clients$hsp90_client, clinvar_clients$Pathogenic), xlab = 'client of hsp90', ylab = 'Pathogenic')
+
+ft <- fisher.test(table(clinvar_clients$hsp90_client, clinvar_clients$Pathogenic))
+print(ft)
+```
+
+## Compare clients with control nonclients genes - Fisher
+
+```{r}
+clinvar_control_noncl <- clinvar_clients[(clinvar_clients$Gene %in% clients_hsp90$Gene) | (clinvar_clients$Gene %in% nonclients_hsp90$Gene),]
+
+
+mosaicplot(table(clinvar_control_noncl$hsp90_client, clinvar_control_noncl$Pathogenic), xlab = 'hsp90 client', ylab = 'pathogenic')
+
+fisher.test(table(clinvar_control_noncl$hsp90_client, clinvar_control_noncl$Pathogenic))
+```
+
+## How many htere are motations in one gene?
+
+```{r}
+require(gridExtra)
+
+p1 <- ggplot(clinvar_control_noncl[,], aes(reorder(Gene, Gene, function(x)-length(x))))+
+  geom_bar(aes(fill = as.factor(Pathogenic)))+
+  #theme_bw()+
+  xlab('Genes')+
+  theme(axis.text.x=element_blank(), axis.ticks.x = element_blank(),
+        legend.position = 'None')+
+  ggtitle('Clients')
+  
+p2 <- ggplot(clinvar_control_noncl[clinvar_control_noncl$hsp90_client == 0,], aes(reorder(Gene, Gene, function(x)-length(x))))+
+  geom_bar(aes(fill = as.factor(Pathogenic)))+
+  #theme_bw()+
+  xlab('Genes')+
+  theme(axis.text.x=element_blank(), axis.ticks.x = element_blank(), legend.position = c(0.87,0.85), legend.background = element_rect(fill = "white", color = "black"))+
+  ggtitle('Nonclients')+
+  scale_fill_discrete(name = "Pathogenic")
+
+
+grid.arrange(p1, p2, ncol=2)
+
+```
+
+
