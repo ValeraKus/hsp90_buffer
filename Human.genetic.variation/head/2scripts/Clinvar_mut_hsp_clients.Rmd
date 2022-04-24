@@ -42,7 +42,7 @@ clinvar_clients <- clinvar_clients[,c(8,12,16,17)]
 clinvar_clients$client_text <- ifelse(clinvar_clients$hsp90_client, 'hsp90 clients', 'other genes')
 clinvar_clients$Mutation_type_text <- ifelse(clinvar_clients$Pathogenic, 'pathogenic', 'benign')
 
-png('../../body/4figures/Clinvar.mut.hsp.clients.vs.all.genes.mozaicplot.png')
+pdf('../../body/4figures/Clinvar.mut.hsp.clients.vs.all.genes.mozaicplot.pdf')
 mosaicplot(table(clinvar_clients$client_text, clinvar_clients$Mutation_type_text), ylab = 'Mutations', 
            main = '', color = 'cyan3', cex.axis = 1.1)
 
@@ -61,7 +61,7 @@ clinvar_control_noncl <- clinvar_clients[(clinvar_clients$Gene %in% clients_hsp9
 clinvar_control_noncl$client_text <- ifelse(clinvar_control_noncl$hsp90_client, 'client', 'nonclient')
 clinvar_control_noncl$Mutation_type_text <- ifelse(clinvar_control_noncl$Pathogenic, 'pathogenic', 'benign')
 
-png('../../body/4figures/Clinvar.mut.hsp.clients.vs.nonclients.mozaicplot.png')
+pdf('../../body/4figures/Clinvar.mut.hsp.clients.vs.nonclients.mozaicplot.pdf')
 mosaicplot(table(clinvar_control_noncl$client_text, clinvar_control_noncl$Mutation_type_text), ylab = 'Mutations', 
            main = '', color = 'cyan3', cex.axis = 1.1)
 
@@ -168,7 +168,7 @@ p4 <- ggplot(clinvar_summary, aes(y = proportion_of_pat, x = client_text, fill =
   theme(axis.text = element_text(size=25), axis.title = element_text(size=22))
 
 pp <- plot_grid(p1,p2,p3,p4, labels = c('A','B','C','D'), ncol =2, nrow=2, label_size = 36)
-ggsave(pp, filename = '../../body/4figures/ClinVer.number.of.mut.per.gene.clients.vs.nonclients.png')
+ggsave(pp, filename = '../../body/4figures/ClinVer.number.of.mut.per.gene.clients.vs.nonclients.pdf')
 
 
 ggplot(clinvar_summary, aes(x = number_of_pat, y = num_of_ben, color = client_text))+
