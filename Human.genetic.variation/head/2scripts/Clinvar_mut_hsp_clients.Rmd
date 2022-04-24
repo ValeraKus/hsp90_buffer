@@ -9,6 +9,8 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 rm(list = ls(all=T))
 library(ggplot2)
+library("gridExtra")
+library("cowplot")
 ```
 
 
@@ -37,21 +39,41 @@ clinvar_clients <- clinvar_clients[,c(8,12,16,17)]
 ## Compare clients with all others genes - Fisher
 
 ```{r}
-mosaicplot(table(clinvar_clients$hsp90_client, clinvar_clients$Pathogenic), xlab = 'client of hsp90', ylab = 'Pathogenic')
+clinvar_clients$client_text <- ifelse(clinvar_clients$hsp90_client, 'hsp90 clients', 'other genes')
+clinvar_clients$Mutation_type_text <- ifelse(clinvar_clients$Pathogenic, 'pathogenic', 'benign')
 
-ft <- fisher.test(table(clinvar_clients$hsp90_client, clinvar_clients$Pathogenic))
+png('../../body/4figures/Clinvar.mut.hsp.clients.vs.all.genes.mozaicplot.png')
+mosaicplot(table(clinvar_clients$client_text, clinvar_clients$Mutation_type_text), ylab = 'Mutations', 
+           main = '', color = 'cyan3', cex.axis = 1.1)
+
+
+knitr::kable(t(table(clinvar_clients$client_text, clinvar_clients$Mutation_type_text)))
+
+ft <- fisher.test(t(table(clinvar_clients$client_text, clinvar_clients$Mutation_type_text)))
 print(ft)
+dev.off()
 ```
 
 ## Compare clients with control nonclients genes - Fisher
 
 ```{r}
 clinvar_control_noncl <- clinvar_clients[(clinvar_clients$Gene %in% clients_hsp90$Gene) | (clinvar_clients$Gene %in% nonclients_hsp90$Gene),]
+clinvar_control_noncl$client_text <- ifelse(clinvar_control_noncl$hsp90_client, 'client', 'nonclient')
+clinvar_control_noncl$Mutation_type_text <- ifelse(clinvar_control_noncl$Pathogenic, 'pathogenic', 'benign')
+
+png('../../body/4figures/Clinvar.mut.hsp.clients.vs.nonclients.mozaicplot.png')
+mosaicplot(table(clinvar_control_noncl$client_text, clinvar_control_noncl$Mutation_type_text), ylab = 'Mutations', 
+           main = '', color = 'cyan3', cex.axis = 1.1)
 
 
-mosaicplot(table(clinvar_control_noncl$hsp90_client, clinvar_control_noncl$Pathogenic), xlab = 'hsp90 client', ylab = 'pathogenic')
 
-fisher.test(table(clinvar_control_noncl$hsp90_client, clinvar_control_noncl$Pathogenic))
+knitr::kable(t(table(clinvar_control_noncl$client_text, clinvar_control_noncl$Mutation_type_text)))
+
+
+ft <- fisher.test(t(table(clinvar_control_noncl$client_text, clinvar_control_noncl$Mutation_type_text)))
+print(ft)
+
+dev.off()
 ```
 
 ## How many htere are motations in one gene?
@@ -79,5 +101,89 @@ p2 <- ggplot(clinvar_control_noncl[clinvar_control_noncl$hsp90_client == 0,], ae
 grid.arrange(p1, p2, ncol=2)
 
 ```
+```{r}
 
+library(tidyverse)
+
+count_path <- clinvar_control_noncl %>%
+  count(Gene, Pathogenic)
+
+count_path <- count_path %>%
+  pivot_wider(names_from = 'Pathogenic', values_from = 'n')
+
+count_path[is.na(count_path)] <- 0
+colnames(count_path) <- c('Gene', 'pathogenic', 'benign')
+count_path <- merge(count_path, clinvar_control_noncl[,c(1,3)], by = 'Gene')
+count_path <- count_path[!duplicated(count_path),]
+
+ggplot(count_path, aes(log2(pathogenic+1), log2(benign+1), color = as.factor(hsp90_client)))+
+  geom_point()+
+  geom_abline(intercept = 0, slope = 1)+
+  theme_bw()
+
+```
+
+### Look if the number of mutations and proportion of pathogenic per gene is different between clients and nonclients
+
+```{r, fig.height = 8, fig.width = 10}
+clinvar_summary <- aggregate(clinvar_control_noncl$Pathogenic, list(clinvar_control_noncl$Gene), FUN = mean)
+clinvar_summary <- merge(clinvar_summary, aggregate(clinvar_control_noncl$Pathogenic, list(clinvar_control_noncl$Gene), FUN = length), by = 'Group.1')
+clinvar_summary <- merge(clinvar_summary, aggregate(clinvar_control_noncl$Pathogenic, list(clinvar_control_noncl$Gene), FUN = sum), by = 'Group.1')
+colnames(clinvar_summary) <- c('Gene', 'proportion_of_pat', 'number_of_mut', 'number_of_pat' )
+clinvar_summary <- merge(clinvar_summary, clinvar_control_noncl[,c(1,5)][!duplicated(clinvar_control_noncl[,c(1,5)]),], by = 'Gene', all.x = T)
+clinvar_summary$num_of_ben <- clinvar_summary$number_of_mut - clinvar_summary$number_of_pat
+
+
+
+p1 <- ggplot(clinvar_summary, aes(y = number_of_mut, x = client_text, fill = client_text))+
+  geom_boxplot(outlier.shape = NA)+
+  theme_bw()+
+  theme(legend.position = 'None')+
+  ylim(0,30)+
+  ylab('Number of mutations per gene')+xlab('')+
+  theme(axis.text = element_text(size=25), axis.title = element_text(size=22))
+
+p2 <- ggplot(clinvar_summary, aes(y = number_of_pat, x = client_text, fill = client_text))+
+  geom_boxplot(outlier.shape = NA)+
+  theme_bw()+
+  theme(legend.position = 'None')+
+  ylim(0,22)+
+  ylab('Number of pathogenic mutations per gene')+xlab('')+
+  theme(axis.text = element_text(size=25), axis.title = element_text(size=22))
+
+p3 <- ggplot(clinvar_summary, aes(y = num_of_ben, x = client_text, fill = client_text))+
+  geom_boxplot(outlier.shape = NA)+
+  theme_bw()+
+  theme(legend.position = 'None')+
+  ylim(0,10)+
+  ylab('Number of benign mutations per gene')+xlab('')+
+  theme(axis.text = element_text(size=25), axis.title = element_text(size=22))
+
+p4 <- ggplot(clinvar_summary, aes(y = proportion_of_pat, x = client_text, fill = client_text))+
+  geom_boxplot()+
+  theme_bw()+
+  theme(legend.position = 'None')+
+  ylim(0,1)+
+  ylab('Proportion of pathogenic mutations per gene')+xlab('')+
+  theme(axis.text = element_text(size=25), axis.title = element_text(size=22))
+
+pp <- plot_grid(p1,p2,p3,p4, labels = c('A','B','C','D'), ncol =2, nrow=2, label_size = 36)
+ggsave(pp, filename = '../../body/4figures/ClinVer.number.of.mut.per.gene.clients.vs.nonclients.png')
+
+
+ggplot(clinvar_summary, aes(x = number_of_pat, y = num_of_ben, color = client_text))+
+  geom_point()+
+  geom_abline(intercept = 0, slope = 1)+
+  theme_bw()
+
+
+ggplot(clinvar_summary, aes(x = number_of_pat, fill = client_text, color = client_text))+
+  geom_density(alpha = 0.5)+
+  theme_bw()
+
+ggplot(clinvar_summary, aes(x = num_of_ben, fill = client_text, color = client_text))+
+  geom_density(alpha = 0.5)+
+  theme_bw()
+
+```
 
