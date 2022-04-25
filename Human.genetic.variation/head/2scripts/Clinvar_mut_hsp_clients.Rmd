@@ -83,7 +83,7 @@ require(gridExtra)
 
 p1 <- ggplot(clinvar_control_noncl[,], aes(reorder(Gene, Gene, function(x)-length(x))))+
   geom_bar(aes(fill = as.factor(Pathogenic)))+
-  #theme_bw()+
+  theme_bw()+
   xlab('Genes')+
   theme(axis.text.x=element_blank(), axis.ticks.x = element_blank(),
         legend.position = 'None')+
@@ -91,7 +91,7 @@ p1 <- ggplot(clinvar_control_noncl[,], aes(reorder(Gene, Gene, function(x)-lengt
   
 p2 <- ggplot(clinvar_control_noncl[clinvar_control_noncl$hsp90_client == 0,], aes(reorder(Gene, Gene, function(x)-length(x))))+
   geom_bar(aes(fill = as.factor(Pathogenic)))+
-  #theme_bw()+
+  theme_bw()+
   xlab('Genes')+
   theme(axis.text.x=element_blank(), axis.ticks.x = element_blank(), legend.position = c(0.87,0.85), legend.background = element_rect(fill = "white", color = "black"))+
   ggtitle('Nonclients')+
@@ -103,7 +103,7 @@ grid.arrange(p1, p2, ncol=2)
 ```
 ```{r}
 
-library(tidyverse)
+library('tidyverse')
 
 count_path <- clinvar_control_noncl %>%
   count(Gene, Pathogenic)
@@ -141,7 +141,7 @@ p1 <- ggplot(clinvar_summary, aes(y = number_of_mut, x = client_text, fill = cli
   theme(legend.position = 'None')+
   ylim(0,30)+
   ylab('Number of mutations per gene')+xlab('')+
-  theme(axis.text = element_text(size=25), axis.title = element_text(size=22))
+  theme(axis.text = element_text(size=21), axis.title = element_text(size=18))
 
 p2 <- ggplot(clinvar_summary, aes(y = number_of_pat, x = client_text, fill = client_text))+
   geom_boxplot(outlier.shape = NA)+
@@ -149,7 +149,7 @@ p2 <- ggplot(clinvar_summary, aes(y = number_of_pat, x = client_text, fill = cli
   theme(legend.position = 'None')+
   ylim(0,22)+
   ylab('Number of pathogenic mutations per gene')+xlab('')+
-  theme(axis.text = element_text(size=25), axis.title = element_text(size=22))
+  theme(axis.text = element_text(size=21), axis.title = element_text(size=18))
 
 p3 <- ggplot(clinvar_summary, aes(y = num_of_ben, x = client_text, fill = client_text))+
   geom_boxplot(outlier.shape = NA)+
@@ -157,19 +157,20 @@ p3 <- ggplot(clinvar_summary, aes(y = num_of_ben, x = client_text, fill = client
   theme(legend.position = 'None')+
   ylim(0,10)+
   ylab('Number of benign mutations per gene')+xlab('')+
-  theme(axis.text = element_text(size=25), axis.title = element_text(size=22))
+  theme(axis.text = element_text(size=21), axis.title = element_text(size=18))
 
 p4 <- ggplot(clinvar_summary, aes(y = proportion_of_pat, x = client_text, fill = client_text))+
   geom_boxplot()+
   theme_bw()+
   theme(legend.position = 'None')+
-  ylim(0,1)+
+  ylim(0,1.3)+
   ylab('Proportion of pathogenic mutations per gene')+xlab('')+
-  theme(axis.text = element_text(size=25), axis.title = element_text(size=22))
+  theme(axis.text = element_text(size=21), axis.title = element_text(size=18))
 
-pp <- plot_grid(p1,p2,p3,p4, labels = c('A','B','C','D'), ncol =2, nrow=2, label_size = 36)
-ggsave(pp, filename = '../../body/4figures/ClinVer.number.of.mut.per.gene.clients.vs.nonclients.pdf')
+pp <- plot_grid(p1,p2,p3,p4, labels = c('A','B','C','D'), ncol =2, nrow=2, label_size = 30)
+ggsave(pp, filename = '../../body/4figures/ClinVer.number.of.mut.per.gene.clients.vs.nonclients.pdf', width = 15, height = 11, units = 'in')
 
+print(pp)
 
 ggplot(clinvar_summary, aes(x = number_of_pat, y = num_of_ben, color = client_text))+
   geom_point()+
@@ -186,4 +187,19 @@ ggplot(clinvar_summary, aes(x = num_of_ben, fill = client_text, color = client_t
   theme_bw()
 
 ```
+
+```{r Mann-Whitney}
+
+wilcox.test(clinvar_summary$number_of_mut ~ clinvar_summary$client_text)
+wilcox.test(clinvar_summary$number_of_pat ~ clinvar_summary$client_text)
+wilcox.test(clinvar_summary$num_of_ben ~ clinvar_summary$client_text)
+wilcox.test(clinvar_summary$proportion_of_pat ~ clinvar_summary$client_text)
+
+```
+
+
+
+
+
+
 
